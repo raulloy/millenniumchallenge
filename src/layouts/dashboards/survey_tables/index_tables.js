@@ -32,7 +32,9 @@ import Footer from "examples/Footer";
   useEffect(() => {
     const fetchResults = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/results/all/409872828");
+        const response = await axios.get(
+          "https://millenniumchallenge.onrender.com/api/results/all/409872828"
+        );
         setResults(response.data);
       } catch (error) {
         console.error("Error fetching results:", error);

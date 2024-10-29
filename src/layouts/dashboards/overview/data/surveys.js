@@ -26,7 +26,7 @@ const getSurveyStatus = (statusObj) => {
 // Function to handle fetching survey details
 const handleFetchDetails = async (surveyId) => {
   try {
-    const detailsResponse = await axios.get(`http://localhost:5000/api/surveys/${surveyId}/check`);
+    const detailsResponse = await axios.get(`https://millenniumchallenge.onrender.com/api/surveys/${surveyId}/check`);
 
     return detailsResponse.data;
   } catch (error) {
@@ -37,8 +37,8 @@ const handleFetchDetails = async (surveyId) => {
 // Fetch responses for the survey
 const handleFetchResponses = async (surveyId) => {
   try {
-    await axios.get(`http://localhost:5000/api/responses/${surveyId}`);
-    await axios.get(`http://localhost:5000/api/categories/categorical-questions/${surveyId}`);
+    await axios.get(`https://millenniumchallenge.onrender.com/api/responses/${surveyId}`);
+    await axios.get(`https://millenniumchallenge.onrender.com/api/categories/categorical-questions/${surveyId}`);
   } catch (error) {
     console.error("Error fetching survey details:", error);
   }
@@ -63,7 +63,7 @@ export const SurveysTable = () => {
   // Fetch surveys from backend
   const fetchSurveys = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/surveys");
+      const response = await axios.get("https://millenniumchallenge.onrender.com/api/surveys");
       const surveys = response.data.data;
 
       const rows = await Promise.all(
@@ -139,7 +139,7 @@ export const surveysSummary = () => {
 
   const fetchSummary = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/surveys/summary");
+      const response = await axios.get("https://millenniumchallenge.onrender.com/api/surveys/summary");
       setSummary(response.data);
     } catch (error) {
       console.error("Error fetching survey summary:", error);

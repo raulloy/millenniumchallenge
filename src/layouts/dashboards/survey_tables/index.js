@@ -41,7 +41,9 @@ const ResultsDisplay = () => {
   useEffect(() => {
     const fetchResults = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/results/all/${storedId}`);
+        const response = await axios.get(
+          `https://millenniumchallenge.onrender.com/api/results/all/${storedId}`
+        );
         setResults(response.data);
         setError(null);
       } catch (error) {

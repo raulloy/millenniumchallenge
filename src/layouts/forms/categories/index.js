@@ -25,7 +25,7 @@ const CategoryForm = () => {
   // Fetch categories from the backend
   const fetchCategories = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/categories");
+      const response = await axios.get("https://millenniumchallenge.onrender.com/api/categories");
       setCategories(response.data);
     } catch (err) {
       console.error("Error fetching categories:", err);
@@ -53,10 +53,13 @@ const CategoryForm = () => {
     if (!existingCategory) {
       // Add new category if it doesn't exist
       try {
-        const response = await axios.post("http://localhost:5000/api/categories/add", {
-          name: selectedCategory,
-          subcategories: [],
-        });
+        const response = await axios.post(
+          "https://millenniumchallenge.onrender.com/api/categories/add",
+          {
+            name: selectedCategory,
+            subcategories: [],
+          }
+        );
         setMessage(`Added new category: ${selectedCategory}`);
         fetchCategories();
       } catch (err) {
@@ -66,10 +69,13 @@ const CategoryForm = () => {
     } else if (selectedSubcategory) {
       // Add subcategory to the existing category
       try {
-        const response = await axios.post("http://localhost:5000/api/categories/add-subcategory", {
-          categoryName: selectedCategory,
-          subcategoryName: selectedSubcategory,
-        });
+        const response = await axios.post(
+          "https://millenniumchallenge.onrender.com/api/categories/add-subcategory",
+          {
+            categoryName: selectedCategory,
+            subcategoryName: selectedSubcategory,
+          }
+        );
         setMessage(`Added subcategory: ${selectedSubcategory} to category: ${selectedCategory}`);
         fetchCategories();
       } catch (err) {
