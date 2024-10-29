@@ -1,0 +1,19 @@
+﻿Category,Subcategory,Pregunta
+datos demograficos,genero,¿Cual es tu genero?
+datos demograficos,generacion,¿En cual grupo de edad te encuentra?
+datos demograficos,nivel de educacion,¿Cual es el nivel de educacion mas alto que obtuviste?
+datos demograficos,departamento,¿En que departamento laboras?
+datos demograficos,antiguedad,"Aproximadamente, ¿cuanto tiempo tienes trabajando en esta empresa?"
+cultura organizacional,identidad,"Con respecto a la empresa, responde el grado de acuerdo o desacuerdo que tengas con las siguientes aseveraciones"
+cultura organizacional,trabajo en equipo,"Con respecto al trabajo en equipo, indica el grado de acuerdo o desacuerdo que tengas con las siguientes aseveraciones"
+cultura organizacional,informacion y herramientas,¿Consideras que tienes la cantidad apropiada de informacion para realizar bien tu trabajo?
+liderazgo,jefe inmediato,¿Podria hacer algo tu jefe inmediato para que tu puedas realizar mejor tu trabajo o para que puedas realizarlo de una forma mas fluida y facil?
+liderazgo,jefe inmediato,"¿En los ultimos meses, has recibido por parte de tu jefe/a algun reconocimiento o felicitacion por haber realizado un buen trabajo?"
+liderazgo,jefe inmediato,¿Que tan apropiadas han sido las sanciones disciplinarias aplicadas a ti o a otros compañeros?
+liderazgo,lideres reflejando valores en la empresa,"¿Con que frecuencia, consideras que los lideres (gerentes, jefes, supervisores), reflejan los valores corporativos?"
+"compromiso, bienestar y pertenencia","puesto de trabajo, funciones, equipos y herramientas",
+"compromiso, bienestar y pertenencia","puesto de trabajo, funciones, equipos y herramientas",Tienes claro cuales son los principales objetivos que debes lograr en tu puesto de trabajo
+"compromiso, bienestar y pertenencia","puesto de trabajo, funciones, equipos y herramientas",Te han presentado por escrito las funciones o responsabilidades de tu puesto.
+"compromiso, bienestar y pertenencia",motivacion,"En general, ¿Que tanto te gusta el trabajo que realizas en esta empresa?"
+"compromiso, bienestar y pertenencia",motivacion,"En general, ¿que tan motivado(a) te sientes con tu trabajo?"
+"compromiso, bienestar y pertenencia",motivacion,"¿Que tan probable es que recomiendes positivamente a esta empresa en tu comunidad, a tus amigos, vecinos, familiares, etc.?"

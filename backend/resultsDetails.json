@@ -1,0 +1,2402 @@
+[
+  {
+    "_id": "670874daa6acba7810512d7f",
+    "id": "114434221103",
+    "recipient_id": "8095027458",
+    "collection_mode": "default",
+    "response_status": "completed",
+    "email_address": "henriquezrodney@gmail.com",
+    "ip_address": "190.102.58.139",
+    "collector_id": "428233568",
+    "survey_id": "409872828",
+    "total_time": 782,
+    "date_created": "2023-10-11T14:01:10.000Z",
+    "pages": [
+      {
+        "id": "46521442",
+        "questions": [
+          {
+            "id": "156043319",
+            "answers": [
+              {
+                "choice_id": "1146807248"
+              }
+            ]
+          },
+          {
+            "id": "156043300",
+            "answers": [
+              {
+                "choice_id": "1146807050"
+              }
+            ]
+          },
+          {
+            "id": "156043301",
+            "answers": [
+              {
+                "choice_id": "1146807193"
+              },
+              {
+                "text": "2 años de universidad "
+              }
+            ]
+          },
+          {
+            "id": "156043293",
+            "answers": [
+              {
+                "choice_id": "1146806896"
+              }
+            ]
+          },
+          {
+            "id": "156043299",
+            "answers": [
+              {
+                "choice_id": "1146807084"
+              }
+            ]
+          },
+          {
+            "id": "156043311",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807196",
+                "row_id": "1146807251"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807196",
+                "row_id": "1146807200"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807196",
+                "row_id": "1146807199"
+              }
+            ]
+          },
+          {
+            "id": "156043310",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807186",
+                "row_id": "1146807191"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807186",
+                "row_id": "1146807190"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807186",
+                "row_id": "1146807189"
+              }
+            ]
+          },
+          {
+            "id": "156043323",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807328",
+                "row_id": "1146807326"
+              }
+            ]
+          },
+          {
+            "id": "156043312",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807202",
+                "row_id": "1146807337"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807202",
+                "row_id": "1146807220"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807202",
+                "row_id": "1146807207"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807202",
+                "row_id": "1146807205"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807203",
+                "row_id": "1146807206"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807202",
+                "row_id": "1146807339"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807202",
+                "row_id": "1146807338"
+              }
+            ]
+          },
+          {
+            "id": "156043294",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146806997",
+                "row_id": "1146806995"
+              },
+              {
+                "text": "Siento que puede abarcar un poco más "
+              }
+            ]
+          },
+          {
+            "id": "156043313",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807230"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807229"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807228"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807227"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807226"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807221"
+              }
+            ]
+          },
+          {
+            "id": "156043303",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807152",
+                "row_id": "1146807153"
+              }
+            ]
+          },
+          {
+            "id": "156043290",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807003",
+                "row_id": "1146807001"
+              }
+            ]
+          },
+          {
+            "id": "156043292",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807010",
+                "row_id": "1146807009"
+              }
+            ]
+          },
+          {
+            "id": "156043302",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807176",
+                "row_id": "1146807155"
+              }
+            ]
+          },
+          {
+            "id": "156043320",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807253",
+                "row_id": "1146807306"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807253",
+                "row_id": "1146807305"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807253",
+                "row_id": "1146807258"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807253",
+                "row_id": "1146807256"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807253",
+                "row_id": "1146807257"
+              }
+            ]
+          },
+          {
+            "id": "156043316",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807292",
+                "row_id": "1146807290"
+              }
+            ]
+          },
+          {
+            "id": "156043306",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807146",
+                "row_id": "1146807145"
+              }
+            ]
+          },
+          {
+            "id": "156043314",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807281",
+                "row_id": "1146807284"
+              }
+            ]
+          },
+          {
+            "id": "156043315",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807277",
+                "row_id": "1146807276"
+              }
+            ]
+          },
+          {
+            "id": "156043287",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146806985",
+                "row_id": "1146806989"
+              }
+            ]
+          },
+          {
+            "id": "156043305",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807141",
+                "row_id": "1146807140"
+              },
+              {
+                "text": "Porque es un nuevo reto el cual se necesita presentó "
+              }
+            ]
+          },
+          {
+            "id": "156043327",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807379",
+                "row_id": "1146807377"
+              },
+              {
+                "text": "Es una empresa que poquito a poquito a ido escalando y es muy innovadora "
+              }
+            ]
+          },
+          {
+            "id": "156043298",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807135",
+                "row_id": "1146807139"
+              },
+              {
+                "text": "Porque siento que aún me faltan muchas cosas por aprender "
+              }
+            ]
+          },
+          {
+            "id": "156043291",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146806978",
+                "row_id": "1146806974"
+              }
+            ]
+          },
+          {
+            "id": "156043328",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807407",
+                "row_id": "1146807403"
+              }
+            ]
+          },
+          {
+            "id": "156043329",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807423",
+                "row_id": "1146807419"
+              }
+            ]
+          },
+          {
+            "id": "156043330",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807438",
+                "row_id": "1146807439"
+              }
+            ]
+          },
+          {
+            "id": "156043289",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146806982",
+                "row_id": "1146806980"
+              }
+            ]
+          },
+          {
+            "id": "156043324",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807320",
+                "row_id": "1146807318"
+              }
+            ]
+          },
+          {
+            "id": "156043317",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807274",
+                "row_id": "1146807273"
+              }
+            ]
+          },
+          {
+            "id": "156043308",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807073",
+                "row_id": "1146807128"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807073",
+                "row_id": "1146807078"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807073",
+                "row_id": "1146807077"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807073",
+                "row_id": "1146807076"
+              }
+            ]
+          },
+          {
+            "id": "156043288",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807016",
+                "row_id": "1146807014"
+              }
+            ]
+          },
+          {
+            "id": "156043307",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807175",
+                "row_id": "1146807173"
+              }
+            ]
+          },
+          {
+            "id": "156043318",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807297",
+                "row_id": "1146807295"
+              },
+              {
+                "text": "Por el momento no ya que apenas los estoy conociendo "
+              }
+            ]
+          },
+          {
+            "id": "156043309",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807080",
+                "row_id": "1146807182"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807080",
+                "row_id": "1146807181"
+              }
+            ]
+          },
+          {
+            "id": "156043295",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807022",
+                "row_id": "1146807020"
+              }
+            ]
+          },
+          {
+            "id": "156043326",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807474"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807473"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807469"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807468"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807467"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807357",
+                "row_id": "1146807463"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807462"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807460"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807442"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807375"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807374"
+              }
+            ]
+          },
+          {
+            "id": "156043296",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807031",
+                "row_id": "1146807027"
+              }
+            ]
+          },
+          {
+            "id": "156043325",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807363",
+                "row_id": "1146807359"
+              }
+            ]
+          },
+          {
+            "id": "156043304",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807163",
+                "row_id": "1146807161"
+              }
+            ]
+          },
+          {
+            "id": "156043331",
+            "answers": [
+              {
+                "choice_id": "1146807443",
+                "row_id": "1146807447"
+              },
+              {
+                "choice_id": "1146807443",
+                "row_id": "1146807445"
+              },
+              {
+                "choice_id": "1146807444",
+                "row_id": "1146807446"
+              },
+              {
+                "text": "Optaría por meter más productos o mercancía para la venta y trataría de exportar más mercancía \r\n\r\nDe igual manera trataría de mejor flotas y mejor un poco el área de distribución "
+              }
+            ]
+          },
+          {
+            "id": "156043321",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807325",
+                "row_id": "1146807323"
+              }
+            ]
+          },
+          {
+            "id": "156043297",
+            "answers": [
+              {
+                "choice_id": "1146807034"
+              }
+            ]
+          },
+          {
+            "id": "156043322",
+            "answers": [
+              {
+                "choice_id": "1146807312"
+              }
+            ]
+          },
+          {
+            "id": "156043332",
+            "answers": [
+              {
+                "choice_id": "1146807464"
+              }
+            ]
+          }
+        ],
+        "_id": "670874daa6acba7810512d80"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "670874dda6acba7810512d83",
+    "id": "114434236431",
+    "recipient_id": "8095027609",
+    "collection_mode": "default",
+    "response_status": "completed",
+    "email_address": "bonillaalve507@gmail.com",
+    "ip_address": "190.33.51.195",
+    "collector_id": "428233568",
+    "survey_id": "409872828",
+    "total_time": 1090,
+    "date_created": "2023-10-11T14:11:39.000Z",
+    "pages": [
+      {
+        "id": "46521442",
+        "questions": [
+          {
+            "id": "156043319",
+            "answers": [
+              {
+                "choice_id": "1146807248"
+              }
+            ]
+          },
+          {
+            "id": "156043300",
+            "answers": [
+              {
+                "choice_id": "1146807050"
+              }
+            ]
+          },
+          {
+            "id": "156043301",
+            "answers": [
+              {
+                "choice_id": "1146807193"
+              }
+            ]
+          },
+          {
+            "id": "156043293",
+            "answers": [
+              {
+                "choice_id": "1146807044"
+              }
+            ]
+          },
+          {
+            "id": "156043299",
+            "answers": [
+              {
+                "choice_id": "1146807048"
+              }
+            ]
+          },
+          {
+            "id": "156043311",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807195",
+                "row_id": "1146807199"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807195",
+                "row_id": "1146807200"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807195",
+                "row_id": "1146807251"
+              }
+            ]
+          },
+          {
+            "id": "156043310",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807185",
+                "row_id": "1146807189"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807185",
+                "row_id": "1146807190"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807185",
+                "row_id": "1146807191"
+              }
+            ]
+          },
+          {
+            "id": "156043323",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807327",
+                "row_id": "1146807326"
+              }
+            ]
+          },
+          {
+            "id": "156043312",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807340",
+                "row_id": "1146807206"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807201",
+                "row_id": "1146807205"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807201",
+                "row_id": "1146807207"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807340",
+                "row_id": "1146807220"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807201",
+                "row_id": "1146807337"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807340",
+                "row_id": "1146807338"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807340",
+                "row_id": "1146807339"
+              }
+            ]
+          },
+          {
+            "id": "156043294",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146806996",
+                "row_id": "1146806995"
+              }
+            ]
+          },
+          {
+            "id": "156043313",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807221"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807226"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807227"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807228"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807229"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807230"
+              }
+            ]
+          },
+          {
+            "id": "156043303",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807152",
+                "row_id": "1146807153"
+              }
+            ]
+          },
+          {
+            "id": "156043290",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807002",
+                "row_id": "1146807001"
+              }
+            ]
+          },
+          {
+            "id": "156043292",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807010",
+                "row_id": "1146807009"
+              }
+            ]
+          },
+          {
+            "id": "156043302",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807176",
+                "row_id": "1146807155"
+              }
+            ]
+          },
+          {
+            "id": "156043320",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807253",
+                "row_id": "1146807257"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807252",
+                "row_id": "1146807256"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807252",
+                "row_id": "1146807258"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807252",
+                "row_id": "1146807305"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807252",
+                "row_id": "1146807306"
+              }
+            ]
+          },
+          {
+            "id": "156043316",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807292",
+                "row_id": "1146807290"
+              }
+            ]
+          },
+          {
+            "id": "156043306",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807146",
+                "row_id": "1146807145"
+              }
+            ]
+          },
+          {
+            "id": "156043314",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807281",
+                "row_id": "1146807284"
+              }
+            ]
+          },
+          {
+            "id": "156043315",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807277",
+                "row_id": "1146807276"
+              }
+            ]
+          },
+          {
+            "id": "156043287",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146806985",
+                "row_id": "1146806989"
+              }
+            ]
+          },
+          {
+            "id": "156043305",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807141",
+                "row_id": "1146807140"
+              }
+            ]
+          },
+          {
+            "id": "156043327",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807378",
+                "row_id": "1146807377"
+              }
+            ]
+          },
+          {
+            "id": "156043298",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807135",
+                "row_id": "1146807139"
+              }
+            ]
+          },
+          {
+            "id": "156043291",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146806978",
+                "row_id": "1146806974"
+              }
+            ]
+          },
+          {
+            "id": "156043328",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807407",
+                "row_id": "1146807403"
+              }
+            ]
+          },
+          {
+            "id": "156043329",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807423",
+                "row_id": "1146807419"
+              }
+            ]
+          },
+          {
+            "id": "156043330",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807438",
+                "row_id": "1146807439"
+              }
+            ]
+          },
+          {
+            "id": "156043289",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146806981",
+                "row_id": "1146806980"
+              }
+            ]
+          },
+          {
+            "id": "156043324",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807319",
+                "row_id": "1146807318"
+              }
+            ]
+          },
+          {
+            "id": "156043317",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807274",
+                "row_id": "1146807273"
+              }
+            ]
+          },
+          {
+            "id": "156043308",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807072",
+                "row_id": "1146807076"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807072",
+                "row_id": "1146807077"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807072",
+                "row_id": "1146807078"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807072",
+                "row_id": "1146807128"
+              }
+            ]
+          },
+          {
+            "id": "156043288",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807015",
+                "row_id": "1146807014"
+              }
+            ]
+          },
+          {
+            "id": "156043307",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807174",
+                "row_id": "1146807173"
+              }
+            ]
+          },
+          {
+            "id": "156043318",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807296",
+                "row_id": "1146807295"
+              }
+            ]
+          },
+          {
+            "id": "156043309",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807079",
+                "row_id": "1146807181"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807079",
+                "row_id": "1146807182"
+              }
+            ]
+          },
+          {
+            "id": "156043295",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807021",
+                "row_id": "1146807020"
+              }
+            ]
+          },
+          {
+            "id": "156043326",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807355",
+                "row_id": "1146807374"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807355",
+                "row_id": "1146807375"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807355",
+                "row_id": "1146807442"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807355",
+                "row_id": "1146807460"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807355",
+                "row_id": "1146807462"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807355",
+                "row_id": "1146807463"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807355",
+                "row_id": "1146807467"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807355",
+                "row_id": "1146807468"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807355",
+                "row_id": "1146807469"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807355",
+                "row_id": "1146807473"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807355",
+                "row_id": "1146807474"
+              }
+            ]
+          },
+          {
+            "id": "156043296",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807031",
+                "row_id": "1146807027"
+              }
+            ]
+          },
+          {
+            "id": "156043325",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807363",
+                "row_id": "1146807359"
+              }
+            ]
+          },
+          {
+            "id": "156043304",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807162",
+                "row_id": "1146807161"
+              }
+            ]
+          },
+          {
+            "id": "156043331",
+            "answers": [
+              {
+                "choice_id": "1146807443",
+                "row_id": "1146807446"
+              },
+              {
+                "choice_id": "1146807444",
+                "row_id": "1146807445"
+              },
+              {
+                "choice_id": "1146807444",
+                "row_id": "1146807447"
+              }
+            ]
+          },
+          {
+            "id": "156043321",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807324",
+                "row_id": "1146807323"
+              }
+            ]
+          },
+          {
+            "id": "156043297",
+            "answers": [
+              {
+                "choice_id": "1146807034"
+              }
+            ]
+          },
+          {
+            "id": "156043322",
+            "answers": [
+              {
+                "choice_id": "1146807313"
+              }
+            ]
+          },
+          {
+            "id": "156043332",
+            "answers": [
+              {
+                "choice_id": "1146807464"
+              }
+            ]
+          }
+        ],
+        "_id": "670874dda6acba7810512d84"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "670874dea6acba7810512d87",
+    "id": "114434238494",
+    "recipient_id": "8095027432",
+    "collection_mode": "default",
+    "response_status": "completed",
+    "email_address": "elvinperez05@outlook.com",
+    "ip_address": "186.72.149.48",
+    "collector_id": "428233568",
+    "survey_id": "409872828",
+    "total_time": 1290,
+    "date_created": "2023-10-11T14:10:25.000Z",
+    "pages": [
+      {
+        "id": "46521442",
+        "questions": [
+          {
+            "id": "156043319",
+            "answers": [
+              {
+                "choice_id": "1146807248"
+              }
+            ]
+          },
+          {
+            "id": "156043300",
+            "answers": [
+              {
+                "choice_id": "1146807050"
+              }
+            ]
+          },
+          {
+            "id": "156043301",
+            "answers": [
+              {
+                "choice_id": "1146807056"
+              }
+            ]
+          },
+          {
+            "id": "156043293",
+            "answers": [
+              {
+                "choice_id": "1146807040"
+              }
+            ]
+          },
+          {
+            "id": "156043299",
+            "answers": [
+              {
+                "choice_id": "1146807194"
+              }
+            ]
+          },
+          {
+            "id": "156043311",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807195",
+                "row_id": "1146807199"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807196",
+                "row_id": "1146807200"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807196",
+                "row_id": "1146807251"
+              }
+            ]
+          },
+          {
+            "id": "156043310",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807186",
+                "row_id": "1146807189"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807186",
+                "row_id": "1146807190"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807186",
+                "row_id": "1146807191"
+              }
+            ]
+          },
+          {
+            "id": "156043323",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807329",
+                "row_id": "1146807326"
+              }
+            ]
+          },
+          {
+            "id": "156043312",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807202",
+                "row_id": "1146807206"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807202",
+                "row_id": "1146807205"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807203",
+                "row_id": "1146807207"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807202",
+                "row_id": "1146807220"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807204",
+                "row_id": "1146807337"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807203",
+                "row_id": "1146807338"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807204",
+                "row_id": "1146807339"
+              }
+            ]
+          },
+          {
+            "id": "156043294",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146806997",
+                "row_id": "1146806995"
+              }
+            ]
+          },
+          {
+            "id": "156043313",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807224",
+                "row_id": "1146807221"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807226"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807227"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807224",
+                "row_id": "1146807228"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807224",
+                "row_id": "1146807229"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807225",
+                "row_id": "1146807230"
+              }
+            ]
+          },
+          {
+            "id": "156043303",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807152",
+                "row_id": "1146807153"
+              }
+            ]
+          },
+          {
+            "id": "156043290",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807002",
+                "row_id": "1146807001"
+              },
+              {
+                "text": "Tener datos moviles en el celular para poder usar las vias de comunicación "
+              }
+            ]
+          },
+          {
+            "id": "156043292",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807012",
+                "row_id": "1146807009"
+              }
+            ]
+          },
+          {
+            "id": "156043302",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807157",
+                "row_id": "1146807155"
+              }
+            ]
+          },
+          {
+            "id": "156043320",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807253",
+                "row_id": "1146807257"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807253",
+                "row_id": "1146807256"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807252",
+                "row_id": "1146807258"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807252",
+                "row_id": "1146807305"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807252",
+                "row_id": "1146807306"
+              }
+            ]
+          },
+          {
+            "id": "156043316",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807292",
+                "row_id": "1146807290"
+              }
+            ]
+          },
+          {
+            "id": "156043306",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807146",
+                "row_id": "1146807145"
+              }
+            ]
+          },
+          {
+            "id": "156043314",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807283",
+                "row_id": "1146807284"
+              }
+            ]
+          },
+          {
+            "id": "156043315",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807278",
+                "row_id": "1146807276"
+              }
+            ]
+          },
+          {
+            "id": "156043287",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146806985",
+                "row_id": "1146806989"
+              }
+            ]
+          },
+          {
+            "id": "156043305",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807142",
+                "row_id": "1146807140"
+              },
+              {
+                "text": "No hay reconocimiento por metas"
+              }
+            ]
+          },
+          {
+            "id": "156043327",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807378",
+                "row_id": "1146807377"
+              }
+            ]
+          },
+          {
+            "id": "156043298",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807135",
+                "row_id": "1146807139"
+              },
+              {
+                "text": "Porque veo oportunidades de mejoras y crecimiento a futuro"
+              }
+            ]
+          },
+          {
+            "id": "156043291",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146806977",
+                "row_id": "1146806974"
+              },
+              {
+                "text": "Cierres de mes"
+              }
+            ]
+          },
+          {
+            "id": "156043328",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807407",
+                "row_id": "1146807403"
+              }
+            ]
+          },
+          {
+            "id": "156043329",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807422",
+                "row_id": "1146807419"
+              },
+              {
+                "text": "Cuando se daña un equipo y atrasa la operación "
+              }
+            ]
+          },
+          {
+            "id": "156043330",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807438",
+                "row_id": "1146807439"
+              }
+            ]
+          },
+          {
+            "id": "156043289",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146806982",
+                "row_id": "1146806980"
+              },
+              {
+                "text": "Tengo un bebe recién nacido y cuando enferma me preocupa no poder estar presente "
+              }
+            ]
+          },
+          {
+            "id": "156043324",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807320",
+                "row_id": "1146807318"
+              }
+            ]
+          },
+          {
+            "id": "156043317",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807274",
+                "row_id": "1146807273"
+              },
+              {
+                "text": "Hay apoyo de los compañeros cuando las tareas aumentan"
+              }
+            ]
+          },
+          {
+            "id": "156043308",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807074",
+                "row_id": "1146807076"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807072",
+                "row_id": "1146807077"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807074",
+                "row_id": "1146807078"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807074",
+                "row_id": "1146807128"
+              }
+            ]
+          },
+          {
+            "id": "156043288",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807016",
+                "row_id": "1146807014"
+              }
+            ]
+          },
+          {
+            "id": "156043307",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "1"
+                },
+                "choice_id": "1146807174",
+                "row_id": "1146807173"
+              },
+              {
+                "text": "Manejo de personal"
+              }
+            ]
+          },
+          {
+            "id": "156043318",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807296",
+                "row_id": "1146807295"
+              },
+              {
+                "text": "Feliciano Sanchez, tiene compromiso y talento"
+              }
+            ]
+          },
+          {
+            "id": "156043309",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807179",
+                "row_id": "1146807181"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807180",
+                "row_id": "1146807182"
+              }
+            ]
+          },
+          {
+            "id": "156043295",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807024",
+                "row_id": "1146807020"
+              },
+              {
+                "text": "Bonificación por metas mensuales \r\nApoyo en compra de llantas\r\nApoyo de combustible por uso de auto propio"
+              }
+            ]
+          },
+          {
+            "id": "156043326",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "0"
+                },
+                "choice_id": "1146807472",
+                "row_id": "1146807374"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "0"
+                },
+                "choice_id": "1146807472",
+                "row_id": "1146807375"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "0"
+                },
+                "choice_id": "1146807472",
+                "row_id": "1146807442"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "0"
+                },
+                "choice_id": "1146807472",
+                "row_id": "1146807460"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "2"
+                },
+                "choice_id": "1146807357",
+                "row_id": "1146807462"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807463"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807467"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807356",
+                "row_id": "1146807468"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "0"
+                },
+                "choice_id": "1146807472",
+                "row_id": "1146807469"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "0"
+                },
+                "choice_id": "1146807472",
+                "row_id": "1146807473"
+              },
+              {
+                "choice_metadata": {
+                  "weight": "0"
+                },
+                "choice_id": "1146807472",
+                "row_id": "1146807474"
+              }
+            ]
+          },
+          {
+            "id": "156043296",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807029",
+                "row_id": "1146807027"
+              },
+              {
+                "text": "Desprendimiento de un pallets por temblor, golpes con equipos de montacargas "
+              }
+            ]
+          },
+          {
+            "id": "156043325",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "4"
+                },
+                "choice_id": "1146807361",
+                "row_id": "1146807359"
+              },
+              {
+                "text": "Hernia por esfuerzos en descarga de contenedor "
+              }
+            ]
+          },
+          {
+            "id": "156043304",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "3"
+                },
+                "choice_id": "1146807164",
+                "row_id": "1146807161"
+              },
+              {
+                "text": "No hay ventiladores funcionales en la bodega"
+              }
+            ]
+          },
+          {
+            "id": "156043331",
+            "answers": [
+              {
+                "choice_id": "1146807444",
+                "row_id": "1146807446"
+              },
+              {
+                "choice_id": "1146807443",
+                "row_id": "1146807445"
+              },
+              {
+                "choice_id": "1146807443",
+                "row_id": "1146807447"
+              },
+              {
+                "text": "Mejorar las condiciones de trabajo de acuerdo a los procesos"
+              }
+            ]
+          },
+          {
+            "id": "156043321",
+            "answers": [
+              {
+                "choice_metadata": {
+                  "weight": "5"
+                },
+                "choice_id": "1146807324",
+                "row_id": "1146807323"
+              },
+              {
+                "text": "Padrinos de niños en navidad "
+              }
+            ]
+          },
+          {
+            "id": "156043297",
+            "answers": [
+              {
+                "choice_id": "1146807034"
+              }
+            ]
+          },
+          {
+            "id": "156043322",
+            "answers": [
+              {
+                "choice_id": "1146807312"
+              }
+            ]
+          },
+          {
+            "id": "156043332",
+            "answers": [
+              {
+                "choice_id": "1146807466"
+              }
+            ]
+          }
+        ],
+        "_id": "670874dea6acba7810512d88"
+      }
+    ],
+    "__v": 0
+  }
+]
