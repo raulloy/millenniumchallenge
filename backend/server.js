@@ -7,6 +7,7 @@ import surveysRouter from "./routers/surveysRouter.js";
 import responsesRouter from "./routers/responsesRouter.js";
 import resultsRouter from "./routers/resultsRouter.js";
 import categoriesRouter from "./routers/categoriesRouter.js";
+import userRouter from "./routers/userRoutes.js";
 
 dotenv.config();
 
@@ -34,6 +35,7 @@ app.use("/api/surveys", surveysRouter);
 app.use("/api/responses", responsesRouter);
 app.use("/api/results", resultsRouter);
 app.use("/api/categories", categoriesRouter);
+app.use("/api/users", userRouter);
 
 app.listen(port, () => {
   console.log(`Server listening on http://localhost:${port}/`);

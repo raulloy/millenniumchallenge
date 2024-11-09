@@ -35,7 +35,7 @@ import Footer from "layouts/authentication/components/Footer";
 function BasicLayout({ image, children }) {
   return (
     <PageLayout>
-      <DefaultNavbar
+      {/* <DefaultNavbar
         routes={pageRoutes}
         action={{
           type: "external",
@@ -44,7 +44,7 @@ function BasicLayout({ image, children }) {
         }}
         transparent
         light
-      />
+      /> */}
       <MDBox
         position="absolute"
         width="100%"
@@ -68,7 +68,7 @@ function BasicLayout({ image, children }) {
           </Grid>
         </Grid>
       </MDBox>
-      <Footer light />
+      {/* <Footer light /> */}
     </PageLayout>
   );
 }

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 
 // react-router components
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
@@ -30,6 +30,9 @@ import { useMaterialUIController, setMiniSidenav, setOpenConfigurator } from "co
 // Images
 import brandWhite from "assets/images/logo-ct.png";
 import brandDark from "assets/images/logo-ct-dark.png";
+import Register from "layouts/authentication/register";
+import SignIn from "layouts/authentication/signin";
+import { Store } from "Store";
 
 export default function App() {
   const [controller, dispatch] = useMaterialUIController();
@@ -83,6 +86,9 @@ export default function App() {
       return null;
     });
 
+  const { state } = useContext(Store);
+  const { userInfo } = state;
+
   // const configsButton = (
   //   <MDBox
   //     display="flex"
@@ -125,10 +131,20 @@ export default function App() {
         </>
       )}
       {/* {layout === "vr" && <Configurator />} */}
-      <Routes>
-        {getRoutes(routes)}
-        <Route path="*" element={<Navigate to="/dashboards/overview" />} />
-      </Routes>
+      {userInfo ? (
+        <Routes>
+          {getRoutes(routes)}
+          <Route path="*" element={<Navigate to="/dashboards/overview" />} />
+          <Route path="/sign-up" element={<Register />} />
+          <Route path="/sign-in" element={<SignIn />} />
+        </Routes>
+      ) : (
+        <Routes>
+          <Route path="*" element={<Navigate to="/sign-in" />} />
+          <Route path="/sign-up" element={<Register />} />
+          <Route path="/sign-in" element={<SignIn />} />
+        </Routes>
+      )}
     </ThemeProvider>
   );
 }

@@ -111,6 +111,22 @@ categoriesRouter.post(
   })
 );
 
+categoriesRouter.get(
+  "/filter-questions/:id",
+  expressAsyncHandler(async (req, res) => {
+    const surveyId = req.params.id;
+
+    try {
+      const existingSurvey = await CategoricalQuestions.findOne({ surveyId });
+
+      res.send(existingSurvey);
+    } catch (err) {
+      console.error("Error saving categories:", err);
+      res.status(500).send("An error occurred while saving categories.");
+    }
+  })
+);
+
 const saveCategoricalQuestions = async (surveyData) => {
   try {
     // Create a new survey document

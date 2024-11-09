@@ -8,6 +8,10 @@ import {
   AccordionSummary,
   AccordionDetails,
   Grid,
+  Select,
+  MenuItem,
+  FormControl,
+  InputLabel,
 } from "@mui/material";
 
 // import Divider from "@mui/material/Divider";
@@ -18,10 +22,14 @@ import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import HorizontalBarChart from "examples/Charts/BarCharts/HorizontalBarChart";
+import apiURL from "utils";
 
 /* eslint-disable react/prop-types */
 const ResultsDisplay = () => {
   const [results, setResults] = useState(null);
+  const [categoricalQuestions, setCategoricalQuestions] = useState([]);
+  const [filters, setFilters] = useState({});
+  const [error, setError] = useState(null);
 
   const storedId = localStorage.getItem("selectedSurveyId");
 
@@ -30,19 +38,49 @@ const ResultsDisplay = () => {
   }
 
   useEffect(() => {
+    const fetchCategoricalQuestions = async () => {
+      try {
+        const response = await axios.get(`${apiURL}/api/categories/filter-questions/${storedId}`);
+        setCategoricalQuestions(response.data.categoricalQuestions || []);
+        setError(null);
+      } catch (error) {
+        console.error("Error fetching categorical questions:", error);
+        setError(error.request?.response);
+      }
+    };
+
+    fetchCategoricalQuestions();
+  }, [storedId]);
+
+  useEffect(() => {
     const fetchResults = async () => {
       try {
-        const response = await axios.get(
-          `https://millenniumchallenge.onrender.com/api/results/all/${storedId}`
-        );
+        const queryString = new URLSearchParams(filters).toString();
+        const response = await axios.get(`${apiURL}/api/results/all/${storedId}?${queryString}`);
         setResults(response.data);
+        setError(null);
       } catch (error) {
         console.error("Error fetching results:", error);
+        setError(error.request?.response);
       }
     };
 
     fetchResults();
-  }, []);
+  }, [storedId, filters]);
+
+  const handleFilterChange = (label, value) => {
+    setFilters((prevFilters) => ({ ...prevFilters, [label]: value }));
+  };
+
+  if (error) {
+    return (
+      <div
+        style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}
+      >
+        <Typography color="error">{error}</Typography>
+      </div>
+    );
+  }
 
   if (!results)
     return (
@@ -60,6 +98,38 @@ const ResultsDisplay = () => {
         <Typography variant="h4" gutterBottom>
           {results.title}
         </Typography>
+
+        {/* Dynamically render filters */}
+        <Grid container spacing={2} sx={{ mb: 3 }}>
+          {categoricalQuestions.map((question) => (
+            <Grid item xs={12} sm={6} md={4} key={question.questionId}>
+              <FormControl fullWidth variant="outlined">
+                <InputLabel>{question.heading}</InputLabel>
+                <Select
+                  label={question.heading}
+                  name={question.label}
+                  onChange={(e) => handleFilterChange(question.label, e.target.value)}
+                  value={filters[question.label] || ""}
+                  sx={{
+                    height: 40,
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <MenuItem value="">
+                    <em>None</em>
+                  </MenuItem>
+                  {question.choices.map((choice, idx) => (
+                    <MenuItem key={idx} value={choice}>
+                      {choice}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Grid>
+          ))}
+        </Grid>
+
         {results.categories.map((category, idx) => (
           <CategoryAccordion key={idx} category={category} />
         ))}

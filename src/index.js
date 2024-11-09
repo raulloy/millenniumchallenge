@@ -5,6 +5,7 @@ import App from "App";
 
 // Material Dashboard 2 PRO React Context Provider
 import { MaterialUIControllerProvider } from "context";
+import { StoreProvider } from "Store";
 
 const container = document.getElementById("app");
 const root = createRoot(container);
@@ -12,7 +13,9 @@ const root = createRoot(container);
 root.render(
   <BrowserRouter>
     <MaterialUIControllerProvider>
-      <App />
+      <StoreProvider>
+        <App />
+      </StoreProvider>
     </MaterialUIControllerProvider>
   </BrowserRouter>
 );

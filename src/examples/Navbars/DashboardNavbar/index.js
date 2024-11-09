@@ -1,19 +1,4 @@
-/**
-=========================================================
-* Material Dashboard 2 PRO React - v2.2.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-pro-react
-* Copyright 2024 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 
 // react-router components
 import { useLocation, Link } from "react-router-dom";
@@ -54,6 +39,7 @@ import {
   setMiniSidenav,
   setOpenConfigurator,
 } from "context";
+import { Store } from "Store";
 
 function DashboardNavbar({ absolute, light, isMini }) {
   const [navbarType, setNavbarType] = useState();
@@ -61,6 +47,14 @@ function DashboardNavbar({ absolute, light, isMini }) {
   const { miniSidenav, transparentNavbar, fixedNavbar, openConfigurator, darkMode } = controller;
   const [openMenu, setOpenMenu] = useState(false);
   const route = useLocation().pathname.split("/").slice(1);
+
+  const { state } = useContext(Store);
+  const { userInfo } = state;
+
+  function handleLogout() {
+    localStorage.removeItem("MCUserInfo");
+    window.location.href = "/sign-in";
+  }
 
   useEffect(() => {
     // Setting the navbar type
@@ -146,11 +140,17 @@ function DashboardNavbar({ absolute, light, isMini }) {
               <MDInput label="Search here" />
             </MDBox> */}
             <MDBox color={light ? "white" : "inherit"}>
-              <Link to="/authentication/sign-in/basic">
-                <IconButton sx={navbarIconButton} size="small" disableRipple>
-                  <Icon sx={iconsStyle}>account_circle</Icon>
-                </IconButton>
-              </Link>
+              {/* <Link to="/"> */}
+              <IconButton
+                sx={navbarIconButton}
+                size="small"
+                disableRipple
+                onClick={handleLogout} // Call handleLogout on click
+              >
+                <Icon sx={iconsStyle}>account_circle</Icon>
+              </IconButton>
+              {/* </Link> */}
+
               <IconButton
                 size="small"
                 disableRipple
