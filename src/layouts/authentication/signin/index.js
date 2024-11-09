@@ -41,7 +41,7 @@ function SignIn() {
   const { userInfo } = state;
 
   const submitHandler = async (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     try {
       const { data } = await axios.post(`${apiURL}/api/users/signin`, {
         email,
