@@ -20,6 +20,7 @@ import bgImage from "assets/images/bg-sign-up-cover.jpeg";
 
 import apiURL from "utils";
 import { Store } from "Store";
+import MDSnackbar from "components/MDSnackbar";
 
 function Register() {
   const navigate = useNavigate();
@@ -30,12 +31,34 @@ function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+
+  const [errorSB, setErrorSB] = useState(false);
+  const closeErrorSB = () => setErrorSB(false);
 
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const { userInfo } = state;
 
+  const renderErrorSB = (
+    <MDSnackbar
+      color="error"
+      icon="warning"
+      title="Ups!"
+      content={error}
+      dateTime={new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: true,
+      })}
+      open={errorSB}
+      onClose={closeErrorSB}
+      close={closeErrorSB}
+      bgWhite
+    />
+  );
+
   const submitHandler = async (e) => {
-    // e.preventDefault();
+    e.preventDefault();
     try {
       const { data } = await axios.post(`${apiURL}/api/users/signup`, {
         name,
@@ -46,7 +69,10 @@ function Register() {
       localStorage.setItem("MCUserInfo", JSON.stringify(data));
       navigate(redirect || "/");
     } catch (err) {
-      console.log(err);
+      setError(err.response.data.message || "Todos los campos son obligatorios");
+      setErrorSB(true);
+      console.log("Error:", err);
+      console.log("Error:", err.response.data.message || err.response.data);
     }
   };
 
@@ -107,13 +133,19 @@ function Register() {
               />
             </MDBox>
             <MDBox mt={4} mb={1}>
-              <MDButton variant="gradient" color="info" fullWidth onClick={submitHandler}>
+              <MDButton
+                variant="gradient"
+                color="info"
+                fullWidth
+                onClick={submitHandler}
+                type="submit"
+              >
                 Registrarse
               </MDButton>
             </MDBox>
             <MDBox mt={3} mb={1} textAlign="center">
               <MDTypography variant="button" color="text">
-                Already have an account?{" "}
+                ¿Ya te registraste?{" "}
                 <MDTypography
                   component={Link}
                   to="/sign-in"
@@ -122,13 +154,14 @@ function Register() {
                   fontWeight="medium"
                   textGradient
                 >
-                  Sign In
+                  Iniciar Sesión
                 </MDTypography>
               </MDTypography>
             </MDBox>
           </MDBox>
         </MDBox>
       </Card>
+      {renderErrorSB}
     </CoverLayout>
   );
 }

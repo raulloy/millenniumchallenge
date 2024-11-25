@@ -182,39 +182,145 @@ const CategoryAccordion = ({ category }) => {
   );
 };
 
-const QuestionCard = ({ question }) => (
-  <Card variant="outlined">
-    <CardContent>
-      <Typography variant="subtitle1" sx={{ fontWeight: "bold", marginBottom: 2 }}>
-        {question.question}
-      </Typography>
-      <TableContainer>
-        <Table size="small">
-          <TableBody>
-            {/* <TableRow>
-              <TableCell sx={{ fontWeight: "bold" }}>Response</TableCell>
-              <TableCell align="right" sx={{ fontWeight: "bold" }}>
-                Count
-              </TableCell>
-              <TableCell align="right" sx={{ fontWeight: "bold" }}>
-                Percentage
-              </TableCell>
-            </TableRow> */}
-            {Object.entries(question.responses).map(([response, count], idx) => (
-              <React.Fragment key={idx}>
-                <ResponseRow
-                  response={response}
-                  count={count}
-                  percentage={question.relative_frequency[response]}
-                />
-              </React.Fragment>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
-    </CardContent>
-  </Card>
-);
+const TTB_RULES = {
+  single_choice: {
+    "De acuerdo": ["De acuerdo", "Muy de acuerdo"],
+    Bueno: ["Bueno", "Excelente"],
+    "Nunca se ha dado": ["Nunca se ha dado", "Casi nunca se da"],
+    "Algo comprometida": ["Algo comprometida", "Totalmente comprometida"],
+    "Sí, siempre lo hace": ["Sí, siempre lo hace", "Sí, aunque pocas veces lo hace"],
+    Frecuentemente: ["Frecuentemente", "Siempre"],
+    "Totalmente de acuerdo": ["Totalmente de acuerdo", "De acuerdo"],
+    Mucho: ["Mucho"], // Example of simple rule
+  },
+  matrix: {
+    default: ["De acuerdo", "Muy de acuerdo"], // Fallback for unknown matrix types
+    "De acuerdo": ["De acuerdo", "Muy de acuerdo"], // Specific match for this case
+    Bueno: ["Bueno", "Excelente"],
+    "Nunca se ha dado": ["Nunca se ha dado", "Casi nunca se da"],
+    "Algo comprometida": ["Algo comprometida", "Totalmente comprometida"],
+    "Sí, siempre lo hace": ["Sí, siempre lo hace", "Sí, aunque pocas veces lo hace"],
+    Frecuentemente: ["Frecuentemente", "Siempre"],
+    "Totalmente de acuerdo": ["Totalmente de acuerdo", "De acuerdo"],
+  },
+};
+
+const calculateTTB = (type, responses, relativeFrequency) => {
+  // Determine TTB options based on the type and rules
+  const rules = TTB_RULES[type] || {};
+  const keys = Object.keys(responses);
+
+  for (const key of keys) {
+    const ttbOptions = rules[key] || rules.default;
+    if (ttbOptions) {
+      const ttbSum = ttbOptions.reduce(
+        (sum, option) => sum + parseFloat(relativeFrequency[option] || 0),
+        0
+      );
+      return Math.round(ttbSum * 100); // Convert to percentage
+    }
+  }
+
+  return null; // No matching rule
+};
+
+const QuestionCard = ({ question }) => {
+  let ttbValue = null;
+
+  if (question.type === "matrix") {
+    if (question.responses && typeof Object.values(question.responses)[0] === "object") {
+      // Nested matrix questions with sub-questions
+      ttbValue = Object.keys(question.responses).reduce((acc, subQuestion) => {
+        const subResponses = question.responses[subQuestion];
+        const subRelativeFrequency = question.relative_frequency?.[subQuestion];
+        if (subResponses && subRelativeFrequency) {
+          const subTTB = calculateTTB("matrix", subResponses, subRelativeFrequency);
+          acc[subQuestion] = subTTB;
+        } else {
+          acc[subQuestion] = "N/A"; // Handle missing data gracefully
+        }
+        return acc;
+      }, {});
+    } else if (question.responses && question.relative_frequency) {
+      // Flat matrix question (single question with direct responses)
+      ttbValue = calculateTTB("matrix", question.responses, question.relative_frequency);
+    }
+  } else if (question.responses && question.relative_frequency) {
+    // Single-choice or other questions
+    ttbValue = calculateTTB("single_choice", question.responses, question.relative_frequency);
+  }
+
+  return (
+    <Card variant="outlined">
+      <CardContent>
+        <Typography variant="subtitle1" sx={{ fontWeight: "bold", marginBottom: 2 }}>
+          {question.question}
+        </Typography>
+        {ttbValue && typeof ttbValue === "object" ? (
+          // Render TTB for each sub-question in nested matrix questions
+          Object.entries(ttbValue || {}).map(([subQuestion, value]) => (
+            <div key={subQuestion} style={{ marginBottom: "16px" }}>
+              <Typography variant="subtitle2" color="primary" sx={{ fontWeight: "bold" }}>
+                {subQuestion}: TTB {value !== "N/A" ? `${value}%` : "N/A"}
+              </Typography>
+              {question.responses[subQuestion] && (
+                <TableContainer>
+                  <Table size="small">
+                    <TableBody>
+                      {Object.entries(question.responses[subQuestion] || {}).map(
+                        ([response, count], idx) => (
+                          <TableRow key={idx}>
+                            <TableCell>{response}</TableCell>
+                            <TableCell align="right">{count}</TableCell>
+                            <TableCell align="right">
+                              {Math.round(
+                                parseFloat(
+                                  question.relative_frequency?.[subQuestion]?.[response] || 0
+                                ) * 100
+                              )}
+                              %
+                            </TableCell>
+                          </TableRow>
+                        )
+                      )}
+                    </TableBody>
+                  </Table>
+                </TableContainer>
+              )}
+            </div>
+          ))
+        ) : (
+          // Render TTB and response table for flat matrix or single-choice questions
+          <>
+            <Typography variant="body2" color="primary" sx={{ marginBottom: 2 }}>
+              TTB: {ttbValue || "N/A"}%
+            </Typography>
+            {question.responses && (
+              <TableContainer>
+                <Table size="small">
+                  <TableBody>
+                    {Object.entries(question.responses || {}).map(([response, count], idx) => (
+                      <TableRow key={idx}>
+                        <TableCell>{response}</TableCell>
+                        <TableCell align="right">{count}</TableCell>
+                        <TableCell align="right">
+                          {Math.round(
+                            parseFloat(question.relative_frequency?.[response] || 0) * 100
+                          )}
+                          %
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </TableContainer>
+            )}
+          </>
+        )}
+      </CardContent>
+    </Card>
+  );
+};
 
 const ResponseRow = ({ response, count, percentage }) => {
   // Convert the percentage to a whole number

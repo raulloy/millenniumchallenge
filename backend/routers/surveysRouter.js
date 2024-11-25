@@ -44,7 +44,7 @@ surveysRouter.get(
   expressAsyncHandler(async (req, res) => {
     try {
       const response = await axios({
-        url: "https://api.surveymonkey.com/v3/surveys?per_page=100",
+        url: "https://api.surveymonkey.com/v3/surveys?per_page=50",
         method: "GET",
         headers: {
           Accept: "application/json",

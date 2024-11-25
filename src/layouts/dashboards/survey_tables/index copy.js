@@ -191,22 +191,9 @@ const QuestionCard = ({ question }) => (
       <TableContainer>
         <Table size="small">
           <TableBody>
-            {/* <TableRow>
-              <TableCell sx={{ fontWeight: "bold" }}>Response</TableCell>
-              <TableCell align="right" sx={{ fontWeight: "bold" }}>
-                Count
-              </TableCell>
-              <TableCell align="right" sx={{ fontWeight: "bold" }}>
-                Percentage
-              </TableCell>
-            </TableRow> */}
             {Object.entries(question.responses).map(([response, count], idx) => (
               <React.Fragment key={idx}>
-                <ResponseRow
-                  response={response}
-                  count={count}
-                  percentage={question.relative_frequency[response]}
-                />
+                <ResponseRow response={response} count={count} />
               </React.Fragment>
             ))}
           </TableBody>
@@ -216,14 +203,12 @@ const QuestionCard = ({ question }) => (
   </Card>
 );
 
-const ResponseRow = ({ response, count, percentage }) => {
-  // Convert the percentage to a whole number
-  const roundedPercentage = Math.round(parseFloat(percentage) * 100);
-
+const ResponseRow = ({ response, count }) => {
+  // Check if the response is a nested object (matrix-type question)
   return typeof count === "object" ? (
     <>
       <TableRow>
-        <TableCell colSpan={3} sx={{ backgroundColor: "#fafafa", fontWeight: "bold" }}>
+        <TableCell colSpan={2} sx={{ backgroundColor: "#fafafa", fontWeight: "bold" }}>
           {response}
         </TableCell>
       </TableRow>
@@ -231,11 +216,6 @@ const ResponseRow = ({ response, count, percentage }) => {
         <TableRow key={subIdx}>
           <TableCell sx={{ pl: 4 }}>{subResponse}</TableCell>
           <TableCell align="right">{subCount}</TableCell>
-          <TableCell align="right">
-            {percentage?.[subResponse]
-              ? `${Math.round(parseFloat(percentage[subResponse]) * 100)}%`
-              : "N/A"}
-          </TableCell>
         </TableRow>
       ))}
     </>
@@ -243,7 +223,6 @@ const ResponseRow = ({ response, count, percentage }) => {
     <TableRow>
       <TableCell>{response}</TableCell>
       <TableCell align="right">{count}</TableCell>
-      <TableCell align="right">{roundedPercentage}%</TableCell>
     </TableRow>
   );
 };

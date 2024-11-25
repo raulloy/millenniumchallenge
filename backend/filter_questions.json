@@ -1,0 +1,74 @@
+{
+  "_id": "670bb4a5c105fc302143110b",
+  "surveyId": "409872828",
+  "categoricalQuestions": [
+    {
+      "questionId": "156043319",
+      "heading": "¿Cuál es tu género?",
+      "choices": ["Hombre", "Mujer", "Prefiero no decirlo"],
+      "label": "gender"
+    },
+    {
+      "questionId": "156043300",
+      "heading": "¿En cuál grupo de edad te encuentra?",
+      "choices": ["18 – 29", "30 – 39", "40 – 49", "50 – 59", "60 o más"],
+      "label": "age_group"
+    },
+    {
+      "questionId": "156043301",
+      "heading": "¿Cuál es el nivel de educación más alto que obtuviste?",
+      "choices": [
+        "Primaria Completa",
+        "Secundaria completa",
+        "Técnico universitario completo",
+        "Universitario completo",
+        "Posgrado - Completo",
+        "Maestría - Completo"
+      ],
+      "label": "education_level"
+    },
+    {
+      "questionId": "156043293",
+      "heading": "¿En qué departamento laboras?",
+      "choices": [
+        "Administración",
+        "Fabricación",
+        "Distribución",
+        "Mercadeo & Ventas",
+        "Mantenimiento",
+        "Calidad",
+        "Aseo y limpieza"
+      ],
+      "label": "department"
+    },
+    {
+      "questionId": "156043299",
+      "heading": "Aproximadamente, ¿cuánto tiempo tienes trabajando en esta empresa?",
+      "choices": [
+        "1 día -  1 año",
+        "1 año -  2 años",
+        "2 años - 5 años",
+        " 5 años -10 años",
+        "10 años - 15 años",
+        "Más de 15 años"
+      ],
+      "label": "permanence"
+    },
+    {
+      "questionId": "156043322",
+      "heading": "Tu puesto está clasificado como",
+      "choices": [
+        "Una posición de liderazgo (cargo de gerencia, jefatura, supervisión)",
+        "Una posición operativa"
+      ],
+      "label": "job_position_type"
+    },
+    {
+      "questionId": "156043332",
+      "heading": "¿En qué sucursal laboras?",
+      "choices": ["Panamá", "Centrales", "David"],
+      "label": "work_location"
+    }
+  ],
+  "__v": 0
+}

@@ -1,6 +1,6 @@
 {
-  "_id": "67099c84568ea856ede1c57b",
   "surveyId": "409872828",
+  "title": "DIAGNÓSTICO DE CLIMA LABORAL\nProductos LUX, S.A.\nDel 11 al 18 de Octubre 2023",
   "categories": [
     {
       "name": "Datos Demográficos",
@@ -12,6 +12,11 @@
             "Hombre": 99,
             "Mujer": 87,
             "Prefiero no decirlo": 3
+          },
+          "relative_frequency": {
+            "Hombre": "0.5238",
+            "Mujer": "0.4603",
+            "Prefiero no decirlo": "0.0159"
           }
         },
         {
@@ -22,6 +27,12 @@
             "30 – 39": 67,
             "40 – 49": 47,
             "50 – 59": 28
+          },
+          "relative_frequency": {
+            "18 – 29": "0.2487",
+            "30 – 39": "0.3545",
+            "40 – 49": "0.2487",
+            "50 – 59": "0.1481"
           }
         },
         {
@@ -35,6 +46,15 @@
             "Universitario completo": 43,
             "Primaria Completa": 20,
             "Posgrado - Completo": 2
+          },
+          "relative_frequency": {
+            "Secundaria completa": "0.4815",
+            "Otros": "0.1250",
+            "Maestría - Completo": "0.0370",
+            "Técnico universitario completo": "0.0556",
+            "Universitario completo": "0.1991",
+            "Primaria Completa": "0.0926",
+            "Posgrado - Completo": "0.0093"
           }
         },
         {
@@ -48,6 +68,15 @@
             "Administración": 23,
             "Calidad": 8,
             "Mantenimiento": 9
+          },
+          "relative_frequency": {
+            "Fabricación": "0.2698",
+            "Aseo y limpieza": "0.0106",
+            "Distribución": "0.2011",
+            "Mercadeo & Ventas": "0.3069",
+            "Administración": "0.1217",
+            "Calidad": "0.0423",
+            "Mantenimiento": "0.0476"
           }
         },
         {
@@ -60,6 +89,14 @@
             " 5 años -10 años": 46,
             "10 años - 15 años": 28,
             "Más de 15 años": 21
+          },
+          "relative_frequency": {
+            "2 años - 5 años": "0.2540",
+            "1 día -  1 año": "0.1323",
+            "1 año -  2 años": "0.1111",
+            " 5 años -10 años": "0.2434",
+            "10 años - 15 años": "0.1481",
+            "Más de 15 años": "0.1111"
           }
         },
         {
@@ -69,6 +106,11 @@
             "Panamá": 141,
             "David": 29,
             "Centrales": 19
+          },
+          "relative_frequency": {
+            "Panamá": "0.7460",
+            "David": "0.1534",
+            "Centrales": "0.1005"
           }
         }
       ]
@@ -98,6 +140,26 @@
               "Muy en desacuerdo": 4,
               "En desacuerdo": 3
             }
+          },
+          "relative_frequency": {
+            "Te comunican de forma correcta y a tiempo todas las oportunidades de crecimiento y desarrollo que se dan a lo interno de la empresa": {
+              " De acuerdo": "0.4974",
+              "Muy de acuerdo": "0.1852",
+              "En desacuerdo": "0.2698",
+              "Muy en desacuerdo": "0.0476"
+            },
+            "Estás satisfecho con las políticas, reglamentos, valores, usos y costumbres": {
+              " De acuerdo": "0.7037",
+              "Muy de acuerdo": "0.2169",
+              "Muy en desacuerdo": "0.0159",
+              "En desacuerdo": "0.0635"
+            },
+            "Conoces  cuál es la misión y visión": {
+              " De acuerdo": "0.6349",
+              "Muy de acuerdo": "0.3280",
+              "Muy en desacuerdo": "0.0212",
+              "En desacuerdo": "0.0159"
+            }
           }
         },
         {
@@ -122,6 +184,26 @@
               "En desacuerdo": 17,
               "Muy en desacuerdo": 2
             }
+          },
+          "relative_frequency": {
+            "Entre los diferentes departamentos,  existe una buena relación": {
+              " De acuerdo": "0.5979",
+              "Muy de acuerdo": "0.1534",
+              "En desacuerdo": "0.2116",
+              "Muy en desacuerdo": "0.0370"
+            },
+            "Existe trabajo en equipo en tu departamento": {
+              " De acuerdo": "0.5397",
+              "Muy de acuerdo": "0.3386",
+              "En desacuerdo": "0.1111",
+              "Muy en desacuerdo": "0.0106"
+            },
+            "Tus compañeros de trabajo están comprometidos con hacer un trabajo de calidad": {
+              " De acuerdo": "0.6402",
+              "Muy de acuerdo": "0.2593",
+              "En desacuerdo": "0.0899",
+              "Muy en desacuerdo": "0.0106"
+            }
           }
         },
         {
@@ -132,6 +214,12 @@
             "Muy de acuerdo": 51,
             "En desacuerdo": 28,
             "Muy en desacuerdo": 2
+          },
+          "relative_frequency": {
+            "De acuerdo": "0.5714",
+            "Muy de acuerdo": "0.2698",
+            "En desacuerdo": "0.1481",
+            "Muy en desacuerdo": "0.0106"
           }
         },
         {
@@ -187,6 +275,57 @@
               "Excelente": 57,
               "Deficiente": 7
             }
+          },
+          "relative_frequency": {
+            "Murales informativos": {
+              "Bueno": "0.4021",
+              "Excelente": "0.1958",
+              "Deficiente": "0.0688",
+              "No aplica a mi puesto": "0.1746",
+              "Regular": "0.1587"
+            },
+            "Zoom": {
+              "Bueno": "0.2540",
+              "No aplica a mi puesto": "0.4974",
+              "Excelente": "0.1164",
+              "Regular": "0.0847",
+              "Deficiente": "0.0476"
+            },
+            "WhatsApp": {
+              "Bueno": "0.4233",
+              "Excelente": "0.2593",
+              "Regular": "0.1323",
+              "No aplica a mi puesto": "0.1587",
+              "Deficiente": "0.0265"
+            },
+            "Correos electrónicos": {
+              "Bueno": "0.4074",
+              "Excelente": "0.3175",
+              "Regular": "0.1217",
+              "No aplica a mi puesto": "0.1429",
+              "Deficiente": "0.0106"
+            },
+            "Internet": {
+              "Regular": "0.1587",
+              "No aplica a mi puesto": "0.2381",
+              "Bueno": "0.3651",
+              "Excelente": "0.1587",
+              "Deficiente": "0.0794"
+            },
+            "Celulares": {
+              "Bueno": "0.3757",
+              "No aplica a mi puesto": "0.2275",
+              "Deficiente": "0.0423",
+              "Regular": "0.1058",
+              "Excelente": "0.2487"
+            },
+            "Teléfonos /línea directa": {
+              "Bueno": "0.4127",
+              "No aplica a mi puesto": "0.1376",
+              "Regular": "0.1111",
+              "Excelente": "0.3016",
+              "Deficiente": "0.0370"
+            }
           }
         },
         {
@@ -198,6 +337,13 @@
             "Totalmente comprometida": 111,
             "Poco comprometida": 18,
             "Nada comprometida": 3
+          },
+          "relative_frequency": {
+            "Algo comprometida": "0.2375",
+            "Otros": "0.2125",
+            "Totalmente comprometida": "0.4625",
+            "Poco comprometida": "0.0750",
+            "Nada comprometida": "0.0125"
           }
         },
         {
@@ -239,6 +385,43 @@
               "Se da frecuentemente": 11
             },
             "Otros": 13
+          },
+          "relative_frequency": {
+            "Discriminación por tener una discapacidad": {
+              "Nunca se ha dado": "0.8254",
+              "Casi nunca se da": "0.1323",
+              "Se da ocasionalmente": "0.0212",
+              "Se da frecuentemente": "0.0212"
+            },
+            "Discriminación por sexo (sexismo)": {
+              "Nunca se ha dado": "0.7884",
+              "Casi nunca se da": "0.1693",
+              "Se da ocasionalmente": "0.0212",
+              "Se da frecuentemente": "0.0212"
+            },
+            "Discriminación por edad": {
+              "Nunca se ha dado": "0.6561",
+              "Casi nunca se da": "0.2222",
+              "Se da ocasionalmente": "0.0794",
+              "Se da frecuentemente": "0.0423"
+            },
+            "Discriminación por raza": {
+              "Nunca se ha dado": "0.8254",
+              "Se da ocasionalmente": "0.0212",
+              "Casi nunca se da": "0.1534"
+            },
+            "Acoso sexual": {
+              "Nunca se ha dado": "0.8836",
+              "Casi nunca se da": "0.1058",
+              "Se da ocasionalmente": "0.0106"
+            },
+            "Hostigamiento laboral": {
+              "Nunca se ha dado": "0.4180",
+              "Casi nunca se da": "0.3228",
+              "Se da ocasionalmente": "0.2011",
+              "Se da frecuentemente": "0.0582"
+            },
+            "Otros": "0.0113"
           }
         },
         {
@@ -248,6 +431,11 @@
             "No": 182,
             "Si": 7,
             "Otros": 4
+          },
+          "relative_frequency": {
+            "No": "0.9430",
+            "Si": "0.0363",
+            "Otros": "0.0207"
           }
         }
       ]
@@ -262,6 +450,11 @@
             "No": 92,
             "Si": 97,
             "Otros": 60
+          },
+          "relative_frequency": {
+            "No": "0.3695",
+            "Si": "0.3896",
+            "Otros": "0.2410"
           }
         },
         {
@@ -273,6 +466,13 @@
             "Sí, aunque pocas veces lo hace": 57,
             "Otros": 42,
             "No, nunca lo hace": 38
+          },
+          "relative_frequency": {
+            "Sí, siempre lo hace": "0.1645",
+            "No, casi nunca lo hace": "0.2424",
+            "Sí, aunque pocas veces lo hace": "0.2468",
+            "Otros": "0.1818",
+            "No, nunca lo hace": "0.1645"
           }
         },
         {
@@ -285,6 +485,14 @@
             "Otros": 33,
             "No tan apropiadas": 13,
             "Nada apropiadas": 7
+          },
+          "relative_frequency": {
+            "No se han aplicado sanciones disciplinarias": "0.3423",
+            "Algo apropiadas": "0.1712",
+            "Apropiadas": "0.2477",
+            "Otros": "0.1486",
+            "No tan apropiadas": "0.0586",
+            "Nada apropiadas": "0.0315"
           }
         },
         {
@@ -321,6 +529,38 @@
               "Casi nunca": 24,
               "Nunca": 9
             }
+          },
+          "relative_frequency": {
+            "Encaminados al servicio": {
+              "Frecuentemente": "0.3704",
+              "Siempre": "0.5767",
+              "Nunca": "0.0159",
+              "Casi nunca": "0.0370"
+            },
+            "Hacemos lo correcto": {
+              "Frecuentemente": "0.4392",
+              "Siempre": "0.4921",
+              "Nunca": "0.0212",
+              "Casi nunca": "0.0476"
+            },
+            "Honradez": {
+              "Frecuentemente": "0.3280",
+              "Siempre": "0.6243",
+              "Nunca": "0.0159",
+              "Casi nunca": "0.0317"
+            },
+            "Somos transformadores": {
+              "Frecuentemente": "0.4921",
+              "Siempre": "0.3492",
+              "Casi nunca": "0.1376",
+              "Nunca": "0.0212"
+            },
+            "Compromiso con resultados extraordinarios": {
+              "Frecuentemente": "0.5079",
+              "Siempre": "0.3175",
+              "Casi nunca": "0.1270",
+              "Nunca": "0.0476"
+            }
           }
         }
       ]
@@ -336,6 +576,12 @@
             "Totalmente de acuerdo": 54,
             "Totalmente en desacuerdo": 2,
             "En desacuerdo": 19
+          },
+          "relative_frequency": {
+            "De acuerdo": "0.6032",
+            "Totalmente de acuerdo": "0.2857",
+            "Totalmente en desacuerdo": "0.0106",
+            "En desacuerdo": "0.1005"
           }
         },
         {
@@ -346,6 +592,12 @@
             "De acuerdo": 75,
             "En desacuerdo": 1,
             "Totalmente en desacuerdo": 1
+          },
+          "relative_frequency": {
+            "Totalmente de acuerdo": "0.5926",
+            "De acuerdo": "0.3968",
+            "En desacuerdo": "0.0053",
+            "Totalmente en desacuerdo": "0.0053"
           }
         },
         {
@@ -355,6 +607,11 @@
             "Si": 109,
             "Una parte de ellas": 34,
             "No": 46
+          },
+          "relative_frequency": {
+            "Si": "0.5767",
+            "Una parte de ellas": "0.1799",
+            "No": "0.2434"
           }
         },
         {
@@ -366,6 +623,13 @@
             "En desacuerdo": 27,
             "Otros": 22,
             "Totalmente en desacuerdo": 9
+          },
+          "relative_frequency": {
+            "Totalmente de acuerdo": "0.2796",
+            "De acuerdo": "0.4455",
+            "En desacuerdo": "0.1280",
+            "Otros": "0.1043",
+            "Totalmente en desacuerdo": "0.0427"
           }
         },
         {
@@ -375,6 +639,11 @@
             "Mucho": 181,
             "Nada": 1,
             "Poco": 7
+          },
+          "relative_frequency": {
+            "Mucho": "0.9577",
+            "Nada": "0.0053",
+            "Poco": "0.0370"
           }
         },
         {
@@ -386,6 +655,13 @@
             "Moderadamente motivado(a)": 66,
             "Poco motivado(a)": 24,
             "Nada motivado(a)": 4
+          },
+          "relative_frequency": {
+            "Muy motivado(a)": "0.3958",
+            "Otros": "0.2125",
+            "Moderadamente motivado(a)": "0.2750",
+            "Poco motivado(a)": "0.1000",
+            "Nada motivado(a)": "0.0167"
           }
         },
         {
@@ -397,6 +673,13 @@
             "Muy Probable": 126,
             "Nada probable": 3,
             " Poco Probable": 10
+          },
+          "relative_frequency": {
+            "Algo Probable": "0.2128",
+            "Otros": "0.1957",
+            "Muy Probable": "0.5362",
+            "Nada probable": "0.0128",
+            " Poco Probable": "0.0426"
           }
         },
         {
@@ -408,6 +691,13 @@
             "Algo probable": 37,
             "Nada probable": 2,
             "Poco probable": 9
+          },
+          "relative_frequency": {
+            "Bastante probable": "0.6000",
+            "Otros": "0.1957",
+            "Algo probable": "0.1574",
+            "Nada probable": "0.0085",
+            "Poco probable": "0.0383"
           }
         },
         {
@@ -419,6 +709,13 @@
             "Otros": 24,
             "La mayor parte del tiempo": 22,
             "La mitad del tiempo": 33
+          },
+          "relative_frequency": {
+            "Nunca": "0.1408",
+            "Pocas veces": "0.4883",
+            "Otros": "0.1127",
+            "La mayor parte del tiempo": "0.1033",
+            "La mitad del tiempo": "0.1549"
           }
         },
         {
@@ -430,6 +727,13 @@
             "La mayor parte del tiempo": 4,
             "Otros": 10,
             "La mitad del tiempo": 10
+          },
+          "relative_frequency": {
+            "Nunca": "0.4271",
+            "Pocas veces": "0.4523",
+            "La mayor parte del tiempo": "0.0201",
+            "Otros": "0.0503",
+            "La mitad del tiempo": "0.0503"
           }
         },
         {
@@ -441,6 +745,13 @@
             "Otros": 16,
             "La mitad del tiempo": 19,
             "La mayor parte del tiempo": 7
+          },
+          "relative_frequency": {
+            "Nunca": "0.2634",
+            "Pocas veces": "0.5317",
+            "Otros": "0.0780",
+            "La mitad del tiempo": "0.0927",
+            "La mayor parte del tiempo": "0.0341"
           }
         },
         {
@@ -452,6 +763,13 @@
             "La mitad del tiempo": 11,
             "Otros": 8,
             "La mayor parte del tiempo": 1
+          },
+          "relative_frequency": {
+            "Nunca": "0.5888",
+            "Pocas veces": "0.3096",
+            "La mitad del tiempo": "0.0558",
+            "Otros": "0.0406",
+            "La mayor parte del tiempo": "0.0051"
           }
         },
         {
@@ -463,6 +781,13 @@
             "Otros": 19,
             "No tan fácil": 26,
             "Nada fácil": 10
+          },
+          "relative_frequency": {
+            "Algo fácil": "0.3510",
+            "Muy fácil": "0.3846",
+            "Otros": "0.0913",
+            "No tan fácil": "0.1250",
+            "Nada fácil": "0.0481"
           }
         },
         {
@@ -473,6 +798,12 @@
             "Muy de acuerdo": 91,
             "En desacuerdo": 11,
             "Muy en desacuerdo": 4
+          },
+          "relative_frequency": {
+            "De acuerdo": "0.4392",
+            "Muy de acuerdo": "0.4815",
+            "En desacuerdo": "0.0582",
+            "Muy en desacuerdo": "0.0212"
           }
         },
         {
@@ -482,6 +813,11 @@
             "Si": 168,
             "Otros": 14,
             "No": 21
+          },
+          "relative_frequency": {
+            "Si": "0.8276",
+            "Otros": "0.0690",
+            "No": "0.1034"
           }
         },
         {
@@ -512,6 +848,32 @@
               "En desacuerdo": 43,
               "Muy en desacuerdo": 7
             }
+          },
+          "relative_frequency": {
+            "Tu jefe inmediato te invita a crecer y a desarrollarte aprovechando las oportunidades que existen dentro de la empresa": {
+              " De acuerdo": "0.3598",
+              "Muy de acuerdo": "0.2434",
+              "En desacuerdo": "0.3069",
+              "Muy en desacuerdo": "0.0899"
+            },
+            "El esfuerzo que has hecho, ha sido justamente retribuido": {
+              " De acuerdo": "0.5450",
+              "Muy de acuerdo": "0.1958",
+              "En desacuerdo": "0.2011",
+              "Muy en desacuerdo": "0.0582"
+            },
+            "Crees que tienes oportunidades de crecer profesionalmente en esta empresa": {
+              " De acuerdo": "0.4656",
+              "Muy de acuerdo": "0.2540",
+              "En desacuerdo": "0.2116",
+              "Muy en desacuerdo": "0.0688"
+            },
+            "Estás satisfecho(a) con la forma en que la empresa invierte en  tu crecimiento y desarrollo, tanto personal como profesional": {
+              " De acuerdo": "0.5661",
+              "Muy de acuerdo": "0.1693",
+              "En desacuerdo": "0.2275",
+              "Muy en desacuerdo": "0.0370"
+            }
           }
         },
         {
@@ -522,6 +884,12 @@
             "Suficiente": 66,
             "Ninguna": 13,
             "Poca": 30
+          },
+          "relative_frequency": {
+            "Moderada": "0.4233",
+            "Suficiente": "0.3492",
+            "Ninguna": "0.0688",
+            "Poca": "0.1587"
           }
         },
         {
@@ -531,6 +899,11 @@
             "No": 77,
             "Si": 112,
             "Otros": 56
+          },
+          "relative_frequency": {
+            "No": "0.3143",
+            "Si": "0.4571",
+            "Otros": "0.2286"
           }
         },
         {
@@ -540,6 +913,11 @@
             "No": 52,
             "Otros": 49,
             "Si": 137
+          },
+          "relative_frequency": {
+            "No": "0.2185",
+            "Otros": "0.2059",
+            "Si": "0.5756"
           }
         },
         {
@@ -558,6 +936,20 @@
               "En desacuerdo": 46,
               "Muy en desacuerdo": 7
             }
+          },
+          "relative_frequency": {
+            "Es acorde con lo que se está pagando en el mercado local en posiciones similares": {
+              " De acuerdo": "0.5926",
+              "Muy de acuerdo": "0.1164",
+              "Muy en desacuerdo": "0.0476",
+              "En desacuerdo": "0.2434"
+            },
+            "Es acorde con la cantidad y el tipo de trabajo que realizas": {
+              " De acuerdo": "0.5979",
+              "Muy de acuerdo": "0.1217",
+              "En desacuerdo": "0.2434",
+              "Muy en desacuerdo": "0.0370"
+            }
           }
         },
         {
@@ -570,6 +962,14 @@
             "Otros": 40,
             "Los desconozco, no sé cuáles son los beneficios (adicionales al salario) que tengo por trabajar aquí": 21,
             "Son deficientes": 29
+          },
+          "relative_frequency": {
+            "Son buenos": "0.4847",
+            "Son excelentes": "0.0830",
+            "No existen": "0.0393",
+            "Otros": "0.1747",
+            "Los desconozco, no sé cuáles son los beneficios (adicionales al salario) que tengo por trabajar aquí": "0.0917",
+            "Son deficientes": "0.1266"
           }
         },
         {
@@ -654,6 +1054,86 @@
               "Totalmente insatisfecho": 3
             },
             "Otros": 17
+          },
+          "relative_frequency": {
+            "Ferias de salud": {
+              "Satisfecho": "0.4392",
+              "Totalmente satisfecho": "0.3069",
+              "No aplica en mi caso": "0.1693",
+              "Insatisfecho": "0.0423",
+              "Totalmente insatisfecho": "0.0423"
+            },
+            "Adelantos de salario": {
+              "Satisfecho": "0.4444",
+              "Totalmente satisfecho": "0.1905",
+              "No aplica en mi caso": "0.3333",
+              "Totalmente insatisfecho": "0.0159",
+              "Insatisfecho": "0.0159"
+            },
+            "Reembolso de matrícula (Estudios)": {
+              "Satisfecho": "0.2751",
+              "Totalmente satisfecho": "0.1481",
+              "No aplica en mi caso": "0.5132",
+              "Insatisfecho": "0.0370",
+              "Totalmente insatisfecho": "0.0265"
+            },
+            "Días por duelo": {
+              "Satisfecho": "0.5132",
+              "Totalmente satisfecho": "0.1852",
+              "No aplica en mi caso": "0.1905",
+              "Totalmente insatisfecho": "0.0317",
+              "Insatisfecho": "0.0794"
+            },
+            "Fiesta de Navidad": {
+              "Satisfecho": "0.5767",
+              "Totalmente satisfecho": "0.2169",
+              "Insatisfecho": "0.1058",
+              "Totalmente insatisfecho": "0.0212",
+              "No aplica en mi caso": "0.0794"
+            },
+            "Bono navideño": {
+              "Insatisfecho": "0.1746",
+              "Totalmente satisfecho": "0.1693",
+              "Satisfecho": "0.5344",
+              "Totalmente insatisfecho": "0.0529",
+              "No aplica en mi caso": "0.0688"
+            },
+            "Vales de cumpleaños": {
+              "Satisfecho": "0.5714",
+              "Totalmente satisfecho": "0.2011",
+              "Insatisfecho": "0.1481",
+              "Totalmente insatisfecho": "0.0582",
+              "No aplica en mi caso": "0.0212"
+            },
+            "Empleado del mes": {
+              "Satisfecho": "0.2487",
+              "Totalmente satisfecho": "0.0741",
+              "No aplica en mi caso": "0.5026",
+              "Insatisfecho": "0.1270",
+              "Totalmente insatisfecho": "0.0476"
+            },
+            "Vales alimenticios": {
+              "Satisfecho": "0.4339",
+              "Totalmente satisfecho": "0.1587",
+              "No aplica en mi caso": "0.2328",
+              "Insatisfecho": "0.1270",
+              "Totalmente insatisfecho": "0.0476"
+            },
+            "Asistencia Perfecta": {
+              "Satisfecho": "0.3968",
+              "Totalmente satisfecho": "0.1058",
+              "No aplica en mi caso": "0.3545",
+              "Insatisfecho": "0.0952",
+              "Totalmente insatisfecho": "0.0476"
+            },
+            "Seguro de vida y salud": {
+              "Satisfecho": "0.4603",
+              "Totalmente satisfecho": "0.2381",
+              "No aplica en mi caso": "0.2381",
+              "Insatisfecho": "0.0476",
+              "Totalmente insatisfecho": "0.0159"
+            },
+            "Otros": "0.0081"
           }
         }
       ]
@@ -670,6 +1150,13 @@
             "Otros": 27,
             "Poco probable": 85,
             "Bastante probable": 25
+          },
+          "relative_frequency": {
+            "Nada probable": "0.0880",
+            "Algo probable": "0.2778",
+            "Otros": "0.1250",
+            "Poco probable": "0.3935",
+            "Bastante probable": "0.1157"
           }
         },
         {
@@ -681,6 +1168,13 @@
             "Otros": 20,
             "Bastante probable": 14,
             "Poco probable": 89
+          },
+          "relative_frequency": {
+            "Nada probable": "0.1914",
+            "Algo probable": "0.2201",
+            "Otros": "0.0957",
+            "Bastante probable": "0.0670",
+            "Poco probable": "0.4258"
           }
         },
         {
@@ -692,6 +1186,13 @@
             "Un poco inadecuadas": 53,
             "Otros": 37,
             "Totalmente inadecuadas": 5
+          },
+          "relative_frequency": {
+            "Buenas": "0.4735",
+            "Excelentes": "0.1062",
+            "Un poco inadecuadas": "0.2345",
+            "Otros": "0.1637",
+            "Totalmente inadecuadas": "0.0221"
           }
         }
       ]
@@ -716,6 +1217,21 @@
               "Si": 59
             },
             "Otros": 76
+          },
+          "relative_frequency": {
+            "Implementarías algo nuevo": {
+              "Si": "0.7831",
+              "No": "0.2169"
+            },
+            "Harías algo diferente": {
+              "Si": "0.7831",
+              "No": "0.2169"
+            },
+            "Mantendrías todo igual": {
+              "No": "0.6878",
+              "Si": "0.3122"
+            },
+            "Otros": "0.1182"
           }
         },
         {
@@ -726,6 +1242,12 @@
             "Si": 120,
             "Otros": 36,
             "No sé qué significa": 30
+          },
+          "relative_frequency": {
+            "No": "0.1733",
+            "Si": "0.5333",
+            "Otros": "0.1600",
+            "No sé qué significa": "0.1333"
           }
         },
         {
@@ -735,6 +1257,11 @@
             "No": 173,
             "Si": 16,
             "Otros": 16
+          },
+          "relative_frequency": {
+            "No": "0.8439",
+            "Si": "0.0780",
+            "Otros": "0.0780"
           }
         },
         {
@@ -743,10 +1270,13 @@
           "responses": {
             "Una posición de liderazgo (cargo de gerencia, jefatura, supervisión)": 46,
             "Una posición operativa": 143
+          },
+          "relative_frequency": {
+            "Una posición de liderazgo (cargo de gerencia, jefatura, supervisión)": "0.2434",
+            "Una posición operativa": "0.7566"
           }
         }
       ]
     }
-  ],
-  "__v": 0
+  ]
 }

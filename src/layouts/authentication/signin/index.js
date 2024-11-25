@@ -27,6 +27,7 @@ import bgImage from "assets/images/bg-sign-in-basic.jpeg";
 
 import apiURL from "utils";
 import { Store } from "Store";
+import MDSnackbar from "components/MDSnackbar";
 
 function SignIn() {
   const navigate = useNavigate();
@@ -36,12 +37,34 @@ function SignIn() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+
+  const [errorSB, setErrorSB] = useState(false);
+  const closeErrorSB = () => setErrorSB(false);
 
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const { userInfo } = state;
 
+  const renderErrorSB = (
+    <MDSnackbar
+      color="error"
+      icon="warning"
+      title="Ups!"
+      content={error}
+      dateTime={new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: true,
+      })}
+      open={errorSB}
+      onClose={closeErrorSB}
+      close={closeErrorSB}
+      bgWhite
+    />
+  );
+
   const submitHandler = async (e) => {
-    // e.preventDefault();
+    e.preventDefault();
     try {
       const { data } = await axios.post(`${apiURL}/api/users/signin`, {
         email,
@@ -57,11 +80,10 @@ function SignIn() {
       localStorage.setItem("MCUserInfo", JSON.stringify(data));
       navigate(redirect || "/");
     } catch (err) {
-      if (err.response) {
-        console.log("Error:", err.response.data.message || err.response.data); // Logs the backend error message
-      } else {
-        console.log("Error:", err.message); // Logs general error if no response
-      }
+      setError(err.response.data.message || "Problema con el servidor");
+      setErrorSB(true);
+      console.log("Error:", err.message);
+      console.log("Error:", err.response.data.message || err.response.data);
     }
   };
 
@@ -113,13 +135,19 @@ function SignIn() {
               />
             </MDBox>
             <MDBox mt={4} mb={1}>
-              <MDButton variant="gradient" color="info" fullWidth onClick={submitHandler}>
+              <MDButton
+                variant="gradient"
+                color="info"
+                fullWidth
+                onClick={submitHandler}
+                type="submit"
+              >
                 Entrar
               </MDButton>
             </MDBox>
             <MDBox mt={3} mb={1} textAlign="center">
               <MDTypography variant="button" color="text">
-                Don&apos;t have an account?{" "}
+                Crea tu usuario{" "}
                 <MDTypography
                   component={Link}
                   to="/sign-up"
@@ -128,13 +156,29 @@ function SignIn() {
                   fontWeight="medium"
                   textGradient
                 >
-                  Sign up
+                  aquí
+                </MDTypography>
+              </MDTypography>
+            </MDBox>
+            <MDBox mt={1} mb={1} textAlign="center">
+              <MDTypography variant="button" color="text">
+                ¿Olvidaste tu contraseña?{" "}
+                <MDTypography
+                  component={Link}
+                  to="/forget-password"
+                  variant="button"
+                  color="info"
+                  fontWeight="medium"
+                  textGradient
+                >
+                  Restablecer contraseña
                 </MDTypography>
               </MDTypography>
             </MDBox>
           </MDBox>
         </MDBox>
       </Card>
+      {renderErrorSB}
     </BasicLayout>
   );
 }

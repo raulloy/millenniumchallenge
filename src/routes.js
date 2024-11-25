@@ -40,6 +40,7 @@ import Analytics from "layouts/dashboards/analytics";
 import Sales from "layouts/dashboards/sales";
 import Overview from "layouts/dashboards/overview";
 import SurveyTables from "layouts/dashboards/survey_tables";
+import SurveyTablesTTB from "layouts/dashboards/survey_tables_ttb";
 import SurveyBarChartv from "layouts/dashboards/survey_vbarcharts";
 import SurveyBarCharth from "layouts/dashboards/survey_hbarcharts";
 import SurveyReportBarChart from "layouts/dashboards/survey_reportbarcharts";
@@ -157,6 +158,12 @@ const routes = [
         key: "survey_reportbarcharts",
         route: `/dashboards/survey/reportbarcharts`,
         component: <SurveyReportBarChart />,
+      },
+      {
+        name: "Tables TTB",
+        key: "survey_tables_ttb",
+        route: `/dashboards/survey/tables-TTB`,
+        component: <SurveyTablesTTB />,
       },
     ],
   },

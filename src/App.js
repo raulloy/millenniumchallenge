@@ -33,6 +33,9 @@ import brandDark from "assets/images/logo-ct-dark.png";
 import Register from "layouts/authentication/register";
 import SignIn from "layouts/authentication/signin";
 import { Store } from "Store";
+import ForgetPassword from "layouts/authentication/forget-password";
+import ResetPassword from "layouts/authentication/reset-pass";
+import ResetPasswordMsg from "layouts/authentication/reset-pass-msg";
 
 export default function App() {
   const [controller, dispatch] = useMaterialUIController();
@@ -143,6 +146,9 @@ export default function App() {
           <Route path="*" element={<Navigate to="/sign-in" />} />
           <Route path="/sign-up" element={<Register />} />
           <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/forget-password" element={<ForgetPassword />} />
+          <Route path="/reset-password-msg" element={<ResetPasswordMsg />} />
+          <Route path="/reset-password/:token" element={<ResetPassword />} />
         </Routes>
       )}
     </ThemeProvider>

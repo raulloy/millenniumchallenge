@@ -5,6 +5,7 @@ import ResponseDetails from "../models/responseDetailsModel.js";
 import { aggregateResponsesByCategory } from "./utils.js";
 import SurveyResults from "../models/SurveyResults.js";
 import CategoricalQuestions from "../models/categoricalQ.js";
+import { categoricalFilters, resultsProcessed } from "./resultsUtils.js";
 
 const resultsRouter = express.Router();
 
@@ -104,6 +105,22 @@ resultsRouter.get(
     // Aggregate the filtered responses
     const results = aggregateResponsesByCategory(filteredResponses, surveyDetails);
     res.send(results);
+  })
+);
+
+resultsRouter.get(
+  "/dynamic-table/:id",
+  expressAsyncHandler(async (req, res) => {
+    const surveyId = req.params.id;
+
+    // Fetch the survey results from the database
+    const surveyResults = await resultsProcessed(surveyId, {});
+
+    if (!surveyResults) {
+      return res.status(404).send({ message: "Survey results not found." });
+    }
+
+    res.send(surveyResults);
   })
 );
 
