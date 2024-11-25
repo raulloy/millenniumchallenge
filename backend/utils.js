@@ -251,4 +251,4 @@ export const saveAggregatedSurvey = async (surveyData) => {
   }
 };
 
-export const baseUrl = () => process.env.BASE_URL;
+export const baseUrl = () => "https://millenniumchallenge-g3y7.vercel.app";
