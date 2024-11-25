@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { TextField, Autocomplete } from "@mui/material";
 import axios from "axios";
+import apiURL from "utils";
 
 const CategoryForm = ({
   selectedCategories,
@@ -22,7 +23,7 @@ const CategoryForm = ({
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await axios.get("https://millenniumchallenge.onrender.com/api/categories");
+        const response = await axios.get(`${apiURL}/api/categories`);
         setCategories(response.data);
       } catch (err) {
         console.error("Error fetching categories:", err);

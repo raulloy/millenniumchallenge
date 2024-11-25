@@ -3,6 +3,7 @@ import axios from "axios";
 import DataTable from "examples/Tables/DataTable";
 import { Link } from "react-router-dom";
 import FetchButton from "../FetchButton";
+import apiURL from "utils";
 
 // Function to format date to MX format (dd/mm/yyyy)
 const formatDateMX = (dateString) => {
@@ -27,7 +28,7 @@ const getSurveyStatus = (statusObj) => {
 const handleFetchDetails = async (surveyId) => {
   try {
     // prettier-ignore
-    const detailsResponse = await axios.get(`https://millenniumchallenge.onrender.com/api/surveys/${surveyId}/check`);
+    const detailsResponse = await axios.get(`${apiURL}/api/surveys/${surveyId}/check`);
 
     return detailsResponse.data;
   } catch (error) {
@@ -38,10 +39,8 @@ const handleFetchDetails = async (surveyId) => {
 // Fetch responses for the survey
 const handleFetchResponses = async (surveyId) => {
   try {
-    await axios.get(`https://millenniumchallenge.onrender.com/api/responses/${surveyId}`);
-    await axios.get(
-      `https://millenniumchallenge.onrender.com/api/categories/categorical-questions/${surveyId}`
-    );
+    await axios.get(`${apiURL}/api/responses/${surveyId}`);
+    await axios.get(`${apiURL}/api/categories/categorical-questions/${surveyId}`);
   } catch (error) {
     console.error("Error fetching survey details:", error);
   }
@@ -66,7 +65,7 @@ export const SurveysTable = () => {
   // Fetch surveys from backend
   const fetchSurveys = async () => {
     try {
-      const response = await axios.get("https://millenniumchallenge.onrender.com/api/surveys");
+      const response = await axios.get(`${apiURL}/api/surveys`);
       const surveys = response.data.data;
 
       const rows = await Promise.all(
@@ -142,9 +141,7 @@ export const surveysSummary = () => {
 
   const fetchSummary = async () => {
     try {
-      const response = await axios.get(
-        "https://millenniumchallenge.onrender.com/api/surveys/summary"
-      );
+      const response = await axios.get(`${apiURL}/api/surveys/summary`);
       setSummary(response.data);
     } catch (error) {
       console.error("Error fetching survey summary:", error);

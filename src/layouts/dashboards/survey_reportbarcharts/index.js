@@ -18,6 +18,7 @@ import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
+import apiURL from "utils";
 
 /* eslint-disable react/prop-types */
 const ResultsDisplay = () => {
@@ -33,9 +34,7 @@ const ResultsDisplay = () => {
   useEffect(() => {
     const fetchResults = async () => {
       try {
-        const response = await axios.get(
-          `https://millenniumchallenge.onrender.com/api/results/all/${storedId}`
-        );
+        const response = await axios.get(`${apiURL}/api/results/all/${storedId}`);
         setResults(response.data);
       } catch (error) {
         console.error("Error fetching results:", error);

@@ -8,6 +8,7 @@ import { Box, Typography } from "@mui/material";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
+import apiURL from "utils";
 
 const CategoryForm = () => {
   const [categories, setCategories] = useState([]);
@@ -25,7 +26,7 @@ const CategoryForm = () => {
   // Fetch categories from the backend
   const fetchCategories = async () => {
     try {
-      const response = await axios.get("https://millenniumchallenge.onrender.com/api/categories");
+      const response = await axios.get(`${apiURL}/api/categories`);
       setCategories(response.data);
     } catch (err) {
       console.error("Error fetching categories:", err);
@@ -53,13 +54,10 @@ const CategoryForm = () => {
     if (!existingCategory) {
       // Add new category if it doesn't exist
       try {
-        const response = await axios.post(
-          "https://millenniumchallenge.onrender.com/api/categories/add",
-          {
-            name: selectedCategory,
-            subcategories: [],
-          }
-        );
+        const response = await axios.post(`${apiURL}/api/categories/add`, {
+          name: selectedCategory,
+          subcategories: [],
+        });
         setMessage(`Added new category: ${selectedCategory}`);
         fetchCategories();
       } catch (err) {
@@ -69,13 +67,10 @@ const CategoryForm = () => {
     } else if (selectedSubcategory) {
       // Add subcategory to the existing category
       try {
-        const response = await axios.post(
-          "https://millenniumchallenge.onrender.com/api/categories/add-subcategory",
-          {
-            categoryName: selectedCategory,
-            subcategoryName: selectedSubcategory,
-          }
-        );
+        const response = await axios.post(`${apiURL}/api/categories/add-subcategory`, {
+          categoryName: selectedCategory,
+          subcategoryName: selectedSubcategory,
+        });
         setMessage(`Added subcategory: ${selectedSubcategory} to category: ${selectedCategory}`);
         fetchCategories();
       } catch (err) {

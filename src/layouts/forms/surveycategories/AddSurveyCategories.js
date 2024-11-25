@@ -6,6 +6,7 @@ import axios from "axios";
 import DataTable from "examples/Tables/DataTable";
 import { Button } from "@mui/material";
 import CategoryForm from "../categories/CategoryForm";
+import apiURL from "utils";
 
 // Helper function to remove HTML tags
 const removeHtmlTags = (html) => html.replace(/<\/?[^>]+(>|$)/g, "");
@@ -27,9 +28,7 @@ export const SurveysTable = ({ id }) => {
   // Fetch surveys from backend
   const fetchSurveys = async (id) => {
     try {
-      const response = await axios.get(
-        `https://millenniumchallenge.onrender.com/api/surveys/${id}/details`
-      );
+      const response = await axios.get(`${apiURL}/api/surveys/${id}/details`);
       const surveys = response.data.pages.flatMap((page) => page.questions);
 
       // Initialize selected categories/subcategories with existing data
@@ -83,10 +82,7 @@ export const SurveysTable = ({ id }) => {
     }));
 
     try {
-      await axios.post(
-        "https://millenniumchallenge.onrender.com/api/categories/save-all",
-        dataToSave
-      );
+      await axios.post(`${apiURL}/api/categories/save-all`, dataToSave);
       alert("Categories and subcategories saved successfully!");
     } catch (err) {
       console.error("Error saving categories and subcategories:", err);
@@ -125,9 +121,7 @@ export const fetchSurveyData = (id) => {
 
   const fetchSurvey = async () => {
     try {
-      const response = await axios.get(
-        `https://millenniumchallenge.onrender.com/api/surveys/${id}/details`
-      );
+      const response = await axios.get(`${apiURL}/api/surveys/${id}/details`);
       setSurveyData(response.data);
     } catch (error) {
       console.error("Error fetching survey data:", error);
