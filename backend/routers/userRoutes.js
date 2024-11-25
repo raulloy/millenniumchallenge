@@ -141,7 +141,7 @@ userRouter.post(
       console.log(`${baseUrl()}/reset-password/${token}`);
 
       const htmlEmail = `
-        <p>Please Click the following link to reset your password:</p>
+        <p>Please click the following link to reset your password:</p>
         <a href="${baseUrl()}/reset-password/${token}">Reset Password</a>
         `;
 

@@ -1,8 +1,12 @@
 import axios from "axios";
+import dotenv from "dotenv";
+
 import Survey from "./models/surveyModel.js";
 import Response from "./models/responsesModel.js";
 import ResponseDetails from "./models/responseDetailsModel.js";
 import AggregatedSurvey from "./models/aggregatedSurveyModel.js";
+
+dotenv.config();
 
 // Function to remove HTML tags from a string
 export const stripHtmlTags = (str) => {
