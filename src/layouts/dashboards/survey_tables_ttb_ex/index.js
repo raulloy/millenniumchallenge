@@ -139,9 +139,11 @@ const ResultsDisplay = () => {
           ))}
         </Grid>
 
-        {results.categories.map((category, idx) => (
-          <CategoryAccordion key={idx} category={category} />
-        ))}
+        {results.categories
+          .filter((cat) => cat.name !== "Sin categoría" && cat.name !== "Datos Demográficos")
+          .map((category, idx) => (
+            <CategoryAccordion key={idx} category={category} />
+          ))}
       </Box>
       <Footer />
     </DashboardLayout>
@@ -150,7 +152,7 @@ const ResultsDisplay = () => {
 
 const CategoryAccordion = ({ category }) => {
   const categoryName = category.name;
-  const questions = category.questions || []; // Default to empty array if `questions` is undefined
+  const questions = category.questions || [];
 
   // Calculate average TTB for the category
   const calculateAverageTTB = () => {
@@ -315,12 +317,12 @@ const QuestionCard = ({ question }) => {
 
   return (
     <>
-      {/* <Card variant="outlined">
-      <CardContent> */}
+      {/* <Card variant="outlined"> */}
+      {/* <CardContent> */}
       <Typography variant="subtitle1" sx={{ fontWeight: "bold", marginBottom: 2 }}>
         {question.question}
       </Typography>
-      {ttbValue && typeof ttbValue === "object" ? (
+      {typeof ttbValue === "object" ? (
         // Render TTB for each sub-question in nested matrix questions
         Object.entries(ttbValue || {}).map(([subQuestion, value]) => (
           <div key={subQuestion} style={{ marginBottom: "16px" }}>
@@ -354,8 +356,8 @@ const QuestionCard = ({ question }) => {
           </Table>
         </TableContainer>
       )}
-      {/* </CardContent>
-    </Card> */}
+      {/* </CardContent> */}
+      {/* </Card> */}
     </>
   );
 };
@@ -367,7 +369,7 @@ const ResponseRow = ({ response, count, percentage, ttb, isSubQuestion }) => {
   // Render the rectangle color indicator based on TTB value
   const rectangleStyle = {
     display: "inline-block",
-    width: "2rem",
+    width: "4rem",
     height: "12px",
     backgroundColor: ttb !== null ? getTTBColor(ttb) : "transparent",
     marginLeft: "8px",
@@ -379,29 +381,30 @@ const ResponseRow = ({ response, count, percentage, ttb, isSubQuestion }) => {
       {/* Render grey cell for titles and TTB */}
       <TableRow>
         <TableCell colSpan={3} sx={{ backgroundColor: "#fafafa", fontWeight: "bold" }}>
-          {response === "" ? "" : response + " | "}{" "}
-          {ttb !== null && ttb !== 0 ? (
-            <>
-              TTB {ttb || "N/A"}%<span style={rectangleStyle}></span>
-            </>
-          ) : (
-            ""
-          )}
+          {response}
         </TableCell>
       </TableRow>
       {/* Render regular rows for sub-responses or responses */}
       {typeof count === "object" ? (
-        Object.entries(count).map(([subResponse, subCount], subIdx) => (
-          <TableRow key={subIdx}>
-            <TableCell sx={isSubQuestion ? { pl: 4 } : {}}>{subResponse}</TableCell>
-            <TableCell align="right">{subCount}</TableCell>
-            <TableCell align="right">
-              {percentage?.[subResponse]
-                ? `${Math.round(parseFloat(percentage[subResponse]) * 100)}%`
-                : "N/A"}
+        ttb !== null ? (
+          <TableRow>
+            <TableCell align="center">
+              TTB {ttb || "N/A"}%<span style={rectangleStyle}></span>
             </TableCell>
           </TableRow>
-        ))
+        ) : (
+          Object.entries(count).map(([subResponse, subCount], subIdx) => (
+            <TableRow key={subIdx}>
+              <TableCell sx={isSubQuestion ? { pl: 4 } : {}}>{subResponse}</TableCell>
+              <TableCell align="right">{subCount}</TableCell>
+              <TableCell align="right">
+                {percentage?.[subResponse]
+                  ? `${Math.round(parseFloat(percentage[subResponse]) * 100)}%`
+                  : "N/A"}
+              </TableCell>
+            </TableRow>
+          ))
+        )
       ) : (
         <TableRow>
           <TableCell>{response}</TableCell>

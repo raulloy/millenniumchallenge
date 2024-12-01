@@ -40,10 +40,11 @@ import Analytics from "layouts/dashboards/analytics";
 import Sales from "layouts/dashboards/sales";
 import Overview from "layouts/dashboards/overview";
 import SurveyTables from "layouts/dashboards/survey_tables";
-import SurveyTablesTTB from "layouts/dashboards/survey_tables_ttb";
 import SurveyBarChartv from "layouts/dashboards/survey_vbarcharts";
 import SurveyBarCharth from "layouts/dashboards/survey_hbarcharts";
 import SurveyReportBarChart from "layouts/dashboards/survey_reportbarcharts";
+import SurveyTablesTTB from "layouts/dashboards/survey_tables_ttb";
+import SurveyTablesExecutiveTTB from "layouts/dashboards/survey_tables_ttb_ex";
 import Categories from "layouts/forms/categories";
 import SurveyCategories from "layouts/forms/surveycategories";
 import ProfileOverview from "layouts/pages/profile/profile-overview";
@@ -136,34 +137,40 @@ const routes = [
         component: <Overview />,
       },
       {
-        name: "Tables",
+        name: "Tablas",
         key: "survey_tables",
         route: `/dashboards/survey/tables`,
         component: <SurveyTables />,
       },
       {
-        name: "Vertical Bar Charts",
+        name: "Barras Verticales",
         key: "survey_vbarcharts",
         route: `/dashboards/survey/vbarcharts`,
         component: <SurveyBarChartv />,
       },
       {
-        name: "Horizontal Bar Charts",
+        name: "Barras Horizonales",
         key: "survey_hbarcharts",
         route: `/dashboards/survey/hbarcharts`,
         component: <SurveyBarCharth />,
       },
+      // {
+      //   name: "Report Bar Charts",
+      //   key: "survey_reportbarcharts",
+      //   route: `/dashboards/survey/reportbarcharts`,
+      //   component: <SurveyReportBarChart />,
+      // },
       {
-        name: "Report Bar Charts",
-        key: "survey_reportbarcharts",
-        route: `/dashboards/survey/reportbarcharts`,
-        component: <SurveyReportBarChart />,
+        name: "TTB",
+        key: "survey_tables_ttb",
+        route: `/dashboards/survey/TTB`,
+        component: <SurveyTablesTTB />,
       },
       {
-        name: "Tables TTB",
-        key: "survey_tables_ttb",
-        route: `/dashboards/survey/tables-TTB`,
-        component: <SurveyTablesTTB />,
+        name: "TTB Ejectivo",
+        key: "survey_tables_ttb_ejecutivo",
+        route: `/dashboards/survey/TTB-ejecutivo`,
+        component: <SurveyTablesExecutiveTTB />,
       },
     ],
   },

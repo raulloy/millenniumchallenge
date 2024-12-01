@@ -218,6 +218,11 @@ export const aggregateResponsesByCategory = (responses, surveyDetails) => {
           }
         });
 
+        // Remove "Otros" from responses
+        if (questionEntry.responses["Otros"]) {
+          delete questionEntry.responses["Otros"];
+        }
+
         // Trim keys in responses
         questionEntry.responses = Object.fromEntries(
           Object.entries(questionEntry.responses).map(([key, value]) => {
@@ -232,32 +237,34 @@ export const aggregateResponsesByCategory = (responses, surveyDetails) => {
         );
 
         // Calculate relative frequencies
-        const totalResponses = Object.values(questionEntry.responses).reduce((acc, val) => {
-          if (typeof val === "number") return acc + val;
-          if (typeof val === "object") return acc + Object.values(val).reduce((a, b) => a + b, 0);
-          return acc;
-        }, 0);
+        if (questionData.category !== "Sin categoría") {
+          const totalResponses = Object.values(questionEntry.responses).reduce((acc, val) => {
+            if (typeof val === "number") return acc + val;
+            if (typeof val === "object") return acc + Object.values(val).reduce((a, b) => a + b, 0);
+            return acc;
+          }, 0);
 
-        if (totalResponses > 0) {
-          questionEntry.relative_frequency = Object.fromEntries(
-            Object.entries(questionEntry.responses).map(([key, value]) => {
-              if (typeof value === "number") {
-                return [key, (value / totalResponses).toFixed(4)];
-              } else if (typeof value === "object") {
-                const rowTotalResponses = Object.values(value).reduce((a, b) => a + b, 0);
-                return [
-                  key,
-                  Object.fromEntries(
-                    Object.entries(value).map(([subKey, subValue]) => [
-                      subKey,
-                      (subValue / rowTotalResponses).toFixed(4),
-                    ])
-                  ),
-                ];
-              }
-              return [key, 0];
-            })
-          );
+          if (totalResponses > 0) {
+            questionEntry.relative_frequency = Object.fromEntries(
+              Object.entries(questionEntry.responses).map(([key, value]) => {
+                if (typeof value === "number") {
+                  return [key, (value / totalResponses).toFixed(4)];
+                } else if (typeof value === "object") {
+                  const rowTotalResponses = Object.values(value).reduce((a, b) => a + b, 0);
+                  return [
+                    key,
+                    Object.fromEntries(
+                      Object.entries(value).map(([subKey, subValue]) => [
+                        subKey,
+                        (subValue / rowTotalResponses).toFixed(4),
+                      ])
+                    ),
+                  ];
+                }
+                return [key, 0];
+              })
+            );
+          }
         }
       });
     });
