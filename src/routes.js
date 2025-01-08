@@ -45,6 +45,7 @@ import SurveyBarCharth from "layouts/dashboards/survey_hbarcharts";
 import SurveyReportBarChart from "layouts/dashboards/survey_reportbarcharts";
 import SurveyTablesTTB from "layouts/dashboards/survey_tables_ttb";
 import SurveyTablesExecutiveTTB from "layouts/dashboards/survey_tables_ttb_ex";
+import SurveyTablesCategoriesTTB from "layouts/dashboards/survey_tables_ttb_cat";
 import Categories from "layouts/forms/categories";
 import SurveyCategories from "layouts/forms/surveycategories";
 import ProfileOverview from "layouts/pages/profile/profile-overview";
@@ -171,6 +172,12 @@ const routes = [
         key: "survey_tables_ttb_ejecutivo",
         route: `/dashboards/survey/TTB-ejecutivo`,
         component: <SurveyTablesExecutiveTTB />,
+      },
+      {
+        name: "TTB | Categorías",
+        key: "survey_tables_ttb_categories",
+        route: `/dashboards/survey/TTB-categorias`,
+        component: <SurveyTablesCategoriesTTB />,
       },
     ],
   },

@@ -69,7 +69,7 @@ function Register() {
       localStorage.setItem("MCUserInfo", JSON.stringify(data));
       navigate(redirect || "/");
     } catch (err) {
-      setError(err.response.data.message || "Todos los campos son obligatorios");
+      setError(err.response.data.message || "An error occurred. Please try again.");
       setErrorSB(true);
       console.log("Error:", err);
       console.log("Error:", err.response.data.message || err.response.data);

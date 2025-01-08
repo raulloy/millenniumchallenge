@@ -58,6 +58,7 @@ export const SurveysTable = () => {
       { Header: "Categorías", accessor: "categories", width: "20%" },
       { Header: "Fetch Survey", accessor: "load_survey", width: "20%" },
       { Header: "Fetch Responses", accessor: "load_responses", width: "20%" },
+      { Header: "ID", accessor: "id", width: "20%" },
     ],
     rows: [],
   });
@@ -107,6 +108,7 @@ export const SurveysTable = () => {
             load_responses: (
               <FetchButton surveyId={survey.id} fetchResponses={handleFetchResponses} />
             ),
+            id: survey.id,
           };
         })
       );
@@ -126,7 +128,7 @@ export const SurveysTable = () => {
     fetchSurveys();
   }, []);
 
-  return <DataTable table={dataTableData} canSearch />;
+  return <DataTable table={dataTableData} />;
 };
 
 export const surveysSummary = () => {

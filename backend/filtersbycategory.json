@@ -1,0 +1,194 @@
+{
+  "Cultura Organizacional": {
+    "gender": {
+      "Hombre": 0,
+      "Mujer": 0,
+      "Prefiero no decirlo": 0
+    },
+    "age_group": {
+      "18 – 29": 0,
+      "30 – 39": 0,
+      "40 – 49": 0,
+      "50 – 59": 0,
+      "60 o más": 0
+    },
+    "education_level": {
+      "Primaria Completa": 0,
+      "Secundaria completa": 0,
+      "Técnico universitario completo": 0,
+      "Universitario completo": 0,
+      "Posgrado - Completo": 0,
+      "Maestría - Completo": 0
+    },
+    "department": {
+      "Administración": 0,
+      "Fabricación": 0,
+      "Distribución": 0,
+      "Mercadeo & Ventas": 0,
+      "Mantenimiento": 0,
+      "Calidad": 0,
+      "Aseo y limpieza": 0
+    },
+    "permanence": {
+      "1 día -  1 año": 0,
+      "1 año -  2 años": 0,
+      "2 años - 5 años": 0,
+      " 5 años -10 años": 0,
+      "10 años - 15 años": 0,
+      "Más de 15 años": 0
+    },
+    "job_position_type": {
+      "Una posición de liderazgo (cargo de gerencia, jefatura, supervisión)": 0,
+      "Una posición operativa": 0
+    },
+    "work_location": {
+      "Panamá": 0,
+      "Centrales": 0,
+      "David": 0
+    }
+  },
+  "Liderazgo": {
+    "gender": {
+      "Hombre": 0,
+      "Mujer": 0,
+      "Prefiero no decirlo": 0
+    },
+    "age_group": {
+      "18 – 29": 0,
+      "30 – 39": 0,
+      "40 – 49": 0,
+      "50 – 59": 0,
+      "60 o más": 0
+    },
+    "education_level": {
+      "Primaria Completa": 0,
+      "Secundaria completa": 0,
+      "Técnico universitario completo": 0,
+      "Universitario completo": 0,
+      "Posgrado - Completo": 0,
+      "Maestría - Completo": 0
+    },
+    "department": {
+      "Administración": 0,
+      "Fabricación": 0,
+      "Distribución": 0,
+      "Mercadeo & Ventas": 0,
+      "Mantenimiento": 0,
+      "Calidad": 0,
+      "Aseo y limpieza": 0
+    },
+    "permanence": {
+      "1 día -  1 año": 0,
+      "1 año -  2 años": 0,
+      "2 años - 5 años": 0,
+      " 5 años -10 años": 0,
+      "10 años - 15 años": 0,
+      "Más de 15 años": 0
+    },
+    "job_position_type": {
+      "Una posición de liderazgo (cargo de gerencia, jefatura, supervisión)": 0,
+      "Una posición operativa": 0
+    },
+    "work_location": {
+      "Panamá": 0,
+      "Centrales": 0,
+      "David": 0
+    }
+  },
+  "Compromiso, bienestar y pertenencia": {
+    "gender": {
+      "Hombre": 0,
+      "Mujer": 0,
+      "Prefiero no decirlo": 0
+    },
+    "age_group": {
+      "18 – 29": 0,
+      "30 – 39": 0,
+      "40 – 49": 0,
+      "50 – 59": 0,
+      "60 o más": 0
+    },
+    "education_level": {
+      "Primaria Completa": 0,
+      "Secundaria completa": 0,
+      "Técnico universitario completo": 0,
+      "Universitario completo": 0,
+      "Posgrado - Completo": 0,
+      "Maestría - Completo": 0
+    },
+    "department": {
+      "Administración": 0,
+      "Fabricación": 0,
+      "Distribución": 0,
+      "Mercadeo & Ventas": 0,
+      "Mantenimiento": 0,
+      "Calidad": 0,
+      "Aseo y limpieza": 0
+    },
+    "permanence": {
+      "1 día -  1 año": 0,
+      "1 año -  2 años": 0,
+      "2 años - 5 años": 0,
+      " 5 años -10 años": 0,
+      "10 años - 15 años": 0,
+      "Más de 15 años": 0
+    },
+    "job_position_type": {
+      "Una posición de liderazgo (cargo de gerencia, jefatura, supervisión)": 0,
+      "Una posición operativa": 0
+    },
+    "work_location": {
+      "Panamá": 0,
+      "Centrales": 0,
+      "David": 0
+    }
+  },
+  "Salud y Seguridad": {
+    "gender": {
+      "Hombre": 0,
+      "Mujer": 0,
+      "Prefiero no decirlo": 0
+    },
+    "age_group": {
+      "18 – 29": 0,
+      "30 – 39": 0,
+      "40 – 49": 0,
+      "50 – 59": 0,
+      "60 o más": 0
+    },
+    "education_level": {
+      "Primaria Completa": 0,
+      "Secundaria completa": 0,
+      "Técnico universitario completo": 0,
+      "Universitario completo": 0,
+      "Posgrado - Completo": 0,
+      "Maestría - Completo": 0
+    },
+    "department": {
+      "Administración": 0,
+      "Fabricación": 0,
+      "Distribución": 0,
+      "Mercadeo & Ventas": 0,
+      "Mantenimiento": 0,
+      "Calidad": 0,
+      "Aseo y limpieza": 0
+    },
+    "permanence": {
+      "1 día -  1 año": 0,
+      "1 año -  2 años": 0,
+      "2 años - 5 años": 0,
+      " 5 años -10 años": 0,
+      "10 años - 15 años": 0,
+      "Más de 15 años": 0
+    },
+    "job_position_type": {
+      "Una posición de liderazgo (cargo de gerencia, jefatura, supervisión)": 0,
+      "Una posición operativa": 0
+    },
+    "work_location": {
+      "Panamá": 0,
+      "Centrales": 0,
+      "David": 0
+    }
+  }
+}

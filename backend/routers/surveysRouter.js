@@ -33,8 +33,8 @@ surveysRouter.get(
 
       res.send(response.data);
     } catch (err) {
-      console.error(err);
-      res.status(500).send("An error occurred while fetching surveys from SurveyMonkey.");
+      console.error("Error Details:", err.response?.data || err.message);
+      res.status(err.response?.status || 500).send(err.response?.data || "An error occurred.");
     }
   })
 );
