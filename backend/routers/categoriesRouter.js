@@ -149,11 +149,24 @@ const addLabelsToQuestions = (surveyData) => {
   const labelMappings = {
     "¿Cuál es tu género?": "gender",
     "¿En cuál grupo de edad te encuentra?": "age_group",
+    "¿En qué rango de edad te encuentras?": "age_group",
     "¿Cuál es el nivel de educación más alto que obtuviste?": "education_level",
+    "¿Cuál es tu nivel de formación académica más alto?": "education_level",
+    "¿Cuál es tu estado civil?": "marital_status",
     "¿En qué departamento laboras?": "department",
+    "¿Cuántos hijos tienes?": "number_of_children",
     "Aproximadamente, ¿cuánto tiempo tienes trabajando en esta empresa?": "permanence",
     "Tu puesto está clasificado como": "job_position_type",
     "¿En qué sucursal laboras?": "work_location",
+    "¿En qué rango de edad se encuentran tus hijos?": "children_age_range",
+    "¿Cuál es tu situación habitacional actual?": "housing_situation",
+    "¿Eres el principal proveedor económico en tu hogar?": "primary_earner",
+    "¿Cuál es tu modalidad principal de trabajo?": "work_mode",
+    "¿En qué turno de trabajo laboras principalmente?": "work_shift",
+    "¿Cuántas horas trabajas regularmente por semana?": "weekly_work_hours",
+    "¿En qué rango salarial mensual te encuentras?": "salary_range",
+    "¿Cuál es tu principal medio de transporte al trabajo?": "transportation_mode",
+    "¿En qué departamento o área de trabajo desempeñas tus funciones?": "work_department",
   };
 
   // Add labels to each question

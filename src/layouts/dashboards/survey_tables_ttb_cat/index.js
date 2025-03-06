@@ -45,28 +45,26 @@ const ResultsDisplay = () => {
     fetchResults();
   }, [storedId]);
 
-  const calculateTTB = (type, responses, relativeFrequency, category, exceptions = {}) => {
-    // console.log("Relative Frequencies for TTB calculation:", relativeFrequency);
+  const calculateTTB = (type, responses, relativeFrequency, question, exceptions = {}) => {
+    // Obtener reglas según el tipo de pregunta
     const rules = TTB_RULES_2[type] || {};
-    const keys = Object.keys(responses);
 
-    for (const key of keys) {
-      // Apply exceptions or rules
-      const ttbOptions = exceptions[key] || rules[key] || rules.default;
-      // console.log(`Key: ${key}, TTB Options: ${ttbOptions}`);
-      if (ttbOptions) {
-        const ttbSum = ttbOptions.reduce((sum, option) => {
-          const value = parseFloat(relativeFrequency[option] || 0);
-          // console.log(`Processing Option: ${option}, Value: ${relativeFrequency[option]}`);
-          return sum + value;
-        }, 0);
-        console.log(`TTB Sum for Key: ${key} -> ${Math.round(ttbSum * 100)}`);
-        return Math.round(ttbSum * 100); // Convert to percentage
-      }
+    // Obtener las reglas específicas para esta pregunta
+    const ttbOptions = exceptions[question] || rules[question];
+
+    if (!ttbOptions) {
+      console.log("No matching rule found for:", { type, question, responses, relativeFrequency });
+      return null; // No hay regla coincidente
     }
 
-    console.log("No matching rule found for:", { type, responses, relativeFrequency });
-    return null; // No matching rule
+    // Calcular la suma de los valores relativos
+    const ttbSum = ttbOptions.reduce((sum, option) => {
+      const value = parseFloat(relativeFrequency[option] || 0);
+      return sum + value;
+    }, 0);
+
+    console.log(`TTB Sum for Question: ${question} -> ${Math.round(ttbSum * 100)}`);
+    return Math.round(ttbSum * 100); // Convertir a porcentaje
   };
 
   const calculateAverageTable = (group) => {
@@ -77,59 +75,52 @@ const ResultsDisplay = () => {
 
     return categories.map((category) => {
       const row = { name: category.name };
+
       Object.keys(group.values).forEach((groupKey) => {
         const categoryData = group.values[groupKey].categories.find(
           (cat) => cat.name === category.name
         );
 
         if (categoryData) {
-          // Calculate TTB for each question
           const ttbValues = categoryData.questions.flatMap((q) => {
             if (q.type === "matrix") {
               if (q.responses && typeof Object.values(q.responses)[0] === "object") {
-                // Handle nested matrix questions with sub-questions
+                // Manejar preguntas de matriz con subpreguntas anidadas
                 return Object.keys(q.responses).flatMap((subQuestion) => {
                   const subResponses = q.responses[subQuestion];
                   const subRelativeFrequency = q.relative_frequency?.[subQuestion];
                   if (subResponses && subRelativeFrequency) {
-                    return calculateTTB("matrix", subResponses, subRelativeFrequency);
+                    return calculateTTB("matrix", subResponses, subRelativeFrequency, subQuestion);
                   }
-                  return null; // Handle missing sub-question data
+                  return null;
                 });
               } else if (q.responses && q.relative_frequency) {
-                if (q.question === exceptions) {
-                  return calculateTTB("matrix", q.responses, q.relative_frequency, {
-                    No: ["No"],
-                  });
-                } else {
-                  // Handle standard matrix questions
-                  return calculateTTB("matrix", q.responses, q.relative_frequency);
-                }
+                return calculateTTB("matrix", q.responses, q.relative_frequency, q.question);
               }
             } else if (q.responses && q.relative_frequency) {
-              // Single-choice or other questions
-              return calculateTTB("single_choice", q.responses, q.relative_frequency);
+              return calculateTTB("single_choice", q.responses, q.relative_frequency, q.question);
             }
 
-            return null; // Handle unsupported question types gracefully
+            return null;
           });
 
-          // Filter valid TTB values
+          // Filtrar valores válidos
           const validTTBValues = ttbValues.filter((ttb) => ttb !== null);
 
-          // Log TTBs for "Liderazgo"
+          // Log para depurar
           if (category.name === "Salud y Seguridad") {
             console.log(`Category: ${category.name}, Group: ${groupKey}, TTBs:`, validTTBValues);
           }
 
-          // Calculate the average TTB
+          // Calcular el promedio de los TTBs y redondear
           row[groupKey] = validTTBValues.length
-            ? validTTBValues.reduce((a, b) => a + b, 0) / validTTBValues.length
-            : 0; // Default to 0 if no valid TTBs
+            ? Math.round(validTTBValues.reduce((a, b) => a + b, 0) / validTTBValues.length)
+            : 0; // Default a 0 si no hay valores
         } else {
-          row[groupKey] = 0; // Default to 0 for missing category data
+          row[groupKey] = 0; // Default a 0 si falta la categoría
         }
       });
+
       return row;
     });
   };
@@ -155,7 +146,7 @@ const ResultsDisplay = () => {
       <DashboardNavbar />
       <Box sx={{ padding: 3 }}>
         <Typography variant="h4" gutterBottom>
-          Pivot Tables
+          Comparativo TTB de categorías por demográficos
         </Typography>
         {groupedResults.map((group, index) => {
           const tableData = calculateAverageTable(group);
@@ -179,7 +170,7 @@ const ResultsDisplay = () => {
                       <TableRow key={idx}>
                         <TableCell>{row.name}</TableCell>
                         {Object.keys(group.values).map((groupKey) => (
-                          <TableCell key={groupKey}>{`${row[groupKey].toFixed(2)}%`}</TableCell>
+                          <TableCell key={groupKey}>{`${row[groupKey]}%`}</TableCell>
                         ))}
                       </TableRow>
                     ))}

@@ -31,6 +31,7 @@ import Footer from "examples/Footer";
 import apiURL from "utils";
 import { TTB_RULES } from "utils";
 import { exceptions } from "utils";
+import { TTB_RULES_2 } from "utils";
 
 /* eslint-disable react/prop-types */
 const ResultsDisplay = () => {
@@ -151,8 +152,8 @@ const ResultsDisplay = () => {
 const CategoryAccordion = ({ category }) => {
   const categoryName = category.name;
   const questions = category.questions || []; // Default to empty array if `questions` is undefined
+  console.log(questions);
 
-  // Calculate average TTB for the category
   const calculateAverageTTB = () => {
     let totalTTB = 0;
     let count = 0;
@@ -160,12 +161,17 @@ const CategoryAccordion = ({ category }) => {
     questions.forEach((question) => {
       if (question.type === "matrix" && question.responses) {
         if (typeof Object.values(question.responses)[0] === "object") {
-          // Handle nested matrix questions
+          // Preguntas de matriz con subpreguntas anidadas
           Object.keys(question.responses).forEach((subQuestion) => {
             const subResponses = question.responses[subQuestion];
             const subRelativeFrequency = question.relative_frequency?.[subQuestion];
             if (subResponses && subRelativeFrequency) {
-              const subTTB = calculateTTB("matrix", subResponses, subRelativeFrequency);
+              const subTTB = calculateTTB(
+                "matrix",
+                subResponses,
+                subRelativeFrequency,
+                subQuestion
+              );
               if (subTTB !== null) {
                 totalTTB += subTTB;
                 count++;
@@ -173,22 +179,13 @@ const CategoryAccordion = ({ category }) => {
             }
           });
         } else if (question.responses && question.relative_frequency) {
-          // Handle flat matrix questions
-          let ttbValue;
-          if (question.question === exceptions) {
-            ttbValue = calculateTTB(
-              "single_choice",
-              question.responses,
-              question.relative_frequency,
-              { No: ["No"] }
-            );
-          } else {
-            ttbValue = calculateTTB(
-              "single_choice",
-              question.responses,
-              question.relative_frequency
-            );
-          }
+          // Preguntas de matriz planas
+          const ttbValue = calculateTTB(
+            "matrix",
+            question.responses,
+            question.relative_frequency,
+            question.question
+          );
 
           if (ttbValue !== null) {
             totalTTB += ttbValue;
@@ -247,25 +244,24 @@ const CategoryAccordion = ({ category }) => {
   );
 };
 
-const calculateTTB = (type, responses, relativeFrequency, exceptions = {}) => {
-  // Determine TTB options based on the type and rules
-  const rules = TTB_RULES[type] || {};
-  const keys = Object.keys(responses);
+const calculateTTB = (type, responses, relativeFrequency, question, exceptions = {}) => {
+  // Obtener las reglas específicas para esta pregunta en `TTB_RULES_2`
+  const rules = TTB_RULES_2[type] || {};
+  const ttbOptions = exceptions[question] || rules[question];
 
-  for (const key of keys) {
-    // Check if there is an exception for this specific question
-    const ttbOptions = exceptions[key] || rules[key] || rules.default;
-
-    if (ttbOptions) {
-      const ttbSum = ttbOptions?.reduce(
-        (sum, option) => sum + parseFloat(relativeFrequency[option] || 0),
-        0
-      );
-      return Math.round(ttbSum * 100); // Convert to percentage
-    }
+  if (!ttbOptions) {
+    console.log("No matching rule found for:", { type, question, responses, relativeFrequency });
+    return null; // No hay regla coincidente
   }
 
-  return null; // No matching rule
+  // Calcular la suma de los valores relativos
+  const ttbSum = ttbOptions.reduce((sum, option) => {
+    const value = parseFloat(relativeFrequency[option] || 0);
+    return sum + value;
+  }, 0);
+
+  console.log(`TTB Sum for Question: ${question} -> ${Math.round(ttbSum * 100)}`);
+  return Math.round(ttbSum * 100); // Convertir a porcentaje
 };
 
 // Function to determine the color based on TTB value
@@ -287,30 +283,34 @@ const QuestionCard = ({ question }) => {
 
   if (question.type === "matrix") {
     if (question.responses && typeof Object.values(question.responses)[0] === "object") {
-      // Nested matrix questions with sub-questions
+      // Preguntas de matriz con subpreguntas anidadas
       ttbValue = Object.keys(question.responses).reduce((acc, subQuestion) => {
         const subResponses = question.responses[subQuestion];
         const subRelativeFrequency = question.relative_frequency?.[subQuestion];
         if (subResponses && subRelativeFrequency) {
-          const subTTB = calculateTTB("matrix", subResponses, subRelativeFrequency);
+          const subTTB = calculateTTB("matrix", subResponses, subRelativeFrequency, subQuestion);
           acc[subQuestion] = subTTB;
         } else {
-          acc[subQuestion] = "N/A"; // Handle missing data gracefully
+          acc[subQuestion] = "N/A"; // Manejo de datos faltantes
         }
         return acc;
       }, {});
     } else if (question.responses && question.relative_frequency) {
-      if (question.question === exceptions) {
-        ttbValue = calculateTTB("matrix", question.responses, question.relative_frequency, {
-          No: ["No"],
-        });
-      } else {
-        ttbValue = calculateTTB("matrix", question.responses, question.relative_frequency);
-      }
+      ttbValue = calculateTTB(
+        "matrix",
+        question.responses,
+        question.relative_frequency,
+        question.question
+      );
     }
   } else if (question.responses && question.relative_frequency) {
-    // Single-choice or other questions
-    ttbValue = calculateTTB("single_choice", question.responses, question.relative_frequency);
+    // Preguntas de opción única
+    ttbValue = calculateTTB(
+      "single_choice",
+      question.responses,
+      question.relative_frequency,
+      question.question
+    );
   }
 
   return (
