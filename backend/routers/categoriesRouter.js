@@ -210,6 +210,7 @@ categoriesRouter.get(
       "nada",
       "suficiente",
       "casi",
+      "caminando",
     ];
 
     // Binary choices or conditional responses that imply uncertainty
