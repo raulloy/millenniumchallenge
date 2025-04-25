@@ -39,6 +39,8 @@ export const aggregateResponsesByCategory = (responses, surveyDetails) => {
         const questionData = questionMap[question.id];
         if (!questionData) return;
 
+        if (questionData.type === "multiple_choice") return;
+
         if (!categoryMap[questionData.category]) {
           categoryMap[questionData.category] = { name: questionData.category, questions: [] };
         }
@@ -82,16 +84,20 @@ export const aggregateResponsesByCategory = (responses, surveyDetails) => {
           delete questionEntry.responses["Otros"];
         }
 
+        const sanitizeKey = (key) => key.replace(/\./g, "·");
+
         // Trim keys in responses
         questionEntry.responses = Object.fromEntries(
           Object.entries(questionEntry.responses).map(([key, value]) => {
             if (typeof value === "object") {
               return [
-                key.trim(),
-                Object.fromEntries(Object.entries(value).map(([k, v]) => [k.trim(), v])),
+                sanitizeKey(key.trim()),
+                Object.fromEntries(
+                  Object.entries(value).map(([k, v]) => [sanitizeKey(k.trim()), v])
+                ),
               ];
             }
-            return [key.trim(), value];
+            return [sanitizeKey(key.trim()), value];
           })
         );
 

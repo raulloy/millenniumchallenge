@@ -1,0 +1,1209 @@
+{
+  "surveyId": "409872828",
+  "title": "DIAGNÓSTICO DE CLIMA LABORAL\nProductos LUX, S.A.\nDel 11 al 18 de Octubre 2023",
+  "categories": [
+    {
+      "name": "Datos Demográficos",
+      "questions": [
+        {
+          "question": "¿Cuál es tu género?",
+          "type": "single_choice",
+          "responses": {
+            "Hombre": 99,
+            "Mujer": 87,
+            "Prefiero no decirlo": 3
+          },
+          "relative_frequency": {
+            "Hombre": "0.5238",
+            "Mujer": "0.4603",
+            "Prefiero no decirlo": "0.0159"
+          }
+        },
+        {
+          "question": "¿En cuál grupo de edad te encuentra?",
+          "type": "single_choice",
+          "responses": {
+            "18 – 29": 47,
+            "30 – 39": 67,
+            "40 – 49": 47,
+            "50 – 59": 28
+          },
+          "relative_frequency": {
+            "18 – 29": "0.2487",
+            "30 – 39": "0.3545",
+            "40 – 49": "0.2487",
+            "50 – 59": "0.1481"
+          }
+        },
+        {
+          "question": "¿Cuál es el nivel de educación más alto que obtuviste?",
+          "type": "single_choice",
+          "responses": {
+            "Secundaria completa": 104,
+            "Maestría - Completo": 8,
+            "Técnico universitario completo": 12,
+            "Universitario completo": 43,
+            "Primaria Completa": 20,
+            "Posgrado - Completo": 2
+          },
+          "relative_frequency": {
+            "Secundaria completa": "0.5503",
+            "Maestría - Completo": "0.0423",
+            "Técnico universitario completo": "0.0635",
+            "Universitario completo": "0.2275",
+            "Primaria Completa": "0.1058",
+            "Posgrado - Completo": "0.0106"
+          }
+        },
+        {
+          "question": "¿En qué departamento laboras?",
+          "type": "single_choice",
+          "responses": {
+            "Fabricación": 51,
+            "Aseo y limpieza": 2,
+            "Distribución": 38,
+            "Mercadeo & Ventas": 58,
+            "Administración": 23,
+            "Calidad": 8,
+            "Mantenimiento": 9
+          },
+          "relative_frequency": {
+            "Fabricación": "0.2698",
+            "Aseo y limpieza": "0.0106",
+            "Distribución": "0.2011",
+            "Mercadeo & Ventas": "0.3069",
+            "Administración": "0.1217",
+            "Calidad": "0.0423",
+            "Mantenimiento": "0.0476"
+          }
+        },
+        {
+          "question": "Aproximadamente, ¿cuánto tiempo tienes trabajando en esta empresa?",
+          "type": "single_choice",
+          "responses": {
+            "2 años - 5 años": 48,
+            "1 día -  1 año": 25,
+            "1 año -  2 años": 21,
+            "5 años -10 años": 46,
+            "10 años - 15 años": 28,
+            "Más de 15 años": 21
+          },
+          "relative_frequency": {
+            "2 años - 5 años": "0.2540",
+            "1 día -  1 año": "0.1323",
+            "1 año -  2 años": "0.1111",
+            "5 años -10 años": "0.2434",
+            "10 años - 15 años": "0.1481",
+            "Más de 15 años": "0.1111"
+          }
+        },
+        {
+          "question": "¿En qué sucursal laboras?",
+          "type": "single_choice",
+          "responses": {
+            "Panamá": 141,
+            "David": 29,
+            "Centrales": 19
+          },
+          "relative_frequency": {
+            "Panamá": "0.7460",
+            "David": "0.1534",
+            "Centrales": "0.1005"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cultura Organizacional",
+      "questions": [
+        {
+          "question": "Con respecto a la empresa, responde el grado de acuerdo o desacuerdo que tengas con las siguientes aseveraciones:",
+          "type": "matrix",
+          "responses": {
+            "Te comunican de forma correcta y a tiempo todas las oportunidades de crecimiento y desarrollo que se dan a lo interno de la empresa": {
+              "De acuerdo": 94,
+              "Muy de acuerdo": 35,
+              "En desacuerdo": 51,
+              "Muy en desacuerdo": 9
+            },
+            "Estás satisfecho con las políticas, reglamentos, valores, usos y costumbres": {
+              "De acuerdo": 133,
+              "Muy de acuerdo": 41,
+              "Muy en desacuerdo": 3,
+              "En desacuerdo": 12
+            },
+            "Conoces  cuál es la misión y visión": {
+              "De acuerdo": 120,
+              "Muy de acuerdo": 62,
+              "Muy en desacuerdo": 4,
+              "En desacuerdo": 3
+            }
+          },
+          "relative_frequency": {
+            "Te comunican de forma correcta y a tiempo todas las oportunidades de crecimiento y desarrollo que se dan a lo interno de la empresa": {
+              "De acuerdo": "0.4974",
+              "Muy de acuerdo": "0.1852",
+              "En desacuerdo": "0.2698",
+              "Muy en desacuerdo": "0.0476"
+            },
+            "Estás satisfecho con las políticas, reglamentos, valores, usos y costumbres": {
+              "De acuerdo": "0.7037",
+              "Muy de acuerdo": "0.2169",
+              "Muy en desacuerdo": "0.0159",
+              "En desacuerdo": "0.0635"
+            },
+            "Conoces  cuál es la misión y visión": {
+              "De acuerdo": "0.6349",
+              "Muy de acuerdo": "0.3280",
+              "Muy en desacuerdo": "0.0212",
+              "En desacuerdo": "0.0159"
+            }
+          }
+        },
+        {
+          "question": "Con respecto  al trabajo en equipo, indica el grado de acuerdo o desacuerdo que tengas con las siguientes aseveraciones:",
+          "type": "matrix",
+          "responses": {
+            "Entre los diferentes departamentos,  existe una buena relación": {
+              "De acuerdo": 113,
+              "Muy de acuerdo": 29,
+              "En desacuerdo": 40,
+              "Muy en desacuerdo": 7
+            },
+            "Existe trabajo en equipo en tu departamento": {
+              "De acuerdo": 102,
+              "Muy de acuerdo": 64,
+              "En desacuerdo": 21,
+              "Muy en desacuerdo": 2
+            },
+            "Tus compañeros de trabajo están comprometidos con hacer un trabajo de calidad": {
+              "De acuerdo": 121,
+              "Muy de acuerdo": 49,
+              "En desacuerdo": 17,
+              "Muy en desacuerdo": 2
+            }
+          },
+          "relative_frequency": {
+            "Entre los diferentes departamentos,  existe una buena relación": {
+              "De acuerdo": "0.5979",
+              "Muy de acuerdo": "0.1534",
+              "En desacuerdo": "0.2116",
+              "Muy en desacuerdo": "0.0370"
+            },
+            "Existe trabajo en equipo en tu departamento": {
+              "De acuerdo": "0.5397",
+              "Muy de acuerdo": "0.3386",
+              "En desacuerdo": "0.1111",
+              "Muy en desacuerdo": "0.0106"
+            },
+            "Tus compañeros de trabajo están comprometidos con hacer un trabajo de calidad": {
+              "De acuerdo": "0.6402",
+              "Muy de acuerdo": "0.2593",
+              "En desacuerdo": "0.0899",
+              "Muy en desacuerdo": "0.0106"
+            }
+          }
+        },
+        {
+          "question": "¿Consideras que tienes la cantidad apropiada de información para realizar bien tu trabajo?",
+          "type": "matrix",
+          "responses": {
+            "De acuerdo": 108,
+            "Muy de acuerdo": 51,
+            "En desacuerdo": 28,
+            "Muy en desacuerdo": 2
+          },
+          "relative_frequency": {
+            "De acuerdo": "0.5714",
+            "Muy de acuerdo": "0.2698",
+            "En desacuerdo": "0.1481",
+            "Muy en desacuerdo": "0.0106"
+          }
+        },
+        {
+          "question": "Con respecto al sistema de comunicación que se utiliza en la empresa, indica cómo consideras que es el funcionamiento de cada uno:",
+          "type": "matrix",
+          "responses": {
+            "Murales informativos": {
+              "Bueno": 76,
+              "Excelente": 37,
+              "Deficiente": 13,
+              "No aplica a mi puesto": 33,
+              "Regular": 30
+            },
+            "Zoom": {
+              "Bueno": 48,
+              "No aplica a mi puesto": 94,
+              "Excelente": 22,
+              "Regular": 16,
+              "Deficiente": 9
+            },
+            "WhatsApp": {
+              "Bueno": 80,
+              "Excelente": 49,
+              "Regular": 25,
+              "No aplica a mi puesto": 30,
+              "Deficiente": 5
+            },
+            "Correos electrónicos": {
+              "Bueno": 77,
+              "Excelente": 60,
+              "Regular": 23,
+              "No aplica a mi puesto": 27,
+              "Deficiente": 2
+            },
+            "Internet": {
+              "Regular": 30,
+              "No aplica a mi puesto": 45,
+              "Bueno": 69,
+              "Excelente": 30,
+              "Deficiente": 15
+            },
+            "Celulares": {
+              "Bueno": 71,
+              "No aplica a mi puesto": 43,
+              "Deficiente": 8,
+              "Regular": 20,
+              "Excelente": 47
+            },
+            "Teléfonos /línea directa": {
+              "Bueno": 78,
+              "No aplica a mi puesto": 26,
+              "Regular": 21,
+              "Excelente": 57,
+              "Deficiente": 7
+            }
+          },
+          "relative_frequency": {
+            "Murales informativos": {
+              "Bueno": "0.4021",
+              "Excelente": "0.1958",
+              "Deficiente": "0.0688",
+              "No aplica a mi puesto": "0.1746",
+              "Regular": "0.1587"
+            },
+            "Zoom": {
+              "Bueno": "0.2540",
+              "No aplica a mi puesto": "0.4974",
+              "Excelente": "0.1164",
+              "Regular": "0.0847",
+              "Deficiente": "0.0476"
+            },
+            "WhatsApp": {
+              "Bueno": "0.4233",
+              "Excelente": "0.2593",
+              "Regular": "0.1323",
+              "No aplica a mi puesto": "0.1587",
+              "Deficiente": "0.0265"
+            },
+            "Correos electrónicos": {
+              "Bueno": "0.4074",
+              "Excelente": "0.3175",
+              "Regular": "0.1217",
+              "No aplica a mi puesto": "0.1429",
+              "Deficiente": "0.0106"
+            },
+            "Internet": {
+              "Regular": "0.1587",
+              "No aplica a mi puesto": "0.2381",
+              "Bueno": "0.3651",
+              "Excelente": "0.1587",
+              "Deficiente": "0.0794"
+            },
+            "Celulares": {
+              "Bueno": "0.3757",
+              "No aplica a mi puesto": "0.2275",
+              "Deficiente": "0.0423",
+              "Regular": "0.1058",
+              "Excelente": "0.2487"
+            },
+            "Teléfonos /línea directa": {
+              "Bueno": "0.4127",
+              "No aplica a mi puesto": "0.1376",
+              "Regular": "0.1111",
+              "Excelente": "0.3016",
+              "Deficiente": "0.0370"
+            }
+          }
+        },
+        {
+          "question": "¿Qué tan comprometida consideras que está esta empresa con la diversidad, la inclusión y la no discriminación hacia las personas?",
+          "type": "matrix",
+          "responses": {
+            "Algo comprometida": 57,
+            "Totalmente comprometida": 111,
+            "Poco comprometida": 18,
+            "Nada comprometida": 3
+          },
+          "relative_frequency": {
+            "Algo comprometida": "0.3016",
+            "Totalmente comprometida": "0.5873",
+            "Poco comprometida": "0.0952",
+            "Nada comprometida": "0.0159"
+          }
+        },
+        {
+          "question": "Actualmente, ¿Cómo calificarías los siguientes factores en la empresa?",
+          "type": "matrix",
+          "responses": {
+            "Discriminación por tener una discapacidad": {
+              "Nunca se ha dado": 156,
+              "Casi nunca se da": 25,
+              "Se da ocasionalmente": 4,
+              "Se da frecuentemente": 4
+            },
+            "Discriminación por sexo (sexismo)": {
+              "Nunca se ha dado": 149,
+              "Casi nunca se da": 32,
+              "Se da ocasionalmente": 4,
+              "Se da frecuentemente": 4
+            },
+            "Discriminación por edad": {
+              "Nunca se ha dado": 124,
+              "Casi nunca se da": 42,
+              "Se da ocasionalmente": 15,
+              "Se da frecuentemente": 8
+            },
+            "Discriminación por raza": {
+              "Nunca se ha dado": 156,
+              "Se da ocasionalmente": 4,
+              "Casi nunca se da": 29
+            },
+            "Acoso sexual": {
+              "Nunca se ha dado": 167,
+              "Casi nunca se da": 20,
+              "Se da ocasionalmente": 2
+            },
+            "Hostigamiento laboral": {
+              "Nunca se ha dado": 79,
+              "Casi nunca se da": 61,
+              "Se da ocasionalmente": 38,
+              "Se da frecuentemente": 11
+            }
+          },
+          "relative_frequency": {
+            "Discriminación por tener una discapacidad": {
+              "Nunca se ha dado": "0.8254",
+              "Casi nunca se da": "0.1323",
+              "Se da ocasionalmente": "0.0212",
+              "Se da frecuentemente": "0.0212"
+            },
+            "Discriminación por sexo (sexismo)": {
+              "Nunca se ha dado": "0.7884",
+              "Casi nunca se da": "0.1693",
+              "Se da ocasionalmente": "0.0212",
+              "Se da frecuentemente": "0.0212"
+            },
+            "Discriminación por edad": {
+              "Nunca se ha dado": "0.6561",
+              "Casi nunca se da": "0.2222",
+              "Se da ocasionalmente": "0.0794",
+              "Se da frecuentemente": "0.0423"
+            },
+            "Discriminación por raza": {
+              "Nunca se ha dado": "0.8254",
+              "Se da ocasionalmente": "0.0212",
+              "Casi nunca se da": "0.1534"
+            },
+            "Acoso sexual": {
+              "Nunca se ha dado": "0.8836",
+              "Casi nunca se da": "0.1058",
+              "Se da ocasionalmente": "0.0106"
+            },
+            "Hostigamiento laboral": {
+              "Nunca se ha dado": "0.4180",
+              "Casi nunca se da": "0.3228",
+              "Se da ocasionalmente": "0.2011",
+              "Se da frecuentemente": "0.0582"
+            }
+          }
+        },
+        {
+          "question": "¿Has observado algún tema antiético o de corrupción por parte de algún miembro de esta empresa?",
+          "type": "matrix",
+          "responses": {
+            "No": 182,
+            "Si": 7
+          },
+          "relative_frequency": {
+            "No": "0.9630",
+            "Si": "0.0370"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Liderazgo",
+      "questions": [
+        {
+          "question": "¿Podría hacer algo tu jefe inmediato para que tú puedas realizar mejor tu trabajo o para que puedas realizarlo de una forma más fluida y fácil?",
+          "type": "matrix",
+          "responses": {
+            "No": 92,
+            "Si": 97
+          },
+          "relative_frequency": {
+            "No": "0.4868",
+            "Si": "0.5132"
+          }
+        },
+        {
+          "question": "¿En los últimos meses, has recibido por parte de tu jefe/a algún reconocimiento o felicitación por haber realizado un buen trabajo?",
+          "type": "matrix",
+          "responses": {
+            "Sí, siempre lo hace": 38,
+            "No, casi nunca lo hace": 56,
+            "Sí, aunque pocas veces lo hace": 57,
+            "No, nunca lo hace": 38
+          },
+          "relative_frequency": {
+            "Sí, siempre lo hace": "0.2011",
+            "No, casi nunca lo hace": "0.2963",
+            "Sí, aunque pocas veces lo hace": "0.3016",
+            "No, nunca lo hace": "0.2011"
+          }
+        },
+        {
+          "question": "¿Qué tan apropiadas han sido las sanciones disciplinarias aplicadas a ti o a otros compañeros?",
+          "type": "matrix",
+          "responses": {
+            "No se han aplicado sanciones disciplinarias": 76,
+            "Algo apropiadas": 38,
+            "Apropiadas": 55,
+            "No tan apropiadas": 13,
+            "Nada apropiadas": 7
+          },
+          "relative_frequency": {
+            "No se han aplicado sanciones disciplinarias": "0.4021",
+            "Algo apropiadas": "0.2011",
+            "Apropiadas": "0.2910",
+            "No tan apropiadas": "0.0688",
+            "Nada apropiadas": "0.0370"
+          }
+        },
+        {
+          "question": "¿Con qué frecuencia, consideras que los líderes (gerentes, jefes, supervisores), reflejan los valores corporativos?",
+          "type": "matrix",
+          "responses": {
+            "Encaminados al servicio": {
+              "Frecuentemente": 70,
+              "Siempre": 109,
+              "Nunca": 3,
+              "Casi nunca": 7
+            },
+            "Hacemos lo correcto": {
+              "Frecuentemente": 83,
+              "Siempre": 93,
+              "Nunca": 4,
+              "Casi nunca": 9
+            },
+            "Honradez": {
+              "Frecuentemente": 62,
+              "Siempre": 118,
+              "Nunca": 3,
+              "Casi nunca": 6
+            },
+            "Somos transformadores": {
+              "Frecuentemente": 93,
+              "Siempre": 66,
+              "Casi nunca": 26,
+              "Nunca": 4
+            },
+            "Compromiso con resultados extraordinarios": {
+              "Frecuentemente": 96,
+              "Siempre": 60,
+              "Casi nunca": 24,
+              "Nunca": 9
+            }
+          },
+          "relative_frequency": {
+            "Encaminados al servicio": {
+              "Frecuentemente": "0.3704",
+              "Siempre": "0.5767",
+              "Nunca": "0.0159",
+              "Casi nunca": "0.0370"
+            },
+            "Hacemos lo correcto": {
+              "Frecuentemente": "0.4392",
+              "Siempre": "0.4921",
+              "Nunca": "0.0212",
+              "Casi nunca": "0.0476"
+            },
+            "Honradez": {
+              "Frecuentemente": "0.3280",
+              "Siempre": "0.6243",
+              "Nunca": "0.0159",
+              "Casi nunca": "0.0317"
+            },
+            "Somos transformadores": {
+              "Frecuentemente": "0.4921",
+              "Siempre": "0.3492",
+              "Casi nunca": "0.1376",
+              "Nunca": "0.0212"
+            },
+            "Compromiso con resultados extraordinarios": {
+              "Frecuentemente": "0.5079",
+              "Siempre": "0.3175",
+              "Casi nunca": "0.1270",
+              "Nunca": "0.0476"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Compromiso, bienestar y pertenencia",
+      "questions": [
+        {
+          "question": "Consideras que tu carga de trabajo es la apropiada para tu puesto.",
+          "type": "matrix",
+          "responses": {
+            "De acuerdo": 114,
+            "Totalmente de acuerdo": 54,
+            "Totalmente en desacuerdo": 2,
+            "En desacuerdo": 19
+          },
+          "relative_frequency": {
+            "De acuerdo": "0.6032",
+            "Totalmente de acuerdo": "0.2857",
+            "Totalmente en desacuerdo": "0.0106",
+            "En desacuerdo": "0.1005"
+          }
+        },
+        {
+          "question": "Tienes claro cuáles son los principales objetivos que debes lograr en tu puesto de trabajo",
+          "type": "matrix",
+          "responses": {
+            "Totalmente de acuerdo": 112,
+            "De acuerdo": 75,
+            "En desacuerdo": 1,
+            "Totalmente en desacuerdo": 1
+          },
+          "relative_frequency": {
+            "Totalmente de acuerdo": "0.5926",
+            "De acuerdo": "0.3968",
+            "En desacuerdo": "0.0053",
+            "Totalmente en desacuerdo": "0.0053"
+          }
+        },
+        {
+          "question": "Te han presentado por escrito las funciones o responsabilidades de tu puesto.",
+          "type": "matrix",
+          "responses": {
+            "Si": 109,
+            "Una parte de ellas": 34,
+            "No": 46
+          },
+          "relative_frequency": {
+            "Si": "0.5767",
+            "Una parte de ellas": "0.1799",
+            "No": "0.2434"
+          }
+        },
+        {
+          "question": "Cuentas con todos los materiales, equipos o herramientas que necesitas para hacer bien tu trabajo.",
+          "type": "matrix",
+          "responses": {
+            "Totalmente de acuerdo": 59,
+            "De acuerdo": 94,
+            "En desacuerdo": 27,
+            "Totalmente en desacuerdo": 9
+          },
+          "relative_frequency": {
+            "Totalmente de acuerdo": "0.3122",
+            "De acuerdo": "0.4974",
+            "En desacuerdo": "0.1429",
+            "Totalmente en desacuerdo": "0.0476"
+          }
+        },
+        {
+          "question": "En general, ¿Qué tanto te gusta el trabajo que realizas en esta empresa?",
+          "type": "matrix",
+          "responses": {
+            "Mucho": 181,
+            "Nada": 1,
+            "Poco": 7
+          },
+          "relative_frequency": {
+            "Mucho": "0.9577",
+            "Nada": "0.0053",
+            "Poco": "0.0370"
+          }
+        },
+        {
+          "question": "En general, ¿Qué tan motivado(a) te sientes con tu trabajo?",
+          "type": "matrix",
+          "responses": {
+            "Muy motivado(a)": 95,
+            "Moderadamente motivado(a)": 66,
+            "Poco motivado(a)": 24,
+            "Nada motivado(a)": 4
+          },
+          "relative_frequency": {
+            "Muy motivado(a)": "0.5026",
+            "Moderadamente motivado(a)": "0.3492",
+            "Poco motivado(a)": "0.1270",
+            "Nada motivado(a)": "0.0212"
+          }
+        },
+        {
+          "question": "¿Qué tan probable es que recomiendes positivamente a esta empresa en tu comunidad, a tus amigos, vecinos, familiares, etc.?",
+          "type": "matrix",
+          "responses": {
+            "Algo Probable": 50,
+            "Muy Probable": 126,
+            "Nada probable": 3,
+            "Poco Probable": 10
+          },
+          "relative_frequency": {
+            "Algo Probable": "0.2646",
+            "Muy Probable": "0.6667",
+            "Nada probable": "0.0159",
+            "Poco Probable": "0.0529"
+          }
+        },
+        {
+          "question": "¿Cuál es la probabilidad de que en los próximos 12 meses te mantengas trabajando para esta empresa?",
+          "type": "matrix",
+          "responses": {
+            "Bastante probable": 141,
+            "Algo probable": 37,
+            "Nada probable": 2,
+            "Poco probable": 9
+          },
+          "relative_frequency": {
+            "Bastante probable": "0.7460",
+            "Algo probable": "0.1958",
+            "Nada probable": "0.0106",
+            "Poco probable": "0.0476"
+          }
+        },
+        {
+          "question": "En una semana normal, ¿con qué frecuencia experimentas estrés en el trabajo?",
+          "type": "matrix",
+          "responses": {
+            "Nunca": 30,
+            "Pocas veces": 104,
+            "La mayor parte del tiempo": 22,
+            "La mitad del tiempo": 33
+          },
+          "relative_frequency": {
+            "Nunca": "0.1587",
+            "Pocas veces": "0.5503",
+            "La mayor parte del tiempo": "0.1164",
+            "La mitad del tiempo": "0.1746"
+          }
+        },
+        {
+          "question": "En una semana normal, ¿con qué frecuencia experimentas enfadado/ira en el trabajo?",
+          "type": "matrix",
+          "responses": {
+            "Nunca": 85,
+            "Pocas veces": 90,
+            "La mayor parte del tiempo": 4,
+            "La mitad del tiempo": 10
+          },
+          "relative_frequency": {
+            "Nunca": "0.4497",
+            "Pocas veces": "0.4762",
+            "La mayor parte del tiempo": "0.0212",
+            "La mitad del tiempo": "0.0529"
+          }
+        },
+        {
+          "question": "En una semana normal, ¿con qué frecuencia experimentas preocupación en el trabajo?",
+          "type": "matrix",
+          "responses": {
+            "Nunca": 54,
+            "Pocas veces": 109,
+            "La mitad del tiempo": 19,
+            "La mayor parte del tiempo": 7
+          },
+          "relative_frequency": {
+            "Nunca": "0.2857",
+            "Pocas veces": "0.5767",
+            "La mitad del tiempo": "0.1005",
+            "La mayor parte del tiempo": "0.0370"
+          }
+        },
+        {
+          "question": "En una semana normal, ¿con qué frecuencia experimentas tristeza en el trabajo?",
+          "type": "matrix",
+          "responses": {
+            "Nunca": 116,
+            "Pocas veces": 61,
+            "La mitad del tiempo": 11,
+            "La mayor parte del tiempo": 1
+          },
+          "relative_frequency": {
+            "Nunca": "0.6138",
+            "Pocas veces": "0.3228",
+            "La mitad del tiempo": "0.0582",
+            "La mayor parte del tiempo": "0.0053"
+          }
+        },
+        {
+          "question": "¿Qué tan fácil te resulta equilibrar tu vida laboral con tu vida personal?",
+          "type": "matrix",
+          "responses": {
+            "Algo fácil": 73,
+            "Muy fácil": 80,
+            "No tan fácil": 26,
+            "Nada fácil": 10
+          },
+          "relative_frequency": {
+            "Algo fácil": "0.3862",
+            "Muy fácil": "0.4233",
+            "No tan fácil": "0.1376",
+            "Nada fácil": "0.0529"
+          }
+        },
+        {
+          "question": "Estás satisfecho/a con la flexibilidad laboral (horarios, días libres, vacaciones) que te ofrece la empresa",
+          "type": "matrix",
+          "responses": {
+            "De acuerdo": 83,
+            "Muy de acuerdo": 91,
+            "En desacuerdo": 11,
+            "Muy en desacuerdo": 4
+          },
+          "relative_frequency": {
+            "De acuerdo": "0.4392",
+            "Muy de acuerdo": "0.4815",
+            "En desacuerdo": "0.0582",
+            "Muy en desacuerdo": "0.0212"
+          }
+        },
+        {
+          "question": "¿Tienes buenas amistades en el trabajo?",
+          "type": "matrix",
+          "responses": {
+            "Si": 168,
+            "No": 21
+          },
+          "relative_frequency": {
+            "Si": "0.8889",
+            "No": "0.1111"
+          }
+        },
+        {
+          "question": "Con respecto a tu crecimiento y desarrollo, responde el grado de acuerdo o desacuerdo que tengas con las siguientes aseveraciones:",
+          "type": "matrix",
+          "responses": {
+            "Tu jefe inmediato te invita a crecer y a desarrollarte aprovechando las oportunidades que existen dentro de la empresa": {
+              "De acuerdo": 68,
+              "Muy de acuerdo": 46,
+              "En desacuerdo": 58,
+              "Muy en desacuerdo": 17
+            },
+            "El esfuerzo que has hecho, ha sido justamente retribuido": {
+              "De acuerdo": 103,
+              "Muy de acuerdo": 37,
+              "En desacuerdo": 38,
+              "Muy en desacuerdo": 11
+            },
+            "Crees que tienes oportunidades de crecer profesionalmente en esta empresa": {
+              "De acuerdo": 88,
+              "Muy de acuerdo": 48,
+              "En desacuerdo": 40,
+              "Muy en desacuerdo": 13
+            },
+            "Estás satisfecho(a) con la forma en que la empresa invierte en  tu crecimiento y desarrollo, tanto personal como profesional": {
+              "De acuerdo": 107,
+              "Muy de acuerdo": 32,
+              "En desacuerdo": 43,
+              "Muy en desacuerdo": 7
+            }
+          },
+          "relative_frequency": {
+            "Tu jefe inmediato te invita a crecer y a desarrollarte aprovechando las oportunidades que existen dentro de la empresa": {
+              "De acuerdo": "0.3598",
+              "Muy de acuerdo": "0.2434",
+              "En desacuerdo": "0.3069",
+              "Muy en desacuerdo": "0.0899"
+            },
+            "El esfuerzo que has hecho, ha sido justamente retribuido": {
+              "De acuerdo": "0.5450",
+              "Muy de acuerdo": "0.1958",
+              "En desacuerdo": "0.2011",
+              "Muy en desacuerdo": "0.0582"
+            },
+            "Crees que tienes oportunidades de crecer profesionalmente en esta empresa": {
+              "De acuerdo": "0.4656",
+              "Muy de acuerdo": "0.2540",
+              "En desacuerdo": "0.2116",
+              "Muy en desacuerdo": "0.0688"
+            },
+            "Estás satisfecho(a) con la forma en que la empresa invierte en  tu crecimiento y desarrollo, tanto personal como profesional": {
+              "De acuerdo": "0.5661",
+              "Muy de acuerdo": "0.1693",
+              "En desacuerdo": "0.2275",
+              "Muy en desacuerdo": "0.0370"
+            }
+          }
+        },
+        {
+          "question": "¿Cómo consideras que ha sido la capacitación que has recibido en esta empresa?",
+          "type": "matrix",
+          "responses": {
+            "Moderada": 80,
+            "Suficiente": 66,
+            "Ninguna": 13,
+            "Poca": 30
+          },
+          "relative_frequency": {
+            "Moderada": "0.4233",
+            "Suficiente": "0.3492",
+            "Ninguna": "0.0688",
+            "Poca": "0.1587"
+          }
+        },
+        {
+          "question": "¿Te gustaría recibir algún tipo de capacitación en especial/específica?",
+          "type": "matrix",
+          "responses": {
+            "No": 77,
+            "Si": 112
+          },
+          "relative_frequency": {
+            "No": "0.4074",
+            "Si": "0.5926"
+          }
+        },
+        {
+          "question": "¿Consideras que alguno de tus compañeros de trabajo podría llegar a ser un buen líder?",
+          "type": "matrix",
+          "responses": {
+            "No": 52,
+            "Si": 137
+          },
+          "relative_frequency": {
+            "No": "0.2751",
+            "Si": "0.7249"
+          }
+        },
+        {
+          "question": "Con respecto a tu compensación (salario), responde el grado de acuerdo o desacuerdo que tengas con las siguientes aseveraciones:",
+          "type": "matrix",
+          "responses": {
+            "Es acorde con lo que se está pagando en el mercado local en posiciones similares": {
+              "De acuerdo": 112,
+              "Muy de acuerdo": 22,
+              "Muy en desacuerdo": 9,
+              "En desacuerdo": 46
+            },
+            "Es acorde con la cantidad y el tipo de trabajo que realizas": {
+              "De acuerdo": 113,
+              "Muy de acuerdo": 23,
+              "En desacuerdo": 46,
+              "Muy en desacuerdo": 7
+            }
+          },
+          "relative_frequency": {
+            "Es acorde con lo que se está pagando en el mercado local en posiciones similares": {
+              "De acuerdo": "0.5926",
+              "Muy de acuerdo": "0.1164",
+              "Muy en desacuerdo": "0.0476",
+              "En desacuerdo": "0.2434"
+            },
+            "Es acorde con la cantidad y el tipo de trabajo que realizas": {
+              "De acuerdo": "0.5979",
+              "Muy de acuerdo": "0.1217",
+              "En desacuerdo": "0.2434",
+              "Muy en desacuerdo": "0.0370"
+            }
+          }
+        },
+        {
+          "question": "¿De forma general, cuál es tu consideración con respecto a los beneficios (adicionales al salario) que te brinda esta empresa?",
+          "type": "matrix",
+          "responses": {
+            "Son buenos": 111,
+            "Son excelentes": 19,
+            "No existen": 9,
+            "Los desconozco, no sé cuáles son los beneficios (adicionales al salario) que tengo por trabajar aquí": 21,
+            "Son deficientes": 29
+          },
+          "relative_frequency": {
+            "Son buenos": "0.5873",
+            "Son excelentes": "0.1005",
+            "No existen": "0.0476",
+            "Los desconozco, no sé cuáles son los beneficios (adicionales al salario) que tengo por trabajar aquí": "0.1111",
+            "Son deficientes": "0.1534"
+          }
+        },
+        {
+          "question": "Con respecto a cada uno de los beneficios que actualmente brinda la empresa, responde qué tan satisfecho te sientes:",
+          "type": "matrix",
+          "responses": {
+            "Ferias de salud": {
+              "Satisfecho": 83,
+              "Totalmente satisfecho": 58,
+              "No aplica en mi caso": 32,
+              "Insatisfecho": 8,
+              "Totalmente insatisfecho": 8
+            },
+            "Adelantos de salario": {
+              "Satisfecho": 84,
+              "Totalmente satisfecho": 36,
+              "No aplica en mi caso": 63,
+              "Totalmente insatisfecho": 3,
+              "Insatisfecho": 3
+            },
+            "Reembolso de matrícula (Estudios)": {
+              "Satisfecho": 52,
+              "Totalmente satisfecho": 28,
+              "No aplica en mi caso": 97,
+              "Insatisfecho": 7,
+              "Totalmente insatisfecho": 5
+            },
+            "Días por duelo": {
+              "Satisfecho": 97,
+              "Totalmente satisfecho": 35,
+              "No aplica en mi caso": 36,
+              "Totalmente insatisfecho": 6,
+              "Insatisfecho": 15
+            },
+            "Fiesta de Navidad": {
+              "Satisfecho": 109,
+              "Totalmente satisfecho": 41,
+              "Insatisfecho": 20,
+              "Totalmente insatisfecho": 4,
+              "No aplica en mi caso": 15
+            },
+            "Bono navideño": {
+              "Insatisfecho": 33,
+              "Totalmente satisfecho": 32,
+              "Satisfecho": 101,
+              "Totalmente insatisfecho": 10,
+              "No aplica en mi caso": 13
+            },
+            "Vales de cumpleaños": {
+              "Satisfecho": 108,
+              "Totalmente satisfecho": 38,
+              "Insatisfecho": 28,
+              "Totalmente insatisfecho": 11,
+              "No aplica en mi caso": 4
+            },
+            "Empleado del mes": {
+              "Satisfecho": 47,
+              "Totalmente satisfecho": 14,
+              "No aplica en mi caso": 95,
+              "Insatisfecho": 24,
+              "Totalmente insatisfecho": 9
+            },
+            "Vales alimenticios": {
+              "Satisfecho": 82,
+              "Totalmente satisfecho": 30,
+              "No aplica en mi caso": 44,
+              "Insatisfecho": 24,
+              "Totalmente insatisfecho": 9
+            },
+            "Asistencia Perfecta": {
+              "Satisfecho": 75,
+              "Totalmente satisfecho": 20,
+              "No aplica en mi caso": 67,
+              "Insatisfecho": 18,
+              "Totalmente insatisfecho": 9
+            },
+            "Seguro de vida y salud": {
+              "Satisfecho": 87,
+              "Totalmente satisfecho": 45,
+              "No aplica en mi caso": 45,
+              "Insatisfecho": 9,
+              "Totalmente insatisfecho": 3
+            }
+          },
+          "relative_frequency": {
+            "Ferias de salud": {
+              "Satisfecho": "0.4392",
+              "Totalmente satisfecho": "0.3069",
+              "No aplica en mi caso": "0.1693",
+              "Insatisfecho": "0.0423",
+              "Totalmente insatisfecho": "0.0423"
+            },
+            "Adelantos de salario": {
+              "Satisfecho": "0.4444",
+              "Totalmente satisfecho": "0.1905",
+              "No aplica en mi caso": "0.3333",
+              "Totalmente insatisfecho": "0.0159",
+              "Insatisfecho": "0.0159"
+            },
+            "Reembolso de matrícula (Estudios)": {
+              "Satisfecho": "0.2751",
+              "Totalmente satisfecho": "0.1481",
+              "No aplica en mi caso": "0.5132",
+              "Insatisfecho": "0.0370",
+              "Totalmente insatisfecho": "0.0265"
+            },
+            "Días por duelo": {
+              "Satisfecho": "0.5132",
+              "Totalmente satisfecho": "0.1852",
+              "No aplica en mi caso": "0.1905",
+              "Totalmente insatisfecho": "0.0317",
+              "Insatisfecho": "0.0794"
+            },
+            "Fiesta de Navidad": {
+              "Satisfecho": "0.5767",
+              "Totalmente satisfecho": "0.2169",
+              "Insatisfecho": "0.1058",
+              "Totalmente insatisfecho": "0.0212",
+              "No aplica en mi caso": "0.0794"
+            },
+            "Bono navideño": {
+              "Insatisfecho": "0.1746",
+              "Totalmente satisfecho": "0.1693",
+              "Satisfecho": "0.5344",
+              "Totalmente insatisfecho": "0.0529",
+              "No aplica en mi caso": "0.0688"
+            },
+            "Vales de cumpleaños": {
+              "Satisfecho": "0.5714",
+              "Totalmente satisfecho": "0.2011",
+              "Insatisfecho": "0.1481",
+              "Totalmente insatisfecho": "0.0582",
+              "No aplica en mi caso": "0.0212"
+            },
+            "Empleado del mes": {
+              "Satisfecho": "0.2487",
+              "Totalmente satisfecho": "0.0741",
+              "No aplica en mi caso": "0.5026",
+              "Insatisfecho": "0.1270",
+              "Totalmente insatisfecho": "0.0476"
+            },
+            "Vales alimenticios": {
+              "Satisfecho": "0.4339",
+              "Totalmente satisfecho": "0.1587",
+              "No aplica en mi caso": "0.2328",
+              "Insatisfecho": "0.1270",
+              "Totalmente insatisfecho": "0.0476"
+            },
+            "Asistencia Perfecta": {
+              "Satisfecho": "0.3968",
+              "Totalmente satisfecho": "0.1058",
+              "No aplica en mi caso": "0.3545",
+              "Insatisfecho": "0.0952",
+              "Totalmente insatisfecho": "0.0476"
+            },
+            "Seguro de vida y salud": {
+              "Satisfecho": "0.4603",
+              "Totalmente satisfecho": "0.2381",
+              "No aplica en mi caso": "0.2381",
+              "Insatisfecho": "0.0476",
+              "Totalmente insatisfecho": "0.0159"
+            }
+          }
+        },
+        {
+          "question": "¿Estarías dispuesto a participar en algún programa de responsabilidad social que realice la empresa?",
+          "type": "matrix",
+          "responses": {
+            "No": 39,
+            "Si": 120,
+            "No sé qué significa": 30
+          },
+          "relative_frequency": {
+            "No": "0.2063",
+            "Si": "0.6349",
+            "No sé qué significa": "0.1587"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Salud y Seguridad",
+      "questions": [
+        {
+          "question": "En general, ¿Qué tan probable es que sufras algún tipo de accidente debido al trabajo que realiza?",
+          "type": "matrix",
+          "responses": {
+            "Nada probable": 19,
+            "Algo probable": 60,
+            "Poco probable": 85,
+            "Bastante probable": 25
+          },
+          "relative_frequency": {
+            "Nada probable": "0.1005",
+            "Algo probable": "0.3175",
+            "Poco probable": "0.4497",
+            "Bastante probable": "0.1323"
+          }
+        },
+        {
+          "question": "En general, ¿Qué tan probable es que sufras algún tipo de enfermedad debido al trabajo que realiza?",
+          "type": "matrix",
+          "responses": {
+            "Nada probable": 40,
+            "Algo probable": 46,
+            "Bastante probable": 14,
+            "Poco probable": 89
+          },
+          "relative_frequency": {
+            "Nada probable": "0.2116",
+            "Algo probable": "0.2434",
+            "Bastante probable": "0.0741",
+            "Poco probable": "0.4709"
+          }
+        },
+        {
+          "question": "Las condiciones ambientales (iluminación, climatización, ventilación, espacio físico, etc.) en donde realizas tu trabajo son:",
+          "type": "matrix",
+          "responses": {
+            "Buenas": 107,
+            "Excelentes": 24,
+            "Un poco inadecuadas": 53,
+            "Totalmente inadecuadas": 5
+          },
+          "relative_frequency": {
+            "Buenas": "0.5661",
+            "Excelentes": "0.1270",
+            "Un poco inadecuadas": "0.2804",
+            "Totalmente inadecuadas": "0.0265"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sin categoría",
+      "questions": [
+        {
+          "question": "Con el propósito de que esta empresa llegue a ser un excelente lugar para trabajar, si tú fueras el dueño…",
+          "type": "matrix",
+          "responses": {
+            "Implementarías algo nuevo": {
+              "Si": 148,
+              "No": 41
+            },
+            "Harías algo diferente": {
+              "Si": 148,
+              "No": 41
+            },
+            "Mantendrías todo igual": {
+              "No": 130,
+              "Si": 59
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Tienes algún otro comentario, una pregunta o inquietud adicional que compartirnos?",
+          "type": "single_choice",
+          "responses": {
+            "No": 173,
+            "Si": 16
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Tu puesto está clasificado como",
+          "type": "single_choice",
+          "responses": {
+            "Una posición de liderazgo (cargo de gerencia, jefatura, supervisión)": 46,
+            "Una posición operativa": 143
+          },
+          "relative_frequency": {}
+        }
+      ]
+    }
+  ]
+}

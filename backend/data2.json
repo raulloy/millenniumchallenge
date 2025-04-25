@@ -1,0 +1,796 @@
+{
+  "surveyId": "521528357",
+  "title": "MAESTRO DE PREGUNTAS",
+  "categories": [
+    {
+      "name": "Datos Demográficos",
+      "questions": [
+        {
+          "question": "¿Cuál es tu género?",
+          "type": "single_choice",
+          "responses": { "Mujer": 2 },
+          "relative_frequency": { "Mujer": "1.0000" }
+        },
+        {
+          "question": "¿En qué rango de edad te encuentras?",
+          "type": "single_choice",
+          "responses": {
+            "Más de 73 años ( Tradicionalistas/veteranos)": 1,
+            "De 55 a 73 años (Baby Boomers)": 1
+          },
+          "relative_frequency": {
+            "Más de 73 años ( Tradicionalistas/veteranos)": "0.5000",
+            "De 55 a 73 años (Baby Boomers)": "0.5000"
+          }
+        },
+        {
+          "question": "¿Cuál es tu nivel de formación académica más alto?",
+          "type": "single_choice",
+          "responses": { "Maestría - Completo": 1, "Licenciatura - Completa": 1 },
+          "relative_frequency": {
+            "Maestría - Completo": "0.5000",
+            "Licenciatura - Completa": "0.5000"
+          }
+        },
+        {
+          "question": "¿Cuál es tu estado civil?",
+          "type": "single_choice",
+          "responses": { "Divorciado/a o separado/a": 1, "Soltero/a": 1 },
+          "relative_frequency": { "Divorciado/a o separado/a": "0.5000", "Soltero/a": "0.5000" }
+        },
+        {
+          "question": "¿Cuántos hijos tienes?",
+          "type": "single_choice",
+          "responses": { "1": 1, "Ninguno": 1 },
+          "relative_frequency": { "1": "0.5000", "Ninguno": "0.5000" }
+        },
+        {
+          "question": "¿En qué rango de edad se encuentran tus hijos?",
+          "type": "multiple_choice",
+          "responses": { "Más de 18 años": 1, "No aplica": 1 },
+          "relative_frequency": { "Más de 18 años": "0.5000", "No aplica": "0.5000" }
+        }
+      ]
+    },
+    {
+      "name": "Sin categoría",
+      "questions": [
+        {
+          "question": "¿Cuál es tu situación habitacional actual?",
+          "type": "single_choice",
+          "responses": { "Propia o con hipoteca": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Eres el principal proveedor económico en tu hogar?",
+          "type": "single_choice",
+          "responses": { "Si": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Cuál es tu modalidad principal de trabajo?",
+          "type": "single_choice",
+          "responses": {
+            "Híbrido - Principalmente remoto con algunos días presenciales": 1,
+            "Híbrido - Principalmente presencial con algunos días remotos": 1
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿En qué turno de trabajo laboras principalmente?",
+          "type": "single_choice",
+          "responses": { "Diurno (Entre 6:00 am - 6:00 pm)": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Cuántas horas trabajas regularmente por semana?",
+          "type": "single_choice",
+          "responses": { "No aplica (No sujeto a horarios-horarios felxibles)": 1, "40 horas": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿En qué rango salarial mensual te encuentras?",
+          "type": "single_choice",
+          "responses": { "Más de $3,000": 1, "De $1,001 a $2,000": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Cuál es tu principal medio de transporte al trabajo?",
+          "type": "single_choice",
+          "responses": {
+            "No aplica. Laboro desde casa": 1,
+            "Automóvil (propio o de la familia)": 1
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Tienes acceso regular a los siguientes servicios en tu hogar?(Selecciona todas las opciones que correspondan):",
+          "type": "matrix",
+          "responses": {
+            "Agua": { "Todos los días, sin interrupciones": 2 },
+            "Energía eléctrica": {
+              "Todos los días, con interrupciones ocasionales": 1,
+              "Todos los días, sin interrupciones": 1
+            },
+            "Internet": { "Todos los días, sin interrupciones": 2 }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿En qué departamento o área de trabajo desempeñas tus funciones?",
+          "type": "single_choice",
+          "responses": { "Administración y Finanzas": 1, "Proyectos Especiales": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Aproximadamente, ¿cuánto tiempo tienes trabajando en esta empresa?",
+          "type": "single_choice",
+          "responses": { "1 año - 2 años": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Tu puesto está clasificado como",
+          "type": "single_choice",
+          "responses": { "Una posición de liderazgo (Gerentes, jefes)": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Con respecto a la misión, visión y cultura de la empresa, responde el grado de acuerdo o desacuerdo que tengas con las siguientes afirmaciones:",
+          "type": "matrix",
+          "responses": {
+            "Conozco y comprendo la misión y visión de esta empresa.": { "Muy de acuerdo": 2 },
+            "Siento que los valores de esta empresa se reflejan en las acciones del día a día": {
+              "Muy de acuerdo": 2
+            },
+            "Estoy satisfecho(a) con las políticas, reglamentos y prácticas de esta empresa.": {
+              "Muy de acuerdo": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Consideras que la empresa fomenta una política de flexibilidad laboral (horarios, días libres, vacaciones) adecuada para sus colaboradores?",
+          "type": "matrix",
+          "responses": { "Totalmente de acuerdo": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Por favor, indica tu nivel de acuerdo o desacuerdo con respecto a la discriminación, el acoso, el hostigamiento y los valores éticos en la empresa.",
+          "type": "matrix",
+          "responses": {
+            "El ambiente de trabajo está libre de cualquier tipo de discriminación": {
+              "Totalmente de acuerdo": 2
+            },
+            "No he experimentado ni observado hostigamiento laboral": {
+              "De acuerdo": 1,
+              "Totalmente de acuerdo": 1
+            },
+            "No he experimentado ni observado acoso sexual": {
+              "De acuerdo": 1,
+              "Totalmente de acuerdo": 1
+            },
+            "La empresa cumple con valores éticos en su forma de hacer negocios.": {
+              "Totalmente de acuerdo": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Indica tu grado de acuerdo o desacuerdo con las siguientes afirmaciones relacionadas con la diversidad e inclusión, en la empresa.",
+          "type": "matrix",
+          "responses": {
+            "No he experimentado ni observado discriminación por raza": {
+              "Totalmente de acuerdo": 2
+            },
+            "No he experimentado ni observado discriminación por edad": {
+              "En desacuerdo": 1,
+              "Totalmente de acuerdo": 1
+            },
+            "No he experimentado ni observado discriminación por sexo": {
+              "De acuerdo": 1,
+              "Totalmente de acuerdo": 1
+            },
+            "No he experimentado ni observado discriminación por discapacidad": {
+              "De acuerdo": 1,
+              "Totalmente de acuerdo": 1
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Consideras que la empresa cumple con sus promesas?",
+          "type": "matrix",
+          "responses": { "Muy de acuerdo": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Evalúa el nivel de apoyo que la empresa brinda para promover la creatividad, la innovación y la generación de nuevas ideas en el entorno laboral.",
+          "type": "matrix",
+          "responses": {
+            "La empresa promueve la creatividad y la innovación entre los trabajadores": {
+              "Totalmente de acuerdo": 2
+            },
+            "Tus ideas y sugerencias son valoradas y consideradas para la mejora de los procesos o productos en la empresa": {
+              "De acuerdo": 1,
+              "Totalmente de acuerdo": 1
+            },
+            "Consideras que la empresa apoya la toma de riesgos calculados y la experimentación en nuevos proyectos o ideas": {
+              "Totalmente de acuerdo": 2
+            },
+            "La empresa proporciona las herramientas y recursos necesarios para fomentar la creatividad e innovación en tu equipo de trabajo": {
+              "Totalmente de acuerdo": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Evalúa cómo la empresa apoya la adaptabilidad y la resiliencia frente a los cambios en el entorno laboral.",
+          "type": "matrix",
+          "responses": {
+            "La empresa tiene una alta capacidad para adaptarse rápidamente a los cambios en el entorno laboral o del mercado": {
+              "Totalmente de acuerdo": 2
+            },
+            "La empresa apoya a sus trabajadores en tiempos de incertidumbre o crisis, brindando las herramientas necesarias para que puedan adaptarse a los cambios": {
+              "De acuerdo": 1,
+              "Totalmente de acuerdo": 1
+            },
+            "Los líderes de la empresa tienen una actitud resiliente frente a los desafíos y son un modelo a seguir en momentos difíciles.": {
+              "De acuerdo": 1,
+              "Totalmente de acuerdo": 1
+            },
+            "Me siento respaldado por la empresa para adaptarme a nuevas formas de trabajo o cambios en las políticas, procedimientos y procesos.": {
+              "De acuerdo": 1,
+              "Totalmente de acuerdo": 1
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Evalúa el funcionamiento de los medios de comunicación que utilizas en tu trabajo diario:",
+          "type": "matrix",
+          "responses": {
+            "Internet": { "Excelente": 2 },
+            "Correos electrónicos": { "Excelente": 2 },
+            "WhatsApp": { "Bueno": 1, "Excelente": 1 },
+            "Radios de Comunicación": { "Bueno": 2 }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Cuentas con la cantidad de información necesaria para desempeñar tus funciones de manera efectiva?",
+          "type": "matrix",
+          "responses": { "De acuerdo": 1, "Muy de acuerdo": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Evalúa las siguientes afirmaciones sobre, las herramientas y los recursos que utilizas para desempeñar tu trabajo",
+          "type": "matrix",
+          "responses": {
+            "Cuento con las herramientas y los recursos necesarios para desempeñar mis funciones de manera eficiente": {
+              "Totalmente de acuerdo": 2
+            },
+            "Las herramientas y los recursos proporcionados por la empresa son suficientes para cumplir con mis responsabilidades laborales": {
+              "Totalmente de acuerdo": 2
+            },
+            "El mantenimiento y disponibilidad de las herramientas y los recursos de trabajo son adecuados": {
+              "Totalmente de acuerdo": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Con respecto a la confianza que sientes al trabajar en equipo, indica tu nivel de acuerdo o desacuerdo con las siguientes afirmaciones:",
+          "type": "matrix",
+          "responses": {
+            "En mi equipo de trabajo puedo admitir errores sin temor a represalias o críticas": {
+              "De acuerdo": 1,
+              "Muy de acuerdo": 1
+            },
+            "Mis compañeros de trabajo confían plenamente en mí y en mis capacidades": {
+              "De acuerdo": 1,
+              "Muy de acuerdo": 1
+            },
+            "Considero que mi opinión es valorada cuando realizamos proyectos en equipo": {
+              "De acuerdo": 1,
+              "Muy de acuerdo": 1
+            },
+            "Puedo pedir ayuda a mis compañeros de trabajo sin sentirte juzgado(a)": {
+              "Muy de acuerdo": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Con respecto al conflicto cuando trabajas en equipo, indica tu nivel de acuerdo o desacuerdo con las siguientes afirmaciones:",
+          "type": "matrix",
+          "responses": {
+            "En mi equipo de trabajo se pueden discutir desacuerdos de manera constructiva": {
+              "De acuerdo": 1,
+              "Muy de acuerdo": 1
+            },
+            "En las reuniones se abordan temas importantes sin temor al conflicto que pudieran generar": {
+              "De acuerdo": 2
+            },
+            "Considero que los desacuerdos en mi equipo de trabajo se enfocan en ideas y no en personas, es decir, no se toman de manera personal": {
+              "De acuerdo": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Con respecto al compromiso cuando se trabaja en equipo, indica tu nivel de acuerdo o desacuerdo con las siguientes afirmaciones:",
+          "type": "matrix",
+          "responses": {
+            "Todos los miembros del equipo de trabajo están alineados con los objetivos establecidos": {
+              "De acuerdo": 2
+            },
+            "Mis compañeros de trabajo están comprometidos con hacer un trabajo de calidad": {
+              "De acuerdo": 2
+            },
+            "Las decisiones tomadas en el equipo se comunican de manera clara y sin ambigüedades": {
+              "De acuerdo": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Con respecto a las responsabilidades, cuando trabajas en equipo, indica tu nivel de acuerdo o desacuerdo con las siguientes afirmaciones:",
+          "type": "matrix",
+          "responses": {
+            "Mis compañeros de trabajo asumen la responsabilidad de sus tareas sin excusas": {
+              "Muy de acuerdo": 1,
+              "De acuerdo": 1
+            },
+            "La relación entre los diferentes departamentos facilita el trabajo en equipo": {
+              "De acuerdo": 2
+            },
+            "Se reconocen y discuten las responsabilidades individuales en las reuniones de tu equipo": {
+              "De acuerdo": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Con respecto a la atención a los resultados al trabajar en equipo, indica tu nivel de acuerdo o desacuerdo con las siguientes afirmaciones:",
+          "type": "matrix",
+          "responses": {
+            "Los objetivos del equipo de trabajo están por encima de los intereses individuales.": {
+              "De acuerdo": 2
+            },
+            "Todos los miembros del equipo de trabajo se esfuerzan por alcanzar las metas colectivas": {
+              "De acuerdo": 2
+            },
+            "En mi equipo se reconocen los logros colectivos por encima de los individuales": {
+              "De acuerdo": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Qué podría hacer otro departamento para ayudarte a cumplir con tu trabajo o tus programaciones a tiempo y con la calidad requerida? (Puedes seleccionar más de una opción)",
+          "type": "multiple_choice",
+          "responses": {
+            "Proveer información más clara y oportuna": 1,
+            "Facilitar la colaboración entre equipos": 1,
+            "Agilizar los procesos de aprobación o trámites internos": 2,
+            "Compartir recursos o herramientas necesarias": 1,
+            "Mejorar la comunicación interdepartamental": 2
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Qué podría hacer la empresa para ayudarte a cumplir con tu trabajo o tus programaciones a tiempo y con la calidad requerida? (Puedes seleccionar más de una opción)",
+          "type": "multiple_choice",
+          "responses": {
+            "Proveer recursos adicionales (equipos, herramientas, materiales)": 1,
+            "Mejorar la comunicación entre áreas/departamentos": 2,
+            "Ajustar los plazos o prioridades de las tareas": 1,
+            "Ofrecer capacitación o desarrollo en habilidades necesarias": 2,
+            "Proveer más retroalimentación o seguimiento": 1,
+            "Establecer un sistema de evaluación y mejora del desempeño para los líderes": 1
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Con qué frecuencia consideras que los líderes de esta empresa, reflejan los siguientes valores de la empresa?",
+          "type": "matrix",
+          "responses": {
+            "Igualdad de género": { "Siempre": 1, "Frecuentemente": 1 },
+            "Transparencia": { "Frecuentemente": 2 },
+            "Calidad": { "Frecuentemente": 2 },
+            "Responsabilidad": { "Casi nunca": 1, "Frecuentemente": 1 },
+            "Solidaridad": { "Frecuentemente": 2 },
+            "Tolerancia": { "Casi nunca": 1, "Frecuentemente": 1 },
+            "Sentido de Pertenencia": { "Frecuentemente": 2 }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Te han presentado por escrito las funciones o responsabilidades de tu puesto.",
+          "type": "matrix",
+          "responses": { "Sí, parcialmente": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Tienes claro cuáles son los principales objetivos que debes lograr en tu puesto de trabajo.",
+          "type": "matrix",
+          "responses": { "De acuerdo": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Consideras que lo que haces en tu trabajo es importante para la empresa?",
+          "type": "matrix",
+          "responses": { "De acuerdo": 1, "Muy de acuerdo": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Consideras que cuentas con todos los materiales, equipos o herramientas necesarios para realizar tu trabajo de manera efectiva?",
+          "type": "matrix",
+          "responses": { "Sí, la mayoría de las veces": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Consideras que tu carga de trabajo es la apropiada para tu puesto.",
+          "type": "matrix",
+          "responses": { "De acuerdo": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "En general, ¿qué tanto te gusta el trabajo que realizas en esta empresa?",
+          "type": "matrix",
+          "responses": { "Me gusta": 1, "Me gusta mucho": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "En general, ¿qué tan motivado(a) te sientes con tu trabajo?",
+          "type": "matrix",
+          "responses": { "Algo motivado": 1, "Muy motivado": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Qué tan satisfecho(a) te sientes con tu desempeño en el trabajo?",
+          "type": "matrix",
+          "responses": { "Algo satisfecho": 1, "Muy satisfecho": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Te consideras una persona enérgica y dinámica dentro de la empresa?",
+          "type": "matrix",
+          "responses": { "Frecuentemente": 1, "Siempre": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Con respecto a tu crecimiento personal y profesional, indica tu grado de acuerdo o desacuerdo con las siguientes afirmaciones",
+          "type": "matrix",
+          "responses": {
+            "La empresa invierte en mi crecimiento y desarrollo, tanto personal como profesional": {
+              "Totalmente de acuerdo": 1,
+              "De acuerdo": 1
+            },
+            "La empresa me invita a crecer y a desarrollarme, aprovechando o creando sobre las oportunidades existentes.": {
+              "De acuerdo": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Te gustaría recibir algún tipo de capacitación especial/específica u otra oportunidad de desarrollo personal y profesional?",
+          "type": "matrix",
+          "responses": { "No": 1, "Si": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Cómo consideras que han sido las oportunidades de crecimiento, capacitación y desarrollo personal y profesional que has recibido en esta empresa?",
+          "type": "matrix",
+          "responses": { "Buenas": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Consideras que alguno de tus compañeros de trabajo podría llegar a ser un buen líder?",
+          "type": "matrix",
+          "responses": { "Si": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Qué tan satisfecho(a) te sientes con el tiempo que pasas y la convivencia que se da en esta empresa?",
+          "type": "matrix",
+          "responses": { "Algo satisfecho": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Tienes buenas amistades en el trabajo?",
+          "type": "matrix",
+          "responses": { "Sí, algunas": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Cómo describirías el ambiente laboral en la empresa?",
+          "type": "single_choice",
+          "responses": { "Positivo": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Con respecto a tu compensación (salario), indica tu grado de acuerdo o desacuerdo con las siguientes afirmaciones:",
+          "type": "matrix",
+          "responses": {
+            "Mi salario es acorde con la cantidad y el tipo de trabajo que realizo": {
+              "Totalmente de acuerdo": 1,
+              "De acuerdo": 1
+            },
+            "Mi salario es acorde con la calidad y cantidad del desempeño que demuestro día a día": {
+              "De acuerdo": 2
+            },
+            "Mi salario es equitativo en relación con lo que devengan otros compañeros en posiciones similares": {
+              "De acuerdo": 2
+            },
+            "Mi salario es acorde con lo que se está pagando en el mercado local en posiciones similares": {
+              "De acuerdo": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿De forma general, cuál es tu consideración con respecto a los beneficios (adicionales al salario) que te brinda la empresa?",
+          "type": "matrix",
+          "responses": { "Son deficientes": 1, "Son buenos": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Con respecto a cada uno de los beneficios que actualmente brinda la empresa, responde qué tan satisfecho(a) te sientes",
+          "type": "matrix",
+          "responses": {
+            "Agasajo de fin de año": { "Totalmente satisfecho": 1, "Satisfecho": 1 },
+            "Celebración de Cumpleaños": { "Satisfecho": 1, "Insatisfecho": 1 },
+            "Flexibilidad de horario los sábados": { "Insatisfecho": 2 },
+            "Permisos para temas personales": { "Insatisfecho": 1, "Satisfecho": 1 },
+            "Días libres por duelo": { "Insatisfecho": 1, "Satisfecho": 1 },
+            "Celebración del Día de la Madre": { "Insatisfecho": 1, "Satisfecho": 1 },
+            "Celebración del Día del Padre": { "Totalmente insatisfecho": 1, "Satisfecho": 1 },
+            "Aguinaldo de Navidad": { "Totalmente insatisfecho": 1, "Insatisfecho": 1 },
+            "Seguro de vida y salud": { "Insatisfecho": 2 },
+            "Prima de producción": { "Insatisfecho": 2 }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "En una semana normal, ¿con qué frecuencia, tu trabajo o el ambiente laboral te ocasiona las siguientes emociones?",
+          "type": "matrix",
+          "responses": {
+            "Estrés": { "Siempre": 1, "Frecuentemente": 1 },
+            "Enfado/Ira": { "Frecuentemente": 1, "Pocas veces": 1 },
+            "Preocupación": { "Frecuentemente": 2 },
+            "Tristeza": { "Frecuentemente": 1, "Pocas veces": 1 },
+            "Soledad": { "Frecuentemente": 1, "Pocas veces": 1 },
+            "Alegría": { "Siempre": 1, "Frecuentemente": 1 }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Estás satisfecho(a) con la flexibilidad laboral (horarios, días libres, vacaciones) que te ofrece la empresa?",
+          "type": "matrix",
+          "responses": { "Algo satisfecho": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Consideras que la empresa podría hacer algo para mejorar el equilibrio entre tu vida laboral y personal?",
+          "type": "matrix",
+          "responses": { "Sí, algo": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Evalúa con qué frecuencia experimentas las siguientes acciones por parte de la empresa.",
+          "type": "matrix",
+          "responses": {
+            "Mis esfuerzos y logros son reconocidos": { "Frecuentemente": 2 },
+            "Ofrece a los trabajadores apoyo emocional en situaciones de estrés o dificultad": {
+              "Siempre": 1,
+              "Pocas veces": 1
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Qué tan probable es que recomiendes positivamente a esta empresa en tu comunidad, a tus amigos, vecinos, familiares, etc.?",
+          "type": "matrix",
+          "responses": { "Algo Probable": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Cuál es la probabilidad de que en los próximos 12 meses te mantengas trabajando para esta empresa?",
+          "type": "matrix",
+          "responses": { "Algo probable": 2 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "A continuación, evalúa tu grado de acuerdo o desacuerdo con las siguientes afirmaciones relacionadas con la salud y seguridad en tu lugar de trabajo.",
+          "type": "matrix",
+          "responses": {
+            "La empresa cumple con las normativas de salud y seguridad laboral aplicables": {
+              "Satisfecho": 2
+            },
+            "He recibido la capacitación necesaria para prevenir accidentes y enfermedades producto del desempeño de mis funciones": {
+              "Satisfecho": 1,
+              "Insatisfecho": 1
+            },
+            "La empresa realiza inspecciones o revisiones periódicas para garantizar la seguridad en mi lugar de trabajo": {
+              "Satisfecho": 2
+            },
+            "Estoy informado(a) sobre los riesgos asociados a mi puesto de trabajo y las medidas para mitigarlos": {
+              "Insatisfecho": 2
+            },
+            "Las condiciones ergonómicas de mi puesto de trabajo (mobiliario, postura, equipos, herramientas) son adecuadas para prevenir molestias o lesiones físicas.": {
+              "Insatisfecho": 2
+            },
+            "Las condiciones físicas de mi lugar de trabajo (iluminación, espacio, ventilación, etc.) son adecuadas para realizar mis labores": {
+              "Satisfecho": 2
+            },
+            "Mi lugar de trabajo es seguro para realizar mi trabajo/funciones": {
+              "Insatisfecho": 2
+            },
+            "La empresa implementa suficientes medidas para prevenir accidentes y enfermedades laborales": {
+              "Insatisfecho": 2
+            }
+          },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Qué molestias físicas o emocionales has experimentado debido a las condiciones de tu puesto de trabajo? (Selecciona todas las que apliquen).",
+          "type": "multiple_choice",
+          "responses": { "Ninguna de las anteriores": 1, "Dolor de cabeza": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "Si fueras el dueño/propietario y tuvieras el objetivo de convertir la empresa en un excelente lugar para trabajar, ¿qué cambios específicos implementarías?",
+          "type": "single_choice",
+          "responses": { "Harías algo diferente": 1, "Implementarías algo nuevo": 1 },
+          "relative_frequency": {}
+        },
+        {
+          "question": "¿Tienes alguna sugerencia, comentario o inquietud adicional que te gustaría compartir con nosotros?",
+          "type": "single_choice",
+          "responses": { "No": 2 },
+          "relative_frequency": {}
+        }
+      ]
+    },
+    {
+      "name": "Liderazgo",
+      "questions": [
+        {
+          "question": "Evalúa a tu jefe inmediato según las siguientes afirmaciones relacionadas con la claridad en la toma de decisiones, comunicación y dirección en tu equipo.",
+          "type": "matrix",
+          "responses": {
+            "Suele tomar decisiones basadas en análisis y criterios claros": {
+              "Muy de acuerdo": 1,
+              "De acuerdo": 1
+            },
+            "Valora y considera mis ideas y sugerencias en la toma de decisiones": {
+              "De acuerdo": 2
+            },
+            "Explica claramente las tareas y expectativas asociadas a mi rol/puesto de trabajo": {
+              "En desacuerdo": 1,
+              "De acuerdo": 1
+            },
+            "Promueve un ambiente donde la comunicación fluye de manera efectiva entre los miembros del equipo": {
+              "De acuerdo": 2
+            }
+          },
+          "relative_frequency": {
+            "Suele tomar decisiones basadas en análisis y criterios claros": {
+              "Muy de acuerdo": "0.5000",
+              "De acuerdo": "0.5000"
+            },
+            "Valora y considera mis ideas y sugerencias en la toma de decisiones": {
+              "De acuerdo": "1.0000"
+            },
+            "Explica claramente las tareas y expectativas asociadas a mi rol/puesto de trabajo": {
+              "En desacuerdo": "0.5000",
+              "De acuerdo": "0.5000"
+            },
+            "Promueve un ambiente donde la comunicación fluye de manera efectiva entre los miembros del equipo": {
+              "De acuerdo": "1.0000"
+            }
+          }
+        },
+        {
+          "question": "Indica cómo percibes el liderazgo de tu jefe inmediato en aspectos de motivación, apoyo y colaboración dentro y fuera del equipo.",
+          "type": "matrix",
+          "responses": {
+            "Fomenta un ambiente de confianza y motivación en mi equipo de trabajo": {
+              "Muy de acuerdo": 1,
+              "De acuerdo": 1
+            },
+            "Identifica y aprovecha mis fortalezas en las tareas asignadas": { "De acuerdo": 2 },
+            "Me apoya en momentos en los que enfrento retos laborales significativos": {
+              "De acuerdo": 2
+            },
+            "Está abierto(a) a escuchar críticas constructivas y sugerencias de mejora": {
+              "En desacuerdo": 1,
+              "De acuerdo": 1
+            },
+            "Fomenta y facilita la comunicación y colaboración con otros departamentos.": {
+              "De acuerdo": 2
+            }
+          },
+          "relative_frequency": {
+            "Fomenta un ambiente de confianza y motivación en mi equipo de trabajo": {
+              "Muy de acuerdo": "0.5000",
+              "De acuerdo": "0.5000"
+            },
+            "Identifica y aprovecha mis fortalezas en las tareas asignadas": {
+              "De acuerdo": "1.0000"
+            },
+            "Me apoya en momentos en los que enfrento retos laborales significativos": {
+              "De acuerdo": "1.0000"
+            },
+            "Está abierto(a) a escuchar críticas constructivas y sugerencias de mejora": {
+              "En desacuerdo": "0.5000",
+              "De acuerdo": "0.5000"
+            },
+            "Fomenta y facilita la comunicación y colaboración con otros departamentos.": {
+              "De acuerdo": "1.0000"
+            }
+          }
+        },
+        {
+          "question": "Con respecto a tu crecimiento personal y profesional, indica tu grado de acuerdo o desacuerdo con las siguientes afirmaciones",
+          "type": "matrix",
+          "responses": {
+            "Me siento apoyado(a) por mi jefe inmediato en mi desarrollo integral": {
+              "Totalmente de acuerdo": 1,
+              "De acuerdo": 1
+            },
+            "Mi jefe inmediato me motiva a crecer y aprovechar las oportunidades para desarrollarme": {
+              "De acuerdo": 2
+            },
+            "Mi jefe se interesa genuinamente por mí como persona, más allá de mi rol/puesto en la empresa": {
+              "De acuerdo": 2
+            }
+          },
+          "relative_frequency": {
+            "Me siento apoyado(a) por mi jefe inmediato en mi desarrollo integral": {
+              "Totalmente de acuerdo": "0.5000",
+              "De acuerdo": "0.5000"
+            },
+            "Mi jefe inmediato me motiva a crecer y aprovechar las oportunidades para desarrollarme": {
+              "De acuerdo": "1.0000"
+            },
+            "Mi jefe se interesa genuinamente por mí como persona, más allá de mi rol/puesto en la empresa": {
+              "De acuerdo": "1.0000"
+            }
+          }
+        },
+        {
+          "question": "¿Qué podría hacer tu jefe inmediato para ayudarte a cumplir con tus tareas a tiempo y con la calidad requerida? (Puedes elegir más de una)",
+          "type": "multiple_choice",
+          "responses": {
+            "Brindar instrucciones más claras": 2,
+            "Proveer los recursos necesarios (equipos, materiales, información, etc.)": 1,
+            "Facilitar la comunicación dentro del equipo": 1,
+            "Delegar tareas de manera más equitativa": 1,
+            "Proveer más retroalimentación sobre mi desempeño": 1
+          },
+          "relative_frequency": {
+            "Brindar instrucciones más claras": "0.3333",
+            "Proveer los recursos necesarios (equipos, materiales, información, etc.)": "0.1667",
+            "Facilitar la comunicación dentro del equipo": "0.1667",
+            "Delegar tareas de manera más equitativa": "0.1667",
+            "Proveer más retroalimentación sobre mi desempeño": "0.1667"
+          }
+        },
+        {
+          "question": "En los últimos meses, ¿has recibido de tu jefe/a inmediato algún reconocimiento o felicitación por haber realizado un buen trabajo?",
+          "type": "matrix",
+          "responses": { "Sí, con frecuencia": 2 },
+          "relative_frequency": { "Sí, con frecuencia": "1.0000" }
+        },
+        {
+          "question": "¿Qué tan apropiadas han sido las sanciones disciplinarias que te han aplicado?",
+          "type": "matrix",
+          "responses": { "Algo apropiadas": 2 },
+          "relative_frequency": { "Algo apropiadas": "1.0000" }
+        }
+      ]
+    }
+  ]
+}

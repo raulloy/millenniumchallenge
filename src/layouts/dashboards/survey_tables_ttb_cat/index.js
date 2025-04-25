@@ -17,7 +17,6 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import apiURL from "utils";
 import { TTB_RULES_2 } from "utils";
-import { exceptions } from "utils";
 
 const ResultsDisplay = () => {
   const [groupedResults, setGroupedResults] = useState([]);

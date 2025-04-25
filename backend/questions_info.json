@@ -1,0 +1,357 @@
+[
+  {
+    "heading": "¿Cuál es tu género?",
+    "category": "Datos Demográficos",
+    "subcategory": "genero"
+  },
+  {
+    "heading": "¿En qué rango de edad te encuentras?",
+    "category": "Datos Demográficos",
+    "subcategory": "generacion"
+  },
+  {
+    "heading": "¿Cuál es tu nivel de formación académica más alto?",
+    "category": "Datos Demográficos",
+    "subcategory": "nivel de educacion"
+  },
+  {
+    "heading": "¿Cuál es tu estado civil?",
+    "category": "Datos Demográficos",
+    "subcategory": "Hogar"
+  },
+  {
+    "heading": "¿Cuántos hijos tienes?",
+    "category": "Datos Demográficos",
+    "subcategory": "Hogar"
+  },
+  {
+    "heading": "¿En qué rango de edad se encuentran tus hijos?",
+    "category": "Datos Demográficos",
+    "subcategory": "Hogar"
+  },
+  {
+    "heading": "¿Cuál es tu situación habitacional actual?",
+    "category": "Datos Demográficos",
+    "subcategory": "Hogar"
+  },
+  {
+    "heading": "¿Eres el principal proveedor económico en tu hogar?",
+    "category": "Datos Demográficos",
+    "subcategory": "Hogar"
+  },
+  {
+    "heading": "¿Cuál es tu modalidad principal de trabajo?",
+    "category": "Datos Demográficos",
+    "subcategory": "Puesto de trabajo"
+  },
+  {
+    "heading": "¿En qué turno de trabajo laboras principalmente?",
+    "category": "Datos Demográficos",
+    "subcategory": "Puesto de trabajo"
+  },
+  {
+    "heading": "¿Cuántas horas trabajas regularmente por semana?",
+    "category": "Datos Demográficos",
+    "subcategory": "Puesto de trabajo"
+  },
+  {
+    "heading": "¿En qué rango salarial mensual te encuentras?",
+    "category": "Datos Demográficos",
+    "subcategory": "Puesto de trabajo"
+  },
+  {
+    "heading": "¿Cuál es tu principal medio de transporte al trabajo?",
+    "category": "Datos Demográficos",
+    "subcategory": "Puesto de trabajo"
+  },
+  {
+    "heading": "¿Tienes acceso regular a los siguientes servicios en tu hogar?(Selecciona todas las opciones que correspondan):",
+    "category": "Datos Demográficos",
+    "subcategory": "Hogar"
+  },
+  {
+    "heading": "¿En qué departamento o área de trabajo desempeñas tus funciones?",
+    "category": "Datos Demográficos",
+    "subcategory": "departamento"
+  },
+  {
+    "heading": "Aproximadamente, ¿cuánto tiempo tienes trabajando en esta empresa?",
+    "category": "Datos Demográficos",
+    "subcategory": "antiguedad"
+  },
+  {
+    "heading": "Tu puesto está clasificado como",
+    "category": "Datos Demográficos",
+    "subcategory": "Puesto de trabajo"
+  },
+  {
+    "heading": "Con respecto a la misión, visión y cultura de la empresa, responde el grado de acuerdo o desacuerdo que tengas con las siguientes afirmaciones:",
+    "category": "Cultura Organizacional",
+    "subcategory": "Identidad"
+  },
+  {
+    "heading": "¿Consideras que la empresa fomenta una política de flexibilidad laboral (horarios, días libres, vacaciones) adecuada para sus colaboradores?",
+    "category": "Cultura Organizacional",
+    "subcategory": "Identidad"
+  },
+  {
+    "heading": "Por favor, indica tu nivel de acuerdo o desacuerdo con respecto a la discriminación, el acoso, el hostigamiento y los valores éticos en la empresa.",
+    "category": "Cultura Organizacional",
+    "subcategory": "Diversidad, inclusión,  discriminación y ética"
+  },
+  {
+    "heading": "Indica tu grado de acuerdo o desacuerdo con las siguientes afirmaciones relacionadas con la diversidad e inclusión, en la empresa.",
+    "category": "Cultura Organizacional",
+    "subcategory": "Diversidad, inclusión,  discriminación y ética"
+  },
+  {
+    "heading": "¿Consideras que la empresa cumple con sus promesas?",
+    "category": "Cultura Organizacional",
+    "subcategory": "Identidad"
+  },
+  {
+    "heading": "Evalúa el nivel de apoyo que la empresa brinda para promover la creatividad, la innovación y la generación de nuevas ideas en el entorno laboral.",
+    "category": "Cultura Organizacional",
+    "subcategory": "Creatividad e innovación"
+  },
+  {
+    "heading": "Evalúa cómo la empresa apoya la adaptabilidad y la resiliencia frente a los cambios en el entorno laboral.",
+    "category": "Cultura Organizacional",
+    "subcategory": "Adaptibilidad y resilencia"
+  },
+  {
+    "heading": "Evalúa el funcionamiento de los medios de comunicación que utilizas en tu trabajo diario:",
+    "category": "Cultura Organizacional",
+    "subcategory": "Información y herramientas de comunicación"
+  },
+  {
+    "heading": "¿Cuentas con la cantidad de información necesaria para desempeñar tus funciones de manera efectiva?",
+    "category": "Cultura Organizacional",
+    "subcategory": "Información y herramientas de comunicación"
+  },
+  {
+    "heading": "Evalúa las siguientes afirmaciones sobre, las herramientas y los recursos que utilizas para desempeñar tu trabajo",
+    "category": "Cultura Organizacional",
+    "subcategory": "Información y herramientas de comunicación"
+  },
+  {
+    "heading": "Con respecto a la confianza que sientes al trabajar en equipo, indica tu nivel de acuerdo o desacuerdo con las siguientes afirmaciones:",
+    "category": "Cultura Organizacional",
+    "subcategory": "Trabajo en equipo"
+  },
+  {
+    "heading": "Con respecto al conflicto cuando trabajas en equipo, indica tu nivel de acuerdo o desacuerdo con las siguientes afirmaciones:",
+    "category": "Cultura Organizacional",
+    "subcategory": "Trabajo en equipo"
+  },
+  {
+    "heading": "Con respecto al compromiso cuando se trabaja en equipo, indica tu nivel de acuerdo o desacuerdo con las siguientes afirmaciones:",
+    "category": "Cultura Organizacional",
+    "subcategory": "Trabajo en equipo"
+  },
+  {
+    "heading": "Con respecto a las responsabilidades, cuando trabajas en equipo, indica tu nivel de acuerdo o desacuerdo con las siguientes afirmaciones:",
+    "category": "Cultura Organizacional",
+    "subcategory": "Trabajo en equipo"
+  },
+  {
+    "heading": "Con respecto a la atención a los resultados al trabajar en equipo, indica tu nivel de acuerdo o desacuerdo con las siguientes afirmaciones:",
+    "category": "Cultura Organizacional",
+    "subcategory": "Trabajo en equipo"
+  },
+  {
+    "heading": "¿Qué podría hacer otro departamento para ayudarte a cumplir con tu trabajo o tus programaciones a tiempo y con la calidad requerida? (Puedes seleccionar más de una opción)",
+    "category": "Cultura Organizacional",
+    "subcategory": "Trabajo en equipo"
+  },
+  {
+    "heading": "¿Qué podría hacer la empresa para ayudarte a cumplir con tu trabajo o tus programaciones a tiempo y con la calidad requerida? (Puedes seleccionar más de una opción)",
+    "category": "Cultura Organizacional",
+    "subcategory": "Trabajo en equipo"
+  },
+  {
+    "heading": "Evalúa a tu jefe inmediato según las siguientes afirmaciones relacionadas con la claridad en la toma de decisiones, comunicación y dirección en tu equipo.",
+    "category": "Liderazgo",
+    "subcategory": "Jefe inmediato"
+  },
+  {
+    "heading": "Indica cómo percibes el liderazgo de tu jefe inmediato en aspectos de motivación, apoyo y colaboración dentro y fuera del equipo.",
+    "category": "Liderazgo",
+    "subcategory": "Jefe inmediato"
+  },
+  {
+    "heading": "Con respecto a tu crecimiento personal y profesional, indica tu grado de acuerdo o desacuerdo con las siguientes afirmaciones",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Crecimiento y desarrollo"
+  },
+  {
+    "heading": "¿Qué podría hacer tu jefe inmediato para ayudarte a cumplir con tus tareas a tiempo y con la calidad requerida? (Puedes elegir más de una)",
+    "category": "Liderazgo",
+    "subcategory": "Jefe inmediato"
+  },
+  {
+    "heading": "En los últimos meses, ¿has recibido de tu jefe/a inmediato algún reconocimiento o felicitación por haber realizado un buen trabajo?",
+    "category": "Liderazgo",
+    "subcategory": "Jefe inmediato"
+  },
+  {
+    "heading": "¿Qué tan apropiadas han sido las sanciones disciplinarias que te han aplicado?",
+    "category": "Liderazgo",
+    "subcategory": "Jefe inmediato"
+  },
+  {
+    "heading": "¿Con qué frecuencia consideras que los líderes de esta empresa, reflejan los siguientes valores de la empresa?",
+    "category": "Liderazgo",
+    "subcategory": "Lideres reflejando valores en la empresa"
+  },
+  {
+    "heading": "Te han presentado por escrito las funciones o responsabilidades de tu puesto.",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Crecimiento y desarrollo"
+  },
+  {
+    "heading": "Tienes claro cuáles son los principales objetivos que debes lograr en tu puesto de trabajo.",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Crecimiento y desarrollo"
+  },
+  {
+    "heading": "¿Consideras que lo que haces en tu trabajo es importante para la empresa?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Crecimiento y desarrollo"
+  },
+  {
+    "heading": "¿Consideras que cuentas con todos los materiales, equipos o herramientas necesarios para realizar tu trabajo de manera efectiva?",
+    "category": "Cultura Organizacional",
+    "subcategory": "Información y herramientas de comunicación"
+  },
+  {
+    "heading": "Consideras que tu carga de trabajo es la apropiada para tu puesto.",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Crecimiento y desarrollo"
+  },
+  {
+    "heading": "En general, ¿qué tanto te gusta el trabajo que realizas en esta empresa?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Motivación"
+  },
+  {
+    "heading": "En general, ¿qué tan motivado(a) te sientes con tu trabajo?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Motivación"
+  },
+  {
+    "heading": "¿Qué tan satisfecho(a) te sientes con tu desempeño en el trabajo?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Clima Laboral"
+  },
+  {
+    "heading": "¿Te consideras una persona enérgica y dinámica dentro de la empresa?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Clima Laboral"
+  },
+  {
+    "heading": "Con respecto a tu crecimiento personal y profesional, indica tu grado de acuerdo o desacuerdo con las siguientes afirmaciones",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Crecimiento y desarrollo"
+  },
+  {
+    "heading": "¿Te gustaría recibir algún tipo de capacitación especial/específica u otra oportunidad de desarrollo personal y profesional?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Crecimiento y desarrollo"
+  },
+  {
+    "heading": "¿Cómo consideras que han sido las oportunidades de crecimiento, capacitación y desarrollo personal y profesional que has recibido en esta empresa?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Crecimiento y desarrollo"
+  },
+  {
+    "heading": "¿Consideras que alguno de tus compañeros de trabajo podría llegar a ser un buen líder?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Crecimiento y desarrollo"
+  },
+  {
+    "heading": "¿Qué tan satisfecho(a) te sientes con el tiempo que pasas y la convivencia que se da en esta empresa?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Clima Laboral"
+  },
+  {
+    "heading": "¿Tienes buenas amistades en el trabajo?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Clima Laboral"
+  },
+  {
+    "heading": "¿Cómo describirías el ambiente laboral en la empresa?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Clima Laboral"
+  },
+  {
+    "heading": "Con respecto a tu compensación (salario), indica tu grado de acuerdo o desacuerdo con las siguientes afirmaciones:",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Compensación, salario y beneficios"
+  },
+  {
+    "heading": "¿De forma general, cuál es tu consideración con respecto a los beneficios (adicionales al salario) que te brinda la empresa?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Compensación, salario y beneficios"
+  },
+  {
+    "heading": "Con respecto a cada uno de los beneficios que actualmente brinda la empresa, responde qué tan satisfecho(a) te sientes",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Compensación, salario y beneficios"
+  },
+  {
+    "heading": "En una semana normal, ¿con qué frecuencia, tu trabajo o el ambiente laboral te ocasiona las siguientes emociones?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Bienestar"
+  },
+  {
+    "heading": "¿Estás satisfecho(a) con la flexibilidad laboral (horarios, días libres, vacaciones) que te ofrece la empresa?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Bienestar"
+  },
+  {
+    "heading": "¿Consideras que la empresa podría hacer algo para mejorar el equilibrio entre tu vida laboral y personal?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Bienestar"
+  },
+  {
+    "heading": "Evalúa con qué frecuencia experimentas las siguientes acciones por parte de la empresa.",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Bienestar"
+  },
+  {
+    "heading": "¿Qué tan probable es que recomiendes positivamente a esta empresa en tu comunidad, a tus amigos, vecinos, familiares, etc.?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Crecimiento y desarrollo"
+  },
+  {
+    "heading": "¿Cuál es la probabilidad de que en los próximos 12 meses te mantengas trabajando para esta empresa?",
+    "category": "Compromiso, bienestar y pertenencia",
+    "subcategory": "Crecimiento y desarrollo"
+  },
+  {
+    "heading": "A continuación, evalúa tu grado de acuerdo o desacuerdo con las siguientes afirmaciones relacionadas con la salud y seguridad en tu lugar de trabajo.",
+    "category": "Salud y Seguridad",
+    "subcategory": ""
+  },
+  {
+    "heading": "A continuación, evalúa tu grado de acuerdo o desacuerdo con las siguientes afirmaciones relacionadas con la salud y seguridad en tu lugar de trabajo.",
+    "category": "Salud y Seguridad",
+    "subcategory": ""
+  },
+  {
+    "heading": "¿Qué molestias físicas o emocionales has experimentado debido a las condiciones de tu puesto de trabajo? (Selecciona todas las que apliquen).",
+    "category": "Salud y Seguridad",
+    "subcategory": ""
+  },
+  {
+    "heading": "Si fueras el dueño/propietario y tuvieras el objetivo de convertir la empresa en un excelente lugar para trabajar, ¿qué cambios específicos implementarías?",
+    "category": "",
+    "subcategory": ""
+  },
+  {
+    "heading": "¿Tienes alguna sugerencia, comentario o inquietud adicional que te gustaría compartir con nosotros?",
+    "category": "",
+    "subcategory": ""
+  }
+]

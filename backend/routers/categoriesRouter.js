@@ -4,6 +4,9 @@ import Category from "../models/categoryModel.js";
 import Survey from "../models/surveyModel.js";
 import CategoricalQuestions from "../models/categoricalQ.js";
 
+import fs from "fs";
+import path from "path";
+
 const categoriesRouter = express.Router();
 
 // POST: Add a new category
@@ -107,6 +110,59 @@ categoriesRouter.post(
     } catch (err) {
       console.error("Error saving categories:", err);
       res.status(500).send("An error occurred while saving categories.");
+    }
+  })
+);
+
+categoriesRouter.post(
+  "/:id/assign-auto",
+  expressAsyncHandler(async (req, res) => {
+    const surveyId = req.params.id;
+
+    try {
+      const filePath = path.resolve("questions_info.json");
+      const questionsInfo = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+
+      const survey = await Survey.findOne({ id: surveyId });
+      if (!survey) {
+        return res.status(404).send({ message: "Survey not found." });
+      }
+
+      let modified = false;
+      let updatedQuestions = [];
+
+      for (const page of survey.pages) {
+        for (const question of page.questions) {
+          const headingText = question.headings?.[0]?.heading?.trim();
+
+          if (!headingText) continue;
+
+          const match = questionsInfo.find((q) => q.heading.trim() === headingText);
+
+          if (match) {
+            question.category = match.category || "";
+            question.subcategory = match.subcategory || "";
+            updatedQuestions.push(headingText);
+            modified = true;
+          }
+        }
+      }
+
+      if (modified) {
+        await survey.save();
+        res.status(200).send({
+          message: `Categorías asignadas automáticamente a la encuesta ${surveyId}.`,
+          updated: updatedQuestions.length,
+          questions: updatedQuestions,
+        });
+      } else {
+        res.status(200).send({
+          message: `No se encontraron coincidencias para actualizar en la encuesta ${surveyId}.`,
+        });
+      }
+    } catch (error) {
+      console.error("Error al asignar categorías:", error);
+      res.status(500).send("Error al procesar la asignación automática.");
     }
   })
 );

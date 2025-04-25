@@ -280,7 +280,9 @@ resultsRouter.get(
             );
         });
 
-        values[value] = aggregateResponsesByCategory(responsesForValue, surveyDetails);
+        const sanitizeKey = (key) => key.replace(/\./g, "·");
+
+        values[sanitizeKey(value)] = aggregateResponsesByCategory(responsesForValue, surveyDetails);
       }
 
       groupedResults.push({
